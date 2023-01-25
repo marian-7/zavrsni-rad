@@ -1,0 +1,132 @@
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/variables";
+@import "src/styles/abstracts/colors";
+
+.container {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: $header-height;
+  width: 100%;
+  max-width: rem(342);
+  background-color: $color-white;
+  box-shadow: $box-shadow-alt3;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+
+  :global(.os-viewport) {
+    margin-bottom: -1px;
+  }
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $spacing-1 $spacing-3 $spacing-3 $spacing-3;
+  border-bottom: 1px solid $color-gray-alt5;
+  flex-wrap: wrap;
+  background-color: $color-white;
+  z-index: 10;
+
+  &Content {
+    display: flex;
+    align-items: center;
+    min-width: 0;
+    width: 100%;
+  }
+}
+
+.headerViewOnly {
+  padding-bottom: $spacing-1;
+}
+
+.title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: rem(18);
+  line-height: rem(24);
+  font-weight: 700;
+}
+
+.startIcon {
+  color: $color-primary-alt5;
+  padding: rem(11) $spacing-1;
+  margin-left: -$spacing-1;
+  min-width: rem(48);
+  min-height: rem(48);
+  border-radius: 50%;
+}
+
+.close {
+  margin-right: -$spacing-1;
+  margin-left: auto;
+}
+
+.closeIcon {
+  width: rem(24);
+  height: rem(24);
+  color: $color-primary-alt5;
+}
+
+.input {
+  width: 100%;
+  margin-top: $spacing-1;
+}
+
+.list {
+  overflow: auto;
+  flex: 1;
+}
+
+.button {
+  font-weight: 400;
+  text-transform: none;
+  font-size: rem(16);
+  padding: $spacing-1;
+  border-radius: rem(22);
+
+  :global(.MuiButton-startIcon) {
+    margin-right: rem(3);
+
+    svg {
+      width: rem(20);
+      height: rem(20);
+    }
+  }
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  margin-top: $spacing-3;
+  margin-left: -$spacing-1;
+  margin-bottom: -$spacing-1;
+}
+
+.action {
+  padding: rem(10);
+}
+
+.anchor {
+  display: flex;
+  padding: rem(10);
+  box-shadow: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.actionIcon {
+  width: rem(24);
+  height: rem(22);
+  color: $color-primary-alt5;
+}
+
+.btnCancel {
+  padding: rem(4);
+}

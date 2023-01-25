@@ -1,0 +1,18 @@
+{
+  "button": {
+    "callStaff": "Pozovi osoblje",
+    "cancel": "Otkaži narudžbu",
+    "continue": "Nastavi s narudžbom",
+    "goToSurvey": "Vodi me na anketu",
+    "notYet": "Ne želim još otkazati",
+    "skip": "Ne, preskočit ću anketu.",
+    "tryAgain": "Pokušaj ponovno",
+    "understand": "Razumijem"
+  },
+  "cancelOrder": "Otkazivanjem ove narudžbe uklonit će se svi proizvodi za naplatu. Želiš li nastaviti?",
+  "feedbackSuccess": "Hvala na pomoći.",
+  "firstOrderSuccess": "Tvoja narudžba je uspješno zaprimljena. Dok čekaš svoju narudžbu, ostavi nam neke povratne informacije o aplikaciji.",
+  "message": "Tvoj zahtjev je poslan konobaru. Konobar će odgovoriti na tvoj zahtjev u najkraćem mogućem roku.",
+  "orderError": "Narudžba nije uspjela. Molimo da pokušaš ponovno ili nazovi osoblje izravno za pomoć.",
+  "orderSuccess": "Tvoja narudžba je uspješno zaprimljena. Uživaj u ostatku svog boravka!"
+}

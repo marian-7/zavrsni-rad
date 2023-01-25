@@ -1,0 +1,12 @@
+@import "src/styles/abstracts/functions";
+
+.label {
+  font-size: rem(16);
+  line-height: rem(21);
+  font-weight: 700;
+}
+
+.text {
+  max-width: rem(476);
+  margin: rem(12) 0 rem(24) 0;
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/presets",
+      "handler": "presets.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/presets",
+      "handler": "presets.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/presets",
+      "handler": "presets.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

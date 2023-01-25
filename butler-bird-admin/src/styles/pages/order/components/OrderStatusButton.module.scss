@@ -1,0 +1,28 @@
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/colors";
+
+.group {
+  color: $color-white;
+  height: rem(38);
+
+  :global(.MuiButton-root.Mui-disabled) {
+    background-color: $color-primary;
+    color: $color-white;
+  }
+}
+
+.button {
+  min-width: rem(124);
+}
+
+.paper {
+  background-color: $color-tertiary;
+}
+
+.popper {
+  z-index: 1000;
+}
+
+.listPadding {
+  padding: 0;
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/staff",
+      "handler": "staff.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/staff",
+      "handler": "staff.add",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/staff/:email",
+      "handler": "staff.remove",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

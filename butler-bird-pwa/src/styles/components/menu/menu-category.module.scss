@@ -1,0 +1,22 @@
+@import "../../abstract/functions";
+@import "../../abstract/variables";
+@import "../../abstract/colors";
+@import "../../abstract/mixin";
+
+.root {
+  margin-bottom: $spacing-3;
+  margin-top: $spacing-2;
+  flex: 1;
+}
+
+.name {
+  font-size: rem(18);
+  font-weight: 700;
+  line-height: rem(23);
+  margin-bottom: rem(9);
+}
+
+.desc {
+  line-height: rem(24);
+  margin-bottom: $spacing-2;
+}

@@ -1,0 +1,14 @@
+@import "../../abstract/functions";
+@import "../../abstract/variables";
+
+.remove {
+  margin-right: $spacing-1;
+}
+
+.add {
+  margin-left: $spacing-1;
+}
+
+.quantity {
+  font-size: rem(18);
+}

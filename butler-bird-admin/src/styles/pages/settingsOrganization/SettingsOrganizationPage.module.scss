@@ -1,0 +1,12 @@
+@import "src/styles/abstracts/functions";
+
+.input {
+  max-width: rem(342);
+  margin-bottom: rem(12);
+}
+
+.textarea {
+  max-width: rem(705);
+  margin-top: rem(18);
+  margin-bottom: rem(12);
+}

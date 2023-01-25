@@ -1,0 +1,133 @@
+{
+  "kind": "collectionType",
+  "collectionName": "organizations",
+  "info": {
+    "name": "Organization",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "createdAt",
+      "updatedAt",
+      "publishedAt"
+    ],
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "languages": {
+      "collection": "language"
+    },
+    "carousel": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.title-subtitle"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "standard",
+        "premium"
+      ],
+      "default": "standard",
+      "required": true
+    },
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "style1",
+        "style2",
+        "style3",
+        "style4",
+        "style5",
+        "style6",
+        "style7",
+        "style8"
+      ],
+      "default": "style1",
+      "required": true
+    },
+    "currency": {
+      "model": "currency"
+    },
+    "locations": {
+      "collection": "location",
+      "via": "organization"
+    },
+    "venues": {
+      "collection": "venue",
+      "via": "organization"
+    },
+    "tables": {
+      "collection": "table",
+      "via": "organization"
+    },
+    "users": {
+      "private": true,
+      "plugin": "users-permissions",
+      "collection": "user",
+      "via": "organizations"
+    },
+    "orderTypes": {
+      "collection": "order-type",
+      "via": "organization"
+    },
+    "orderStatuses": {
+      "collection": "order-status"
+    },
+    "initialOrderStatus": {
+      "model": "order-status"
+    },
+    "message": {
+      "type": "component",
+      "repeatable": true,
+      "component": "localization.label"
+    },
+    "staff": {
+      "plugin": "users-permissions",
+      "collection": "user"
+    },
+    "mode": {
+      "type": "enumeration",
+      "enum": [
+        "view",
+        "order",
+        "payment"
+      ],
+      "default": "order",
+      "required": true
+    },
+    "netsPay": {
+      "type": "component",
+      "repeatable": false,
+      "component": "payment.nets-pay-configuration"
+    }
+  }
+}

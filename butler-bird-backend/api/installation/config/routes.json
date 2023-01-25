@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/installations",
+      "handler": "installation.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/installations/:pushToken",
+      "handler": "installation.delete",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/v2/installations/:uid",
+      "handler": "installation.deleteV2",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/v2/installations",
+      "handler": "installation.createV2",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/v2/installations",
+      "handler": "installation.updateV2",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/v2/installations",
+      "handler": "installation.findOneV2",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

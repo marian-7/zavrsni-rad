@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "item_options",
+  "info": {
+    "name": "Item option",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "createdAt",
+      "updatedAt",
+      "publishedAt"
+    ],
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "component",
+      "repeatable": true,
+      "component": "localization.label",
+      "required": false
+    },
+    "price": {
+      "type": "decimal",
+      "required": true,
+      "default": 0
+    },
+    "organization": {
+      "private": true,
+      "model": "organization"
+    },
+    "nameLocalized": {
+      "type": "json"
+    },
+    "descriptionLocalized": {
+      "type": "json"
+    }
+  }
+}

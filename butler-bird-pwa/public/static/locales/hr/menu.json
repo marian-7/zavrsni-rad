@@ -1,0 +1,23 @@
+{
+  "allergens": "Alergeni",
+  "button": {
+    "add": "Dodaj - {{price}}",
+    "callStaff": "Pozovi osoblje",
+    "checkout": "Za platiti - {{price}}",
+    "filter": "Filtriraj",
+    "filterProducts": "Filtriraj proizvode"
+  },
+  "negativeModifier": "- {{price}}",
+  "noTags": "No tags defined",
+  "nothing": "Ništa za pokazati.",
+  "option": {
+    "nothing": "Ne želim nikakvu opciju"
+  },
+  "placeholder": {
+    "search": "Pretraži"
+  },
+  "positiveModifier": "+ {{price}}",
+  "required": "(Obavezno)",
+  "requiredOptions": "Molimo da odabereš nužne opcije",
+  "tags": "Oznake"
+}

@@ -1,0 +1,41 @@
+@import "../abstract/functions";
+@import "../abstract/colors";
+@import "../abstract/variables";
+@import "../abstract/mixin";
+
+.root {
+  padding-bottom: $spacing-2;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: rem(16);
+  width: 100%;
+  align-items: flex-start;
+  @include box-shadow();
+  background: $color-white;
+  border-radius: rem(20);
+  height: 100%;
+}
+
+.bold {
+  font-weight: 700;
+  line-height: rem(24);
+}
+
+.text {
+  line-height: rem(18);
+  margin-top: $spacing-1;
+}
+
+.canceledText {
+  font-weight: 700;
+  margin-top: $spacing-1;
+}
+
+.icon {
+  width: rem(16);
+  height: rem(15);
+  color: $color-icon;
+}

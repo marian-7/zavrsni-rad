@@ -1,0 +1,55 @@
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/colors";
+@import "src/styles/abstracts/variables";
+@import "src/styles/abstracts/mixins";
+
+.container {
+  background-color: $color-secondary;
+  height: rem(48);
+  width: auto;
+  display: flex;
+  align-items: center;
+  border-radius: rem(25);
+  padding: rem(6) rem(6);
+  cursor: unset;
+}
+
+.containerOnlyTitle {
+  @extend .container;
+  height: rem(33);
+}
+
+.label {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-size: rem(16);
+  line-height: rem(24);
+  font-weight: 700;
+}
+
+.itemLabel {
+  font-size: rem(14);
+}
+
+.deleteIcon {
+  color: $color-alert-alt2;
+  margin-left: rem(2);
+  margin-right: rem(6);
+
+  &:hover {
+    color: $color-alert-alt2;
+  }
+}
+
+.deleteIconModified {
+  margin-left: rem(-12);
+}
+
+.visibilityIcon {
+  color: $color-primary;
+  padding: rem(6);
+  margin-left: rem(7);
+}

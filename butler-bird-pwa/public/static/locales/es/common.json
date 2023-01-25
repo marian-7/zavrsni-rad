@@ -1,0 +1,71 @@
+{
+  "button": {
+    "back": "Atrás",
+    "backToMyProfile": "Volver a mi perfil",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "confirm": "Confirmar",
+    "saveChanges": "Guardar cambios",
+    "submitAnswers": "Enviar respuestas",
+    "understand": "Entiendo"
+  },
+  "dateTime": {
+    "orderDate": "{{date}} a las {{time}}"
+  },
+  "loading": "Cargando",
+  "navigation": {
+    "button": {
+      "backToOrderHistory": "Volver al historial de pedidos"
+    },
+    "cancelDelete": "No quiero borrar el perfil",
+    "chooseLanguage": "Elegir idioma de visualización",
+    "deleteInfo": "Al hacer clic en Borrar perfil, se eliminará toda la información de su historial de uso y pedidos.",
+    "deleteProfile": "Borrar el perfil",
+    "feedback": "Dejar comentarios",
+    "feedbackSurvey": "Danos tu opinión",
+    "label": {
+      "else": "Añadir nota personal",
+      "firstTime": "¿Es la primera vez que utiliza esta aplicación?",
+      "interaction": "¿Prefieres esta interacción en vez de una en persona?",
+      "satisfaction": "¿Qué tan satisfecho estás con la aplicación?"
+    },
+    "myProfile": "Mi perfil",
+    "notifications": "Notificaciones",
+    "option": {
+      "no": "No",
+      "yes": "Sí"
+    },
+    "or": "o",
+    "orderCanceled": "Pedido cancelado",
+    "orderCanceledReason": "<b>Motivo cancelado</b> - {{message}} ",
+    "orderHistory": "Historial de pedidos",
+    "orderTotal": "Total del pedido: <b>{{price}}</b>",
+    "otherOptions": "Otras opciones",
+    "setCurrency": "Establecer la moneda preferida",
+    "settings": "Ajustes",
+    "settingsNote": "*Nota que todos los precios se pagan en USD y todos los demás se calculan en base al valor del tipo de cambio de hoy",
+    "signOut": "Cerrar sesión"
+  },
+  "notificationPreferences": {
+    "button": {
+      "email": "Envíame un correo electrónico.",
+      "notifications": "Envíame una notificación"
+    },
+    "info": "¿Cómo quiere que le enviemos las actualizaciones de su pedido?",
+    "label": {
+      "ask": "No volver a preguntarme"
+    }
+  },
+  "organizationFeedback": {
+    "label": {
+      "else": "Añadir nota personal",
+      "food": "Calificación de la calidad de los alimentos",
+      "satisfaction": "¿Qué grado de satisfacción tiene?",
+      "speed": "Velocidad de entrega y calificación de la calidad"
+    },
+    "title": "Comentarios sobre el servicio"
+  },
+  "other": {
+    "unknown": "Desconocido"
+  }
+}

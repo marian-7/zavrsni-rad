@@ -1,0 +1,25 @@
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/colors";
+@import "src/styles/abstracts/mixins";
+
+.container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icon {
+  color: $color-primary;
+  width: rem(60);
+  height: rem(60);
+  margin-bottom: rem(36);
+}
+
+.text {
+  max-width: rem(450);
+  text-align: center;
+  @include breakpoint(xmd) {
+    max-width: rem(320);
+  }
+}

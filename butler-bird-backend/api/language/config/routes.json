@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/languages",
+      "handler": "language.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/languages/count",
+      "handler": "language.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/languages/:id",
+      "handler": "language.findOne",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

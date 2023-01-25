@@ -1,0 +1,18 @@
+{
+  "button": {
+    "callStaff": "Appelez le personnel",
+    "cancel": "Annuler la commande",
+    "continue": "Continuer avec la commande",
+    "goToSurvey": "Emmenez-moi à l'enquête",
+    "notYet": "Je ne veux pas encore annuler",
+    "skip": "Non, je vais ignorer l'enquête",
+    "tryAgain": "Réessayer",
+    "understand": "Je comprends"
+  },
+  "cancelOrder": "L'annulation de cette commande supprimera tous les articles de la caisse. Voulez-vous continuer ?",
+  "feedbackSuccess": "Merci de m'avoir aidé.",
+  "firstOrderSuccess": "Votre demande de commande a été soumise avec succès. En attendant votre service, veuillez nous laisser quelques commentaires sur l'application.",
+  "message": "Votre demande a été envoyée au serveur. Le serveur répondra à cette demande dès que possible.",
+  "orderError": "La commande a échoué. Veuillez réessayer ou appeler directement le personnel pour obtenir de l'aide.",
+  "orderSuccess": "Votre demande de commande a été soumise avec succès. Veuillez profiter du reste de votre séjour !"
+}

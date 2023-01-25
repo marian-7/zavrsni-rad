@@ -1,0 +1,71 @@
+{
+  "button": {
+    "back": "Retour",
+    "backToMyProfile": "Retour à mon profil",
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "confirm": "Confirmer",
+    "saveChanges": "Enregistrer les modifications",
+    "submitAnswers": "Soumettre les réponses",
+    "understand": "Je comprends"
+  },
+  "dateTime": {
+    "orderDate": "{{date}} à {{time}}"
+  },
+  "loading": "Chargement",
+  "navigation": {
+    "button": {
+      "backToOrderHistory": "Retour à l'historique des commandes"
+    },
+    "cancelDelete": "Je ne veux pas supprimer de profil",
+    "chooseLanguage": "Choisir la langue d'affichage",
+    "deleteInfo": "En cliquant sur Supprimer le profil, toutes les informations relatives à votre utilisation et à l'historique de vos commandes seront supprimées.",
+    "deleteProfile": "Supprimer le profil",
+    "feedback": "Laisser un commentaire",
+    "feedbackSurvey": "Donnez-nous votre avis",
+    "label": {
+      "else": "Ajouter une note personnelle",
+      "firstTime": "C'est la première fois que vous utilisez cette application ?",
+      "interaction": "Préférez-vous cette interaction à une interaction en personne ?",
+      "satisfaction": "Dans quelle mesure êtes-vous satisfait de l'application ?"
+    },
+    "myProfile": "Mon profil",
+    "notifications": "Les notifications",
+    "option": {
+      "no": "Non",
+      "yes": "Oui"
+    },
+    "or": "Ou",
+    "orderCanceled": "Commande annulée",
+    "orderCanceledReason": "<b>Motif annulé</b> - {{message}} ",
+    "orderHistory": "Historique de commandes",
+    "orderTotal": "Total de la commande: <b>{{price}}</b>",
+    "otherOptions": "Autres options",
+    "setCurrency": "Définir la devise préférée",
+    "settings": "Paramètres",
+    "settingsNote": "*Notez que tous les prix sont payés en USD et que tous les autres sont calculés sur la base du taux de change du jour.",
+    "signOut": "Déconnexion"
+  },
+  "notificationPreferences": {
+    "button": {
+      "email": "Envoyez-moi un courriel.",
+      "notifications": "Envoyez-moi une notification"
+    },
+    "info": "Comment voulez-vous que nous vous envoyions des mises à jour pour votre commande ?",
+    "label": {
+      "ask": "Ne plus me demander"
+    }
+  },
+  "organizationFeedback": {
+    "label": {
+      "else": "Ajouter une note personnelle",
+      "food": "Évaluation de la qualité des aliments",
+      "satisfaction": "Dans quelle mesure avez-vous été satisfait de :",
+      "speed": "Évaluation de la rapidité et de la qualité de la livraison"
+    },
+    "title": "Commentaires sur le service"
+  },
+  "other": {
+    "unknown": "Inconnu"
+  }
+}

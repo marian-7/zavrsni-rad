@@ -1,0 +1,19 @@
+@import "../../abstract/functions";
+@import "../../abstract/variables";
+
+.labelContainer {
+  padding: rem(16) 0;
+}
+
+.label {
+  margin-bottom: rem(16);
+}
+
+.description {
+  composes: root from "description.module.scss";
+  padding-bottom: unset;
+}
+
+.noDescription {
+  margin-bottom: unset;
+}

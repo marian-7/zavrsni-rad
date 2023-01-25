@@ -1,0 +1,73 @@
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/colors";
+@import "src/styles/abstracts/variables";
+
+.container {
+  position: absolute;
+  top: rem(121);
+  right: rem(41);
+  left: rem(670);
+  z-index: 1000;
+  padding: rem(20) rem(24) rem(18) rem(24);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  &:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    content: "";
+    background-color: $color-tertiary;
+    opacity: 0.9;
+    z-index: 10;
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: $spacing-2;
+  z-index: 100;
+}
+
+.title {
+  font-size: rem(36);
+  line-height: rem(49);
+  font-weight: 600;
+}
+
+.close {
+  margin-right: -$spacing-1;
+  color: $color-primary-alt5;
+}
+
+.qr {
+  align-self: center;
+  width: 100%;
+  max-width: rem(338);
+  height: auto;
+  max-height: rem(338);
+  z-index: 100;
+}
+
+.footer {
+  margin: rem(22) 0 0 0;
+  z-index: 100;
+}
+
+.action {
+  color: $color-primary;
+  font-weight: 400;
+  line-height: rem(16);
+  text-transform: none;
+  padding: rem(6) rem(12);
+  border-radius: rem(28.5);
+
+  :global(.MuiButton-startIcon) {
+    margin-right: rem(14);
+  }
+}

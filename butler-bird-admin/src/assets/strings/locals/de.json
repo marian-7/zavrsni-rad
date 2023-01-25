@@ -1,0 +1,324 @@
+{
+  "translation": {
+    "buttons": {
+      "addMoreMenus": "Weitere Menüs hinzufügen",
+      "addNew": "Neue hinzufügen",
+      "addTables": "Tabellen hinzufügen",
+      "cancel": "Abbrechen",
+      "changeLocation": "Standort ändern",
+      "defineModifierItems": "Definiere Modifikatorelemente",
+      "delete": "Löschen",
+      "dontDelete": "Ich möchte nicht löschen",
+      "editTables": "Tische bearbeiten",
+      "inviteMore": "Mehr einladen",
+      "login": "Anmelden",
+      "loginSubmitting": "Wir melden Sie an...",
+      "printQRCode": "QR-Code drucken",
+      "save": "Speichern",
+      "saveAsJPG": " Als JPG speichern",
+      "saveAsPDF": "Als PDF speichern",
+      "saveChanges": "Änderungen speichern",
+      "select": "Auswählen",
+      "selected": "Ausgewählt",
+      "sendInvite": "Einladung senden",
+      "submit": "Absenden"
+    },
+    "components": {
+      "categoryForm": {
+        "addItems": "Weitere Artikel hinzufügen",
+        "category": "Kategorie",
+        "item": "{{count}} artikel",
+        "item_plural": "{{count}} artikel",
+        "itemsContained": "In der Kategorie enthaltene Artikel",
+        "previewPhoto": "Vorschaufoto"
+      },
+      "deleteOverlay": {
+        "deleting": "Wenn Sie dieses {{name}} löschen, wird es dauerhaft entfernt.\nAlle Änderungen gehen verloren."
+      },
+      "dropzone": {
+        "placeholder": "Zum Hochladen oder Drag & Drop Foto klicken"
+      },
+      "header": {
+        "menu": {
+          "logout": "Abmelden",
+          "settings": "Einstellungen"
+        }
+      },
+      "item": {
+        "basePrice": "Basispreis: {{price}}",
+        "item": "{{count}} artikel",
+        "item_plural": "{{count}} artikel"
+      },
+      "itemForm": {
+        "addAllergens": "Allergene hinzufügen",
+        "allergens": "Allergene",
+        "basePrice": "Basispreis",
+        "item": "Artikel",
+        "modifiers": "Modifikatoren verwalten",
+        "optionGroups": "Modifikator-Gruppen"
+      },
+      "locationForm": {
+        "address": "Adresse",
+        "location": "Lage",
+        "locationName": "Lage name"
+      },
+      "menuForm": {
+        "activeFrom": "Aktiv von:",
+        "addCategories": "Weitere Kategorien hinzufügen",
+        "categoriesOfProducts": "Kategorien im Menü enthalten",
+        "description": "Kurze Beschreibung dieses Menüs",
+        "menu": "Menü"
+      }
+    },
+    "form": {
+      "labels": {
+        "addNumberOfTables": "Anzahl der Tische hinzufügen",
+        "confirmPassword": "Bestätige Passwort",
+        "email": "E-Mail",
+        "emailAddress": "E-Mail-Adresse",
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "locationSelect": "Lage dieses Veranstaltungsortes",
+        "menusSelect": "Menüs, die an diesem Ort verfügbar sind",
+        "orgLogo": "Logo der Organisation",
+        "orgName": "Organisationsname:",
+        "password": "Passwort",
+        "tableNameTemplate": "Vorlage für Tischnamen",
+        "tablesSelect": "Tische am Veranstaltungsort",
+        "venueName": "Name des Ortes"
+      },
+      "placeholders": {
+        "allCategories": "Alle Kategorien",
+        "allLocations": "Alle Orte",
+        "allMenus": "Alle Menüs",
+        "allTables": "Alle Tische",
+        "allVenues": "Alle Plätze",
+        "categoryDescription": "Kurze Kategoriebeschreibung",
+        "categoryName": "Kategoriename",
+        "email": "E-Mail",
+        "itemDescription": "Kurze Artikelbeschreibung",
+        "itemName": "Artikelname",
+        "locationAddress": "Adresse schreiben",
+        "locationName": "Lage name",
+        "menuDescription": "Dies ist eine kurze Beschreibung dieses Menüs",
+        "menuName": "Menü-Name",
+        "modifierGroupName": "Hinzufügen eines Modifikatorgruppennamens",
+        "modifierItemName": "Hinzufügen eines Modifier-Elementnamens",
+        "password": "Passwort",
+        "search": "Suchen",
+        "typeValue": "Schreibwert",
+        "welcomeMsg": "Willkommensnachricht schreiben, die im Intro-Bildschirm der mobilen App angezeigt wird...."
+      },
+      "validation": {
+        "emailFormat": "Die E-Mail-Adresse muss im richtigen Format vorliegen",
+        "languageValues": "Feldwerte für alle Sprachen müssen eingegeben werden",
+        "password": {
+          "different": "Passwörter stimmen nicht überein",
+          "length": "Das Passwort sollte 6 Zeichen oder mehr haben"
+        },
+        "required": "Erforderliches Feld",
+        "timePicker": "Die Startzeit muss früher sein als die Endzeit"
+      }
+    },
+    "item": {
+      "basePrice": "Basispreis: {{price}}"
+    },
+    "languages": {
+      "ar": "Arabisch",
+      "da": "Dänisch",
+      "de": "Deutsch",
+      "en": "Englisch",
+      "es": "Spanisch",
+      "fr": "Französisch",
+      "hr": "Kroatisch",
+      "it": "Italienisch",
+      "tr": "Türkisch"
+    },
+    "other": {
+      "unknown": "Unbekannt"
+    },
+    "pages": {
+      "allergens": {
+        "title": "Allergene"
+      },
+      "categories": {
+        "items": "Kategorie enthält {{count}} Artikel",
+        "items_plural": "Kategorie enthält {{count}} Artikel",
+        "title": "Kategorien"
+      },
+      "categoriesPicker": {
+        "added": "Hinzugefügt",
+        "contains": "Enthält {{count}} Artikel",
+        "contains_plural": "Enthält {{count}} Artikel",
+        "title": "Kategorien"
+      },
+      "forgot": {
+        "subtitle": "Geben Sie die E-Mail-Adresse ein, mit der Sie sich angemeldet haben, um den Link zum Zurücksetzen des Passworts zu erhalten",
+        "success": "Der Link zum Zurücksetzen des Passworts wurde an <strong>{{email}}</strong> gesendet. Bitte prüfen Sie Ihren E-Mail-Posteingang für weitere Anweisungen.",
+        "title": "Passwort zurücksetzen"
+      },
+      "itemPicker": {
+        "added": "Hinzugefügt",
+        "title": "Artikel"
+      },
+      "items": {
+        "title": "Artikel"
+      },
+      "locationPicker": {
+        "selected": "Ausgewählt",
+        "title": "Standorte"
+      },
+      "locations": {
+        "title": "Standorte"
+      },
+      "login": {
+        "additionalInfo": "Wenn Sie Probleme beim Anmelden oder weitere Fragen haben, wenden Sie sich bitte an <a>{{email}}</a>",
+        "forgotPassword": "Passwort vergessen?",
+        "subtitle": "Bitte melden Sie sich mit E-Mail und Passwort an",
+        "title": "Willkommen"
+      },
+      "menus": {
+        "contains": "Das Menü enthält {{count}} Element",
+        "contains_plural": "Das Menü enthält {{count}} Elemente",
+        "title": "Menüs"
+      },
+      "menusPicker": {
+        "added": "Hinzugefügt",
+        "contains_plural": "Enthält {{count}} Artikel",
+        "title": "Menüs"
+      },
+      "modifier": {
+        "multiple": "Mehrfachauswahlen erlaubt",
+        "no": "Nein",
+        "required": "Der Benutzer muss mindestens eine der Optionen aus dieser Gruppe auswählen",
+        "single": "Nur eine Auswahl ist erlaubt",
+        "title": "Neuen Modifikator erstellen",
+        "type": "Typ der Modifikatorgruppe",
+        "yes": "Ja"
+      },
+      "modifierItem": {
+        "title": "Einzelheiten"
+      },
+      "modifierItems": {
+        "addMore": "Weitere Modifier-Elemente hinzufügen",
+        "modifierItemPrice": "Preis: {{price}}",
+        "price": "Preis",
+        "saveModifierItem": "Modifikator-Element speichern",
+        "title": "Definiere Modifikatorelemente"
+      },
+      "modifiers": {
+        "add": "Weitere Modifikatoren hinzufügen",
+        "added": "Hinzugefügt",
+        "title": "Modifikatoren"
+      },
+      "order": {
+        "note": "<strong>Notiz</strong>: {{note}}",
+        "notification": "Bitte antworten Sie auf den {{type}}. Kundenstandort ist <strong>{{venueTable}} an {{location}}<strong>.",
+        "orderNumber": "Bestellung #{{number}}",
+        "total": "Auftragssumme: {{total}}"
+      },
+      "orders": {
+        "orderReceived": "Bestellung erhalten",
+        "orderTickets": "Tickets bestellen",
+        "title": "Bestellungen",
+        "total": "Bestellung hat {{count}} Artikel mit Summe von <total>{{total}}</total>",
+        "total_plural": "Bestellung hat {{count}} Artikel mit einer Summe von <total>{{total}}</total>"
+      },
+      "ordersTicketing": {
+        "orderList": "Bestellliste",
+        "ticket": {
+          "total": "Total - {{total}}"
+        },
+        "title": "Bestellungen"
+      },
+      "registration": {
+        "description": "Bitte geben Sie die Zugangsdaten ein. Diese Informationen werden für den Zugriff auf das Control Dashboard verwendet."
+      },
+      "reset": {
+        "subtitle": "Bitte neues Passwort eingeben und bestätigen",
+        "title": "Neues Passwort"
+      },
+      "settings": {
+        "list": {
+          "currency": {
+            "label": "Informationen über Währungen",
+            "title": "Infos zur Währung"
+          },
+          "organization": {
+            "label": "Grundlegende Organisationsinformationen",
+            "title": "Organisation Info"
+          },
+          "staff": {
+            "label": "Einstellungen für den Personalzugriff",
+            "title": "Personalausweise"
+          },
+          "themes": {
+            "chooseLook": "Gewünschtes Look & Feel wählen",
+            "label": "Themeing für Admin- und Mobile-Erfahrung",
+            "title": "Themen"
+          }
+        },
+        "title": "Einstellungen"
+      },
+      "settingsCurrency": {
+        "label": "Wähle alle verfügbaren Währungen",
+        "note": "Hinweis - Preise in allen anderen Währungen werden automatisch berechnet, entsprechend den aktuellen Umrechnungskursen. Unten ist der Umrechnungsrechner, der zeigt, wie die Basiswährung in andere Währungen umgerechnet wird."
+      },
+      "settingsStaff": {
+        "label": "Definieren Sie Personalzugriff",
+        "note": "Fügen Sie die Anmeldedaten für das Personal hinzu. Das Personal kann sich anmelden und hat begrenzten Zugriff auf das Admin-Dashboard."
+      },
+      "settingsStaffInvite": {
+        "emailSent": "Eine E-Mail-Einladung an <b>{{email}}</b> wurde gesendet",
+        "title": "Mehr einladen"
+      },
+      "tables": {
+        "adding": "Wird hinzugefügt…",
+        "id": "ID: {{id}}",
+        "title": "Tische bearbeiten"
+      },
+      "tablesAdd": {
+        "title": "Tische hinzufügen"
+      },
+      "venue": {
+        "menuItem": "{{count}} artikel",
+        "menuItem_plural": "{{count}} artikel",
+        "table": "{{count}} Tisch",
+        "table_plural": "{{count}} Tabellen",
+        "venue": "Lage"
+      },
+      "venues": {
+        "title": "Lage"
+      }
+    },
+    "sidebar": {
+      "categories": "Kategorien",
+      "dashboard": "Dashboard",
+      "items": "Artikel",
+      "locations": "Standorte",
+      "menus": "Menüs",
+      "orders": "Bestellungen",
+      "settings": "Einstellungen",
+      "tables": "Tische",
+      "venues": "Lage"
+    },
+    "snackbar": {
+      "locationCreated": "Standort erstellt",
+      "locationDeleted": "Standort gelöscht",
+      "locationUpdated": "Standort aktualisiert",
+      "orderStatusChanged": "Bestellstatus geändert",
+      "organizationUpdated": "Organisation aktualisiert",
+      "venueCreated": "Veranstaltungsort erstellt",
+      "venueDeleted": "Veranstaltungsort gelöscht",
+      "venueUpdated": "Veranstaltungsort aktualisiert"
+    },
+    "themes": {
+      "blue": "Blaues Thema",
+      "gold": "Gold-Thema",
+      "green": "Grünes Thema",
+      "grey": "Graues Thema",
+      "purple": "Violettes Thema",
+      "red": "Rotes Thema"
+    }
+  }
+}

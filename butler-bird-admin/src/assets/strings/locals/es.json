@@ -1,0 +1,324 @@
+{
+  "translation": {
+    "buttons": {
+      "addMoreMenus": "Añadir más menús",
+      "addNew": "Añadir nuevo",
+      "addTables": "Añadir tablas",
+      "cancel": "Cancelar",
+      "changeLocation": "Cambiar ubicación",
+      "defineModifierItems": "Definir elementos modificadores",
+      "delete": "Eliminar",
+      "dontDelete": "No quiero borrar",
+      "editTables": "Editar tablas",
+      "inviteMore": "Invitar a más",
+      "login": "Iniciar sesión",
+      "loginSubmitting": "Iniciando sesión…",
+      "printQRCode": "Imprimir código QR",
+      "save": "Guardar",
+      "saveAsJPG": " Guardar como JPG",
+      "saveAsPDF": "Guardar como PDF",
+      "saveChanges": "Guardar cambios",
+      "select": "Seleccionar",
+      "selected": "Seleccionado",
+      "sendInvite": "Enviar invitación",
+      "submit": "Enviar"
+    },
+    "components": {
+      "categoryForm": {
+        "addItems": "Añadir más artículos",
+        "category": "Categoría",
+        "item": "{{count}} artículo",
+        "item_plural": "{{count}} artículos",
+        "itemsContained": "Artículos incluidos en la categoría",
+        "previewPhoto": "Vista previa de foto"
+      },
+      "deleteOverlay": {
+        "deleting": "Si elimina este {{name}}, se eliminará permanentemente.\nSe perderán todos los cambios."
+      },
+      "dropzone": {
+        "placeholder": "Haga clic para subir o arrastrar y soltar la foto"
+      },
+      "header": {
+        "menu": {
+          "logout": "Cerrar sesión",
+          "settings": "Ajustes"
+        }
+      },
+      "item": {
+        "basePrice": "Precio base: {{price}}",
+        "item": "{{count}} artículo",
+        "item_plural": "{{count}} artículos"
+      },
+      "itemForm": {
+        "addAllergens": "Añadir alérgenos",
+        "allergens": "Alérgenos",
+        "basePrice": "Precio base",
+        "item": "Artículo",
+        "modifiers": "Administrar modificadores",
+        "optionGroups": "Grupos modificadores"
+      },
+      "locationForm": {
+        "address": "Dirección",
+        "location": "Ubicación",
+        "locationName": "Nombre de Ubicación"
+      },
+      "menuForm": {
+        "activeFrom": "Activo de:",
+        "addCategories": "Añadir más categorías",
+        "categoriesOfProducts": "Categorías incluidas en el menú",
+        "description": "Breve descripción de este menú",
+        "menu": "Menú"
+      }
+    },
+    "form": {
+      "labels": {
+        "addNumberOfTables": "Añadir número de mesas",
+        "confirmPassword": "Confirmar contraseña",
+        "email": "Correo electrónico",
+        "emailAddress": "Dirección de correo electrónico",
+        "firstName": "Nombre",
+        "lastName": "Apellido",
+        "locationSelect": "Ubicación de este lugar",
+        "menusSelect": "Menús disponibles en este lugar",
+        "orgLogo": "Logo de la organización",
+        "orgName": "Nombre de la organización",
+        "password": "Contraseña",
+        "tableNameTemplate": "Plantilla de ID de tabla",
+        "tablesSelect": "Mesas en el lugar de celebración",
+        "venueName": "Nombre del lugar"
+      },
+      "placeholders": {
+        "allCategories": "Todas las categorías",
+        "allLocations": "Todas las ubicaciones",
+        "allMenus": "Todos los menús",
+        "allTables": "Todas las mesas",
+        "allVenues": "Todos los lugares",
+        "categoryDescription": "Breve descripción de la categoría",
+        "categoryName": "Nombre de la categoría",
+        "email": "Correo electrónico",
+        "itemDescription": "Breve descripción del artículo",
+        "itemName": "Nombre del artículo",
+        "locationAddress": "Introduzca la dirección",
+        "locationName": "Nombre de Ubicación",
+        "menuDescription": "Esta es una breve descripción de este menú",
+        "menuName": "Nombre del menú",
+        "modifierGroupName": "Añadir un nombre de grupo modificador",
+        "modifierItemName": "Añadir un nombre de elemento modificador",
+        "password": "Contraseña",
+        "search": "Buscar",
+        "typeValue": "introducir el valor",
+        "welcomeMsg": "Escriba el mensaje de bienvenida que se mostrará en la pantalla de introducción de la aplicación móvil...."
+      },
+      "validation": {
+        "emailFormat": "La dirección de correo electrónico debe tener un formato correcto",
+        "languageValues": "Deben introducirse los valores de los campos de todas las lenguas",
+        "password": {
+          "different": "Las contraseñas no coinciden",
+          "length": "La contraseña debe tener 6 caracteres o más"
+        },
+        "required": "Campo obligatorio",
+        "timePicker": "La hora de inicio debe ser anterior a la hora de finalización"
+      }
+    },
+    "item": {
+      "basePrice": "Precio base: {{price}}"
+    },
+    "languages": {
+      "ar": "Árabe",
+      "da": "Danés",
+      "de": "Alemán",
+      "en": "Inglés",
+      "es": "Español",
+      "fr": "Francés",
+      "hr": "Croata",
+      "it": "Italiano",
+      "tr": "Turco"
+    },
+    "other": {
+      "unknown": "Desconocido"
+    },
+    "pages": {
+      "allergens": {
+        "title": "Alérgenos"
+      },
+      "categories": {
+        "items": "La categoría contiene {{count}} artículo",
+        "items_plural": "La categoría contiene {{count}} artículos",
+        "title": "Categorías"
+      },
+      "categoriesPicker": {
+        "added": "Añadido",
+        "contains": "Contiene {{count}} artículo",
+        "contains_plural": "Contiene {{count}} artículos",
+        "title": "Categorías"
+      },
+      "forgot": {
+        "subtitle": "Escriba la dirección de correo electrónico con la que inició la sesión para recibir el enlace de restablecimiento de la contraseña",
+        "success": "Se ha enviado el enlace para restablecer la contraseña a <strong>{{email}}</strong>. Por favor, compruebe su bandeja de entrada de correo electrónico para obtener más instrucciones.",
+        "title": "Restablecer contraseña"
+      },
+      "itemPicker": {
+        "added": "Añadido",
+        "title": "Artículos"
+      },
+      "items": {
+        "title": "Artículos"
+      },
+      "locationPicker": {
+        "selected": "Seleccionado",
+        "title": "Ubicaciones"
+      },
+      "locations": {
+        "title": "Ubicaciones"
+      },
+      "login": {
+        "additionalInfo": "Si tiene algún problema al iniciar sesión o alguna otra pregunta, no dude en ponerse en contacto con nosotros en <a>{{email}}</a>",
+        "forgotPassword": "¿Olvidó la contraseña?",
+        "subtitle": "Por favor, inicie sesión con su correo electrónico y contraseña",
+        "title": "Bienvenido"
+      },
+      "menus": {
+        "contains": "El menú contiene {{count}} elemento",
+        "contains_plural": "El menú contiene {{count}} artículos",
+        "title": "Menús"
+      },
+      "menusPicker": {
+        "added": "Añadido",
+        "contains_plural": "Contiene {{count}} artículos",
+        "title": "Menús"
+      },
+      "modifier": {
+        "multiple": "Se permiten varias opciones",
+        "no": "No",
+        "required": "¿El usuario debe seleccionar al menos una de las opciones de este grupo?",
+        "single": "Sólo se permite una única opción",
+        "title": "Crear nuevo modificador",
+        "type": "Tipo de grupo modificador",
+        "yes": "Sí"
+      },
+      "modifierItem": {
+        "title": "Detalles"
+      },
+      "modifierItems": {
+        "addMore": "Añadir más elementos modificadores",
+        "modifierItemPrice": "Precio: {{price}}",
+        "price": "Precio",
+        "saveModifierItem": "Guardar elemento modificador",
+        "title": "Definir los artículos modificadores"
+      },
+      "modifiers": {
+        "add": "Añadir más modificadores",
+        "added": "Añadido",
+        "title": "Modificadores"
+      },
+      "order": {
+        "note": "<strong>Note</strong>: {{note}}",
+        "notification": "Responda al {{type}}. La ubicación del cliente es <strong>{{venueTable}} en {{location}}<strong>.",
+        "orderNumber": "Pedido #{{number}}",
+        "total": "Total del pedido: {{total}}"
+      },
+      "orders": {
+        "orderReceived": "Pedido recibido",
+        "orderTickets": "Resumen del pedido",
+        "title": "Pedidos",
+        "total": "El pedido tiene {{count}} artículo con un total de <total>{{total}}</total>",
+        "total_plural": "El pedido tiene {{count}} artículos con un total de <total>{{total}}</total>"
+      },
+      "ordersTicketing": {
+        "orderList": "Lista de pedidos",
+        "ticket": {
+          "total": "Total - {{total}}"
+        },
+        "title": "Pedidos"
+      },
+      "registration": {
+        "description": "Por favor, rellene los datos de acceso. Estos datos se utilizarán para acceder al panel de control."
+      },
+      "reset": {
+        "subtitle": "Escriba y confirme la nueva contraseña",
+        "title": "Nueva contraseña"
+      },
+      "settings": {
+        "list": {
+          "currency": {
+            "label": "Información sobre las monedas",
+            "title": "Información sobre la moneda"
+          },
+          "organization": {
+            "label": "Información básica de organización",
+            "title": "organización Información"
+          },
+          "staff": {
+            "label": "Ajustes de acceso del personal",
+            "title": "Credenciales del personal"
+          },
+          "themes": {
+            "chooseLook": "Elige el aspecto deseado",
+            "label": "Tematización para la administración y la experiencia móvil",
+            "title": "Temas"
+          }
+        },
+        "title": "Ajustes"
+      },
+      "settingsCurrency": {
+        "label": "Elija todas las monedas disponibles",
+        "note": "Nota: los precios en todas las demás monedas se calcularán automáticamente, según los tipos de conversión actuales. A continuación se muestra la calculadora de conversión que muestra cómo se traduce la moneda base a otras monedas."
+      },
+      "settingsStaff": {
+        "label": "Definir el acceso del personal",
+        "note": "Añade las credenciales de acceso del personal. El personal podrá iniciar sesión y tener un acceso limitado al panel de administración."
+      },
+      "settingsStaffInvite": {
+        "emailSent": "Se ha enviado una invitación por correo electrónico a <b>{{email}}</b>.",
+        "title": "Invitar a más"
+      },
+      "tables": {
+        "adding": "Añadiendo…",
+        "id": "ID: {{id}}",
+        "title": "Editar tablas"
+      },
+      "tablesAdd": {
+        "title": "Añadir tablas"
+      },
+      "venue": {
+        "menuItem": "{{count}} artículo",
+        "menuItem_plural": "{{count}} artículos",
+        "table": "{{count}} mesa",
+        "table_plural": "{{count}} tablas",
+        "venue": "Lugar"
+      },
+      "venues": {
+        "title": "Lugares"
+      }
+    },
+    "sidebar": {
+      "categories": "Categorías",
+      "dashboard": "Tablero",
+      "items": "Artículos",
+      "locations": "Ubicaciones",
+      "menus": "Menús",
+      "orders": "Pedidos",
+      "settings": "Ajustes",
+      "tables": "Tablas",
+      "venues": "Lugares"
+    },
+    "snackbar": {
+      "locationCreated": "Ubicación creada",
+      "locationDeleted": "Ubicación eliminada",
+      "locationUpdated": "Ubicación actualizada",
+      "orderStatusChanged": "El estado del pedido ha cambiado",
+      "organizationUpdated": "Organización actualizada",
+      "venueCreated": "Lugar creado",
+      "venueDeleted": "Lugar eliminado",
+      "venueUpdated": "Lugar actualizado"
+    },
+    "themes": {
+      "blue": "Tema azul",
+      "gold": "Tema oro",
+      "green": "Tema verde",
+      "grey": "Tema gris",
+      "purple": "Tema púrpura",
+      "red": "Tema rojo"
+    }
+  }
+}

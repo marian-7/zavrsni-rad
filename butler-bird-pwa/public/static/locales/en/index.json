@@ -1,0 +1,16 @@
+{
+  "button": {
+    "scanQr": "Scan QR Code",
+    "signIn": "Sign in",
+    "understand": "I understand"
+  },
+  "or": "Or",
+  "title": "Welcome",
+  "placeholder": {
+    "tableNumber": "Type table ID"
+  },
+  "info": "It is very easy to start ordering. Either manually type number that is written on the table or scan QR code. Customized menus for your table will appear.",
+  "error": {
+    "tableNumber": "Table number is not valid. Please type correct number or scan QR code."
+  }
+}

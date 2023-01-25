@@ -1,0 +1,26 @@
+@import "../../abstract/functions";
+@import "../../abstract/variables";
+@import "../../abstract/colors";
+
+.location {
+  display: flex;
+  align-items: center;
+  margin: 0 rem(-9);
+}
+
+.radio {
+  margin-right: rem(8);
+}
+
+.label {
+  font-weight: 700;
+}
+
+.description {
+  margin-left: rem(37);
+  margin-bottom: rem(16);
+}
+
+.editBtn {
+  margin: rem(-12);
+}

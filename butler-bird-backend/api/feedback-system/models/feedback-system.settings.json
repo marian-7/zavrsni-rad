@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "feedback_systems",
+  "info": {
+    "name": "Feedback system",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "firstUsage": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "rating": {
+      "type": "integer",
+      "required": true,
+      "min": 1,
+      "max": 5
+    },
+    "preferredInteraction": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "note": {
+      "type": "richtext"
+    },
+    "installation": {
+      "model": "installation",
+      "private": true
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "private": true
+    }
+  }
+}

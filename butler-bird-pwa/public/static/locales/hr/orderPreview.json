@@ -1,0 +1,25 @@
+{
+  "button": {
+    "addMoreItems": "Dodaj još proizvoda",
+    "cancel": "Otkaži",
+    "order": "CIjena narudžbe - {{price}}"
+  },
+  "collapse": "Sažmi",
+  "dialog": {
+    "button": {
+      "createOrder": "Make an order",
+      "deleteItem": "Izbrisati stavku?",
+      "deleteOption": "Opcije brisanja"
+    },
+    "createOrder": "This action will send an order to the waiter. Are you sure you want to continue?",
+    "deleteItem": "This action will delete this item from your order. Are you sure you want to continue?",
+    "deleteOption": "This action will delete this option from the selected item. Are you sure you want to continue?"
+  },
+  "empty": "Tvoja košarica je prazna. Ovdje ćeš vidjeti popis proizvoda koje si odabrao/la za naplatu. ",
+  "expand": "Proširi",
+  "item": "{{quantity}}x {{name}}",
+  "label": {
+    "note": "Dodaj bilješku kuharu"
+  },
+  "orderSummary": "Pregled tvoje kupnje"
+}

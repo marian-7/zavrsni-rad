@@ -1,0 +1,32 @@
+@import "src/styles/abstracts/variables";
+
+.MuiButton-root {
+  min-width: auto;
+  border-radius: rem(19);
+  padding: rem(11) rem(25);
+
+  .MuiButton-startIcon {
+    margin-right: rem(6);
+    margin-left: 0;
+  }
+}
+
+.MuiButton-contained {
+  box-shadow: $box-shadow;
+
+  &:hover,
+  &:focus {
+    box-shadow: $box-shadow;
+  }
+}
+
+.MuiButton-loading {
+  padding: rem(9) rem(25);
+}
+
+.MuiButton-loadingContainedPrimary {
+  &.Mui-disabled {
+    background-color: $color-primary;
+    color: $color-white;
+  }
+}

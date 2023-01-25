@@ -1,0 +1,29 @@
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/variables";
+@import "src/styles/abstracts/mixins";
+
+.container {
+  font-weight: 400;
+  padding: rem(7) 0;
+  line-height: rem(22);
+  border-radius: rem(18);
+  text-transform: none;
+  box-shadow: none;
+
+  &:not(:last-child) {
+    margin-bottom: $spacing-3;
+  }
+
+  &:hover,
+  &:focus {
+    box-shadow: none;
+  }
+
+  @include breakpoint(xmd) {
+    width: 100%;
+  }
+}
+
+.containerActive {
+  font-weight: 700;
+}

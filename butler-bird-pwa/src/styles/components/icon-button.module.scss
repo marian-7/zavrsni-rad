@@ -1,0 +1,21 @@
+@import "../abstract/functions";
+@import "../abstract/colors";
+
+.root {
+  width: rem(24);
+  height: rem(24);
+  border-radius: 50%;
+  padding: 0;
+
+  svg {
+    width: rem(18);
+    height: rem(18);
+  }
+
+  &:hover,
+  &:active,
+  &:focus {
+    border-radius: 50%;
+    padding: 0;
+  }
+}

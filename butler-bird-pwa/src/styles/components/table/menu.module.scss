@@ -1,0 +1,41 @@
+@import "../../../styles/abstract/functions";
+@import "../../../styles/abstract/colors";
+@import "../../../styles/abstract/variables";
+@import "../../../styles/abstract/mixin";
+
+.menu {
+  padding: rem(16);
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: $spacing-2;
+  background: $color-white;
+  border-radius: rem(20);
+  @include box-shadow();
+}
+
+.image {
+  width: rem(70);
+  height: rem(70);
+  margin-right: rem(16);
+  border-radius: rem(10);
+  background-color: $color-placeholder-bg;
+}
+
+.title {
+  font-weight: 700;
+  line-height: rem(30);
+  font-size: rem(18);
+  margin-bottom: $spacing-1;
+}
+
+.text {
+  line-height: rem(24);
+  max-width: rem(234);
+}
+
+.icon {
+  color: $color-icon;
+  width: rem(18);
+  height: rem(17);
+  margin-right: rem(4);
+}

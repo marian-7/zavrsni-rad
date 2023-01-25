@@ -1,0 +1,31 @@
+@import "../../styles/abstract/functions";
+@import "../../styles/abstract/variables";
+@import "../../styles/abstract/colors";
+
+.container {
+  padding-top: $spacing-3;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.icon {
+  width: rem(69);
+  height: rem(28);
+}
+
+.right {
+  margin-left: auto;
+}
+
+.btn {
+  margin: rem(-12) rem(-12) rem(-12) rem(5);
+  color: $color-search;
+}
+
+.checkout {
+  color: $color-search;
+}

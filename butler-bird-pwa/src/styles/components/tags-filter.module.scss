@@ -1,0 +1,51 @@
+@import "../abstract/functions";
+@import "../abstract/variables";
+@import "../abstract/mixin";
+@import "../abstract/colors";
+
+.dialog {
+  padding: $spacing-3 rem(30) $spacing-2;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  max-width: $breakpoint-md;
+  width: 100%;
+}
+
+.text {
+  font-size: rem(18);
+  line-height: rem(23);
+  font-weight: 700;
+  margin-bottom: $spacing-2;
+  align-self: flex-start;
+}
+
+.last {
+  border: none;
+}
+
+.bg {
+  background: $color-white;
+  padding: rem(8) rem(24);
+  width: 100%;
+
+  box-shadow: 0 rem(10) rem(40) rgba($color-black, 0.03);
+  border-radius: rem(20);
+
+  label:not(:first-child) {
+    border-top: rem(1) solid $color-border;
+  }
+}
+
+.noTags {
+  align-self: flex-start;
+}
+
+.btn {
+  max-width: $breakpoint-md;
+  width: 100%;
+}

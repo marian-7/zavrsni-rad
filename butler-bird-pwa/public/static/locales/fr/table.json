@@ -1,0 +1,7 @@
+{
+  "button": {
+    "callStaff": "Appelez le personnel"
+  },
+  "info": "Voici la liste des menus actuellement disponibles pour la table {{id}}. Commandez directement depuis le menu ou appelez notre assistant personnel.",
+  "successInfo": "Veuillez sélectionner l'assistant du personnel que vous souhaitez appeler."
+}

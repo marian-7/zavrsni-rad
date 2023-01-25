@@ -1,0 +1,22 @@
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/variables";
+
+.droppable {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  padding: 0 0 $spacing-1 0;
+
+  & > * {
+    margin: $spacing-1 $spacing-1 0 0;
+  }
+}
+
+.action {
+  margin-bottom: rem(-8);
+}
+
+.menusSelect {
+  margin-top: 0;
+  margin-right: 0;
+}

@@ -1,0 +1,8 @@
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/variables";
+@import "src/styles/abstracts/colors";
+
+.separator {
+  border-radius: 50%;
+  background-color: $color-primary-alt5;
+}

@@ -1,0 +1,45 @@
+@import "../../abstract/functions";
+@import "../../abstract/variables";
+@import "../../abstract/colors";
+
+.root {
+  display: flex;
+  flex-direction: column;
+  padding: $spacing-1;
+  background: $color-white;
+}
+
+.closeBtn {
+  width: fit-content;
+  align-self: flex-end;
+  margin: rem(-12);
+}
+
+.icon {
+  align-self: center;
+  margin-bottom: rem(26);
+}
+
+.text {
+  text-align: center;
+  margin: $spacing-1;
+}
+
+.button {
+  margin: $spacing-1;
+}
+
+.paper {
+  position: absolute;
+  top: rem(294);
+  margin: $spacing-1;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+}
+
+.dialogRoot {
+  padding: rem(12);
+}

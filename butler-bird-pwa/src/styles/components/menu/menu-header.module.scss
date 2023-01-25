@@ -1,0 +1,36 @@
+@import "../../abstract/functions";
+@import "../../abstract/colors";
+@import "../../abstract/variables";
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: $color-background;
+  padding: $spacing-3 rem(30) 0;
+}
+
+.iconBtn {
+  font-size: rem(16);
+  font-style: normal;
+  font-weight: 400;
+  line-height: rem(24);
+  text-transform: unset;
+}
+
+.logo {
+  max-height: rem(28);
+}
+
+.checkout {
+  color: $color-search;
+}
+
+.btn {
+  margin: rem(-12) rem(-12) rem(-12) rem(5);
+  color: $color-search;
+}

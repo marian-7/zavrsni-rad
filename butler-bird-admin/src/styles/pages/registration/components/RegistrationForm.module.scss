@@ -1,0 +1,63 @@
+@import "src/styles/abstracts/colors";
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/variables";
+@import "src/styles/abstracts/mixins";
+
+.form {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $color-gray-alt2;
+  padding: rem(24);
+
+  :global(.MuiFormLabel-root + .MuiInputBase-root) {
+    margin-top: rem(12);
+  }
+
+  :global(.MuiFormHelperText-root.Mui-error) {
+    bottom: rem(5);
+    font-size: rem(14);
+    line-height: rem(21);
+  }
+}
+
+.content {
+  max-width: rem(450);
+  width: 100%;
+  background-color: $color-white;
+  box-shadow: $box-shadow-alt4;
+  padding: rem(36) rem(24);
+  display: flex;
+  flex-direction: column;
+}
+
+.group {
+  display: flex;
+
+  :global(.MuiFormControl-root:not(:last-child)) {
+    margin-right: rem(24);
+  }
+
+  @include breakpoint("sm") {
+    flex-direction: column;
+
+    :global(.MuiFormControl-root:not(:last-child)) {
+      margin-right: rem(0);
+    }
+  }
+}
+
+.logo {
+  height: rem(38);
+  width: auto;
+  align-self: center;
+}
+
+.description {
+  margin: rem(24) 0;
+}
+
+.submit {
+  margin-top: rem(24);
+}

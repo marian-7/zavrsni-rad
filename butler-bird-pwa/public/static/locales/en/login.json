@@ -1,0 +1,11 @@
+{
+  "info": "Use this opportunity and Sign in. By signining in you can leverage benefits of custom tailored experience.",
+  "button": {
+    "facebook": "Sign in with Facebook",
+    "google": "Sign in with Google",
+    "skip": "Skip sign in for now"
+  },
+  "or": "Or",
+  "order": "To continue with ordering and make a purchase, you need to sign in.",
+  "loginRequired": "To view contents of this page, you'll need to sign in."
+}

@@ -1,0 +1,20 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/feedback/organization/:organization",
+      "handler": "feedback-organization.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/feedback/organization",
+      "handler": "feedback-organization.create",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

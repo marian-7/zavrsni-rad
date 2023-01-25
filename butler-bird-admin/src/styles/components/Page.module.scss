@@ -1,0 +1,19 @@
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/variables";
+@import "src/styles/abstracts/colors";
+@import "src/styles/abstracts/mixins";
+
+.container {
+  flex: 1;
+  padding: $header-height 0 0 $sidebar-width;
+  background-color: $color-tertiary;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+
+  @include breakpoint(xmd) {
+    padding-left: 0;
+    background-color: $color-white;
+  }
+}

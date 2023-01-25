@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_variation_option_groups",
+  "info": {
+    "name": "Option group",
+    "icon": "arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "options": {
+      "collection": "item-option"
+    },
+    "selectionMode": {
+      "type": "enumeration",
+      "enum": [
+        "single",
+        "multiple"
+      ],
+      "default": "single",
+      "required": true
+    },
+    "required": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "name": {
+      "type": "component",
+      "repeatable": true,
+      "component": "localization.label",
+      "required": true
+    },
+    "description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "localization.label"
+    }
+  }
+}

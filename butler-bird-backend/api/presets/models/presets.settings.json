@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "presets",
+  "info": {
+    "name": "Presets"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "createdAt",
+      "updatedAt",
+      "publishedAt"
+    ],
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "carousel": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.title-subtitle"
+    }
+  }
+}

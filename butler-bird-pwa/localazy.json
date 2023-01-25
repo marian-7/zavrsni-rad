@@ -1,0 +1,23 @@
+{
+  "writeKey": "a8605795060851107748-6a7cdb1160587a5214c395d517b7fedf4da3fbdc6b0c4400b6c229a58544448d",
+  "readKey": "a8605795060851107748-642e83e0e3458d572bef3591545333c8797144a9b370072a4e32bab69c93b644",
+  "upload": {
+    "type": "json",
+    "folder": "public/static/locales/en",
+    "files": [
+      "common.json",
+      "index.json",
+      "languages.json",
+      "login.json",
+      "menu.json",
+      "orderPreview.json",
+      "qr.json",
+      "success.json",
+      "table.json",
+      "validations.json"
+    ]
+  },
+  "download": {
+    "files": "public/static/locales/${lang}/${file}"
+  }
+}

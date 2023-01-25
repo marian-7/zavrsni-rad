@@ -1,0 +1,32 @@
+@import "../abstract/functions";
+@import "../abstract/variables";
+@import "../abstract/colors";
+@import "../abstract/mixin";
+
+.root {
+  max-width: $breakpoint-md;
+  width: 100%;
+}
+
+.text {
+  margin-bottom: $spacing-2;
+  font-size: rem(18);
+  font-weight: 700;
+  line-height: $spacing-2;
+}
+
+.options {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.decoratedText {
+  margin: $spacing-3;
+  text-transform: uppercase;
+  display: flex;
+  width: 100%;
+
+  @include text-decoration($color-border, rem(24));
+}

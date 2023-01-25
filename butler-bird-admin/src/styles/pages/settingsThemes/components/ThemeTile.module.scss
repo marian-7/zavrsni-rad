@@ -1,0 +1,45 @@
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/colors";
+@import "src/styles/abstracts/variables";
+
+.tile {
+  border-radius: rem(10);
+  background-color: $color-white;
+  box-shadow: $box-shadow-alt4;
+  width: 100%;
+  height: auto;
+}
+
+.separator {
+  height: rem(1);
+  width: 100%;
+  background-color: $color-gray-alt5;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  padding: rem(6) $spacing-1;
+
+  &Name {
+    font-size: rem(14);
+    line-height: rem(24);
+    font-weight: 400;
+    margin-right: auto;
+  }
+
+  &Icon {
+    color: $color-primary;
+    padding: rem(10);
+    margin-right: rem(6);
+  }
+
+  &Select {
+    width: rem(86);
+    height: rem(19);
+    font-size: rem(12);
+    line-height: rem(16);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+}

@@ -1,0 +1,63 @@
+@import "../../styles/abstract/functions";
+@import "../../styles/abstract/colors";
+
+.root {
+  min-height: rem(48);
+  box-shadow: 0 rem(2) rem(6) rgba($color-shadow, 0.21);
+  border-radius: rem(25);
+
+  &:hover {
+    box-shadow: 0 rem(2) rem(6) rgba($color-shadow, 0.21);
+  }
+
+  &:focus {
+    box-shadow: 0 rem(2) rem(6) rgba($color-shadow, 0.21);
+  }
+}
+
+.rootText {
+  padding: 0;
+}
+
+.spinner {
+  animation: spin 2s linear infinite;
+  height: rem(16);
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loadingContent {
+  display: flex;
+
+  svg {
+    margin-right: rem(12);
+  }
+}
+
+.containedSecondary {
+  &:disabled {
+    background-color: $color-disabled-bg;
+    color: $color-disabled-text;
+  }
+}
+
+.icon {
+  width: rem(24);
+  height: rem(24);
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.containedPrimary {
+  :global(.MuiButton-label) {
+    color: $color-white;
+  }
+}

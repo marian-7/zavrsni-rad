@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "order_types",
+  "info": {
+    "name": "Order type",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "component",
+      "repeatable": true,
+      "component": "localization.label",
+      "required": true
+    },
+    "organization": {
+      "via": "orderTypes",
+      "model": "organization"
+    }
+  }
+}

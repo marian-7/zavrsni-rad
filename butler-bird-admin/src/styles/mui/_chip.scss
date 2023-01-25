@@ -1,0 +1,24 @@
+.MuiChip-root {
+  background-color: $color-secondary;
+  font-size: rem(16);
+  line-height: rem(21);
+  font-weight: 700;
+  min-height: rem(33);
+  border-radius: rem(16.5);
+}
+
+.MuiChip-deleteIcon {
+  width: rem(24);
+  height: rem(24);
+  color: $color-alert-alt2;
+  margin: 0 rem(12) 0 0;
+
+  &:hover {
+    color: darken($color-alert-alt2, 4);
+  }
+}
+
+.MuiChip-label{
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,80 @@
+@import "../abstract/functions";
+@import "../abstract/colors";
+@import "../abstract/variables";
+@import "../abstract/mixin";
+
+.root {
+  padding: $spacing-3 0 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+}
+
+.pageContainer {
+  max-width: $breakpoint-md;
+  position: relative;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.orderPreview {
+  padding: 0 rem(30);
+  background: $color-background;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: rem(18);
+  font-weight: 700;
+  line-height: rem(24);
+  margin-bottom: $spacing-2;
+}
+
+.iconBtn {
+  margin-bottom: $spacing-3;
+  font-size: rem(16);
+  font-style: normal;
+  font-weight: 400;
+  line-height: rem(24);
+  text-transform: unset;
+}
+
+.container {
+  flex: 1;
+}
+
+.orderBtn {
+  composes: root from "../components/button.module.scss";
+  min-height: unset;
+  height: rem(38);
+}
+
+.label {
+  font-weight: 700;
+  line-height: rem(30);
+  color: $color-black;
+  margin-top: $spacing-2;
+  margin-bottom: $spacing-1;
+}
+
+.controls {
+  display: flex;
+  padding: rem(16) rem(30);
+  background: $color-background;
+  box-shadow: 0 rem(10) rem(40) rgba($color-black, 0.2);
+  border-radius: rem(20) rem(20) 0 0;
+  position: sticky;
+  bottom: 0;
+}
+
+.cancel {
+  composes: root from "../components/button.module.scss";
+  margin-right: rem(16);
+  min-height: unset;
+  height: rem(38);
+}

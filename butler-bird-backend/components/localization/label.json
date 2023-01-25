@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_localization_labels",
+  "info": {
+    "name": "Label",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "language": {
+      "model": "language"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}

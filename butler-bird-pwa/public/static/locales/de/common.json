@@ -1,0 +1,71 @@
+{
+  "button": {
+    "back": "Zurück",
+    "backToMyProfile": "Zurück zu meinem Profil",
+    "cancel": "Abbrechen",
+    "close": "Schließen",
+    "confirm": "Bestätigen",
+    "saveChanges": "Änderungen speichern",
+    "submitAnswers": "Antworten einreichen",
+    "understand": "Ich verstehe."
+  },
+  "dateTime": {
+    "orderDate": "{{date}} um {{time}}"
+  },
+  "loading": "Wird geladen…",
+  "navigation": {
+    "button": {
+      "backToOrderHistory": "Zurück zur Bestellhistorie"
+    },
+    "cancelDelete": "Ich möchte das Profil nicht löschen",
+    "chooseLanguage": "Anzeigesprache wählen",
+    "deleteInfo": "Wenn Sie auf Profil löschen klicken, werden alle Informationen zu Ihrem Nutzungs- und Bestellverlauf gelöscht.",
+    "deleteProfile": "Profil löschen",
+    "feedback": "Feedback hinterlassen",
+    "feedbackSurvey": "Geben Sie uns Feedback",
+    "label": {
+      "else": "Persönliche Notiz hinzufügen",
+      "firstTime": "Verwenden Sie diese App zum ersten Mal?",
+      "interaction": "Bevorzugen Sie diese Interaktion gegenüber einer persönlichen?",
+      "satisfaction": "Wie zufrieden waren Sie mit der App?"
+    },
+    "myProfile": "Mein Profil",
+    "notifications": "Benachrichtigungen",
+    "option": {
+      "no": "Nein",
+      "yes": "Ja"
+    },
+    "or": "Oder",
+    "orderCanceled": "Bestellung storniert",
+    "orderCanceledReason": "<b>Grund abgebrochen</b> - {{message}} ",
+    "orderHistory": "Bestellhistorie",
+    "orderTotal": "Gesamtauftrag: <b>{{price}}</b>",
+    "otherOptions": "Andere Optionen",
+    "setCurrency": "Bevorzugte Währung einstellen",
+    "settings": "Einstellungen",
+    "settingsNote": "*Beachten Sie, dass alle Preise in USD bezahlt werden und alle anderen auf der Grundlage des heutigen Wechselkurses berechnet werden",
+    "signOut": "Abmelden"
+  },
+  "notificationPreferences": {
+    "button": {
+      "email": "Schicken Sie mir eine E-Mail.",
+      "notifications": "Schicken Sie mir eine Benachrichtigung"
+    },
+    "info": "Wie sollen wir Ihnen Updates für Ihre Bestellung schicken?",
+    "label": {
+      "ask": "Nicht mehr fragen"
+    }
+  },
+  "organizationFeedback": {
+    "label": {
+      "else": "Persönliche Notiz hinzufügen",
+      "food": "Bewertung der Lebensmittelqualität",
+      "satisfaction": "Wie zufrieden waren Sie mit:",
+      "speed": "Bewertung der Liefergeschwindigkeit und -qualität"
+    },
+    "title": "Service-Feedback"
+  },
+  "other": {
+    "unknown": "Unbekannt"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "button": {
+    "callStaff": "Chiama il personale",
+    "cancel": "Cancellare l'ordine",
+    "continue": "Continua con l'ordine",
+    "goToSurvey": "Portami al sondaggio",
+    "notYet": "Non voglio ancora cancellare",
+    "skip": "No, salterò il sondaggio",
+    "tryAgain": "Riprova",
+    "understand": "Capisco."
+  },
+  "cancelOrder": "L'annullamento di questo ordine rimuoverà tutti gli articoli nel checkout. Vuoi procedere?",
+  "feedbackSuccess": "Grazie per l'aiuto.",
+  "firstOrderSuccess": "Il tuo ordine di richiesta è stato presentato con successo. In attesa del tuo servizio, ti preghiamo di lasciarci un feedback sull'applicazione.",
+  "message": "La tua richiesta è stata inviata al cameriere. Il cameriere risponderà a questa richiesta il prima possibile.",
+  "orderError": "Ordine fallito. Si prega di riprovare o di chiamare direttamente lo staff per aiuto.",
+  "orderSuccess": "Il tuo ordine di richiesta è stato inviato con successo. Godetevi il resto del soggiorno!"
+}

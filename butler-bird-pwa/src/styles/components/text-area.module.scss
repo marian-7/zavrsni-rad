@@ -1,0 +1,30 @@
+@import "../abstract/functions";
+@import "../abstract/colors";
+
+.root {
+  width: 100%;
+  display: block;
+
+  label + :global(.MuiInput-formControl) {
+    margin-top: 0;
+  }
+}
+
+.inputRoot {
+  border-radius: 0;
+  line-height: rem(20);
+  flex: 1;
+  width: 100%;
+}
+
+.label {
+  color: $color-search;
+  position: unset;
+  transition: none;
+  transform: none;
+  pointer-events: auto;
+
+  font-size: rem(15);
+  font-weight: 600;
+  line-height: rem(28);
+}

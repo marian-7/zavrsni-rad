@@ -1,0 +1,83 @@
+{
+  "kind": "collectionType",
+  "collectionName": "items",
+  "info": {
+    "name": "Item",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "createdAt",
+      "updatedAt",
+      "publishedAt"
+    ],
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "component",
+      "repeatable": true,
+      "component": "localization.label",
+      "required": false
+    },
+    "description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "localization.label",
+      "required": false
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "price": {
+      "type": "decimal",
+      "default": 0,
+      "required": true,
+      "min": 0
+    },
+    "allergens": {
+      "collection": "allergen"
+    },
+    "organization": {
+      "private": true,
+      "model": "organization"
+    },
+    "categories": {
+      "collection": "category",
+      "via": "items",
+      "dominant": true
+    },
+    "optionGroupsOrder": {
+      "type": "json",
+      "private": true
+    },
+    "tags": {
+      "collection": "tag"
+    },
+    "longDescription": {
+      "type": "component",
+      "repeatable": true,
+      "component": "localization.long-text",
+      "required": false
+    },
+    "optionGroups": {
+      "collection": "item-group"
+    },
+    "nameLocalized": {
+      "type": "json"
+    },
+    "descriptionLocalized": {
+      "type": "json"
+    },
+    "longDescriptionLocalized": {
+      "type": "json"
+    }
+  }
+}

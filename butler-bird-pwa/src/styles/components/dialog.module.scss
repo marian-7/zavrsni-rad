@@ -1,0 +1,40 @@
+@import "../../styles/abstract/functions";
+@import "../../styles/abstract/colors";
+@import "../../styles/abstract/variables";
+
+.dialog {
+  padding: rem(36) rem(30);
+  display: flex;
+  background: $color-background;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  width: 100%;
+}
+
+.noPadding {
+  padding: 0;
+}
+
+.noBottomPadding {
+  padding-bottom: 0;
+}
+
+.top {
+  width: 100%;
+  display: flex;
+  max-width: $breakpoint-md;
+}
+
+.iconBtn {
+  width: fit-content;
+  margin-bottom: rem(36);
+}
+
+.back {
+  margin-right: auto;
+}
+
+.close {
+  margin-left: auto;
+}

@@ -1,0 +1,25 @@
+{
+  "button": {
+    "addMoreItems": "Aggiungi altri articoli",
+    "cancel": "Annulla",
+    "order": "Ordine - {{price}}"
+  },
+  "collapse": "Comprimi",
+  "dialog": {
+    "button": {
+      "createOrder": "Fare un ordine",
+      "deleteItem": "Elimina elemento",
+      "deleteOption": "Opzioni eliminazione"
+    },
+    "createOrder": "Questa azione invierà un ordine al cameriere. Sei sicuro di voler continuare?",
+    "deleteItem": "Questa azione eliminerà questo articolo dal tuo ordine. Sei sicuro di voler continuare?",
+    "deleteOption": "Questa azione eliminerà questa opzione dall'elemento selezionato. Sei sicuro di voler continuare?"
+  },
+  "empty": "Il tuo carrello è vuoto. Qui viene visualizzato un elenco di elementi selezionati per il checkout. ",
+  "expand": "Espandi",
+  "item": "{{quantity}} x {{name}}",
+  "label": {
+    "note": "Aggiungi nota allo chef"
+  },
+  "orderSummary": "Riepilogo dell’ordine"
+}

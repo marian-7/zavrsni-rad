@@ -1,0 +1,62 @@
+@import "src/styles/abstracts/colors";
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/variables";
+
+.inputs {
+  display: block;
+  padding: rem(18) $spacing-3 rem(26) $spacing-3;
+  border-bottom: 1px solid $color-gray-alt5;
+}
+
+.picker {
+  margin-bottom: rem(6);
+}
+
+.name {
+  padding-bottom: 0;
+  margin-bottom: $spacing-2;
+}
+
+.radioRoot {
+  margin-right: 0;
+  padding-left: $spacing-3;
+  border-bottom: 1px solid $color-gray-alt5;
+  min-height: rem(48);
+}
+
+.radioLabel {
+  padding-left: rem(5);
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: $spacing-1;
+}
+
+.btn {
+  font-size: rem(16);
+  line-height: rem(24);
+  font-weight: 400;
+  text-transform: none;
+  padding: rem(11) rem(8);
+}
+
+.btnAddMore {
+  color: $color-primary;
+  padding: $spacing-1;
+  margin: rem(14) auto auto;
+  display: flex;
+}
+
+.btnSaveTag {
+  color: $color-primary;
+  padding: $spacing-1;
+  margin: rem(14) auto auto;
+  display: flex;
+}
+
+.btnSaveChanges {
+  color: $color-primary;
+  margin-right: rem(22);
+}

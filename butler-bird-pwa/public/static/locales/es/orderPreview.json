@@ -1,0 +1,25 @@
+{
+  "button": {
+    "addMoreItems": "Añadir más artículos",
+    "cancel": "Cancelar",
+    "order": "Pedido - {{price}}"
+  },
+  "collapse": "Contraer",
+  "dialog": {
+    "button": {
+      "createOrder": "Hacer un pedido",
+      "deleteItem": "Eliminar elemento",
+      "deleteOption": "Eliminar opción"
+    },
+    "createOrder": "Esta acción enviará un pedido al camarero. ¿Está seguro de que quiere continuar?",
+    "deleteItem": "Esta acción eliminará este artículo de su pedido. ¿Estás seguro de que quieres continuar?",
+    "deleteOption": "Esta acción eliminará esta opción del elemento seleccionado. ¿Está seguro de que quiere continuar?"
+  },
+  "empty": "Su cesta de la compra está vacía. Aquí verá una lista de los artículos que ha seleccionado para la compra. ",
+  "expand": "Mostrar",
+  "item": "{{quantity}}x {{name}}",
+  "label": {
+    "note": "Añadir nota al chef"
+  },
+  "orderSummary": "Resumen del pedido"
+}

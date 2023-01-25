@@ -1,0 +1,126 @@
+@import "../../abstract/functions";
+@import "../../abstract/variables";
+@import "../../abstract/colors";
+@import "../../abstract/mixin";
+
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  justify-content: space-between;
+}
+
+.form {
+  height: 100%;
+  max-width: $breakpoint-md;
+  width: 100%;
+}
+
+.padding {
+  padding: 0 rem(30) $spacing-3;
+}
+
+.imageContainer {
+  position: relative;
+  height: 0;
+  padding-bottom: rem(137) / rem(315) * 100%;
+  margin-bottom: $spacing-3;
+  width: 100%;
+  border-radius: rem(5);
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.placeholder {
+  width: 100%;
+  height: rem(144);
+  margin-bottom: $spacing-3;
+  padding: rem(20);
+  background: $color-placeholder-bg;
+  border-radius: rem(5);
+}
+
+.bold {
+  font-weight: 700;
+  line-height: rem(23);
+  margin-bottom: $spacing-1;
+}
+
+.optionGroupText {
+  font-weight: 700;
+  line-height: rem(23);
+  margin-bottom: $spacing-1;
+}
+
+.add {
+  flex: 1;
+  margin-left: $spacing-3;
+  max-width: rem(209);
+  min-height: rem(38);
+}
+
+.optionGroup {
+  margin-top: $spacing-2;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  bottom: 0;
+  background: $color-background;
+  padding: rem(16) $spacing-2;
+  box-shadow: 0 rem(10) rem(40) rgba($color-black, 0.2);
+  border-radius: rem(20) rem(20) 0 0;
+}
+
+.checkboxOptions {
+  > div:not(:last-child) {
+    border-bottom: rem(1) solid $color-border;
+  }
+}
+
+.radioOptions {
+  div:not(:last-child) {
+    border-bottom: rem(1) solid $color-border;
+  }
+}
+
+.bg {
+  background: $color-white;
+  box-shadow: 0 rem(10) rem(40) rgba($color-black, 0.03);
+  border-radius: rem(20);
+  padding: rem(8) rem(24);
+}
+
+.text {
+  line-height: rem(24);
+  text-align: center;
+  width: 100%;
+}
+
+.required {
+  margin-left: rem(6);
+}
+
+.radio {
+  padding-left: 0;
+  margin-right: rem(7);
+}
+
+.quantity {
+  margin-left: rem(37);
+  padding-bottom: rem(16);
+}

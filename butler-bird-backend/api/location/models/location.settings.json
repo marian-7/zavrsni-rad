@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "locations",
+  "info": {
+    "name": "Location",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "createdAt",
+      "updatedAt",
+      "publishedAt"
+    ],
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "component",
+      "repeatable": true,
+      "component": "localization.label"
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "pins": {
+      "type": "component",
+      "repeatable": true,
+      "component": "location.pins",
+      "required": true
+    },
+    "organization": {
+      "via": "locations",
+      "model": "organization"
+    },
+    "venues": {
+      "via": "location",
+      "collection": "venue"
+    }
+  }
+}

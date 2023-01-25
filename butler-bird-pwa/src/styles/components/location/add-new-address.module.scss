@@ -1,0 +1,81 @@
+@import "../../abstract/functions";
+@import "../../abstract/variables";
+@import "../../abstract/colors";
+@import "../../abstract/mixin";
+
+.root {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  max-width: $breakpoint-md;
+  flex-direction: column;
+  align-self: center;
+  width: 100%;
+}
+
+.top {
+  flex: 1;
+  padding: $spacing-3 rem(30);
+}
+
+.title {
+  font-size: rem(18);
+  font-weight: 700;
+  margin-bottom: $spacing-2;
+  margin-top: $spacing-3;
+}
+
+.confirm {
+  width: 100%;
+  position: sticky;
+  bottom: 0;
+
+  padding: rem(16) $spacing-2;
+  box-shadow: 0 rem(10) rem(40) rgba($color-black, 0.2);
+  border-radius: rem(20) rem(20) 0 0;
+}
+
+.autocomplete {
+  display: flex;
+  margin-bottom: $spacing-3;
+}
+
+.input {
+  height: unset;
+}
+
+.label {
+  color: $color-search;
+
+  font-size: rem(15);
+  font-weight: 600;
+  line-height: rem(28);
+
+  position: unset;
+  transition: none;
+  transform: none;
+}
+
+.popper {
+  @include box-shadow();
+  border-radius: rem(20);
+  margin-top: rem(6);
+}
+
+.paper {
+  border-radius: rem(20);
+}
+
+.listbox {
+  padding: 0;
+}
+
+.option {
+  padding: 0;
+}

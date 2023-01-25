@@ -1,0 +1,49 @@
+@import "../../styles/abstract/functions";
+@import "../../styles/abstract/colors";
+@import "../../styles/abstract/variables";
+
+.root {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  flex-direction: column;
+}
+
+.pageContainer {
+  max-width: $breakpoint-md;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.checkout {
+  position: sticky;
+  bottom: 0;
+  padding-top: rem(17);
+  padding-bottom: $spacing-2;
+  background: $color-background;
+}
+
+.items {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex: 1;
+}
+
+.container {
+  padding: 0 rem(30);
+  position: relative;
+}
+
+.button {
+  composes: root from "../components/icon-button.module.scss";
+  width: rem(30);
+  height: rem(30);
+  transform: rotate(-90deg);
+
+  position: fixed;
+  bottom: rem(12);
+  right: rem(12);
+}

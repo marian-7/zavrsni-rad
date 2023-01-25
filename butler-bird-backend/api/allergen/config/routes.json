@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/allergens",
+      "handler": "allergen.find",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

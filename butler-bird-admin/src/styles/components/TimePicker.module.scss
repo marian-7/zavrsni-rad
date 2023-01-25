@@ -1,0 +1,67 @@
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/variables";
+@import "src/styles/abstracts/colors";
+
+.formControl {}
+
+.formControlWithHelperText {
+  padding-bottom: rem(30);
+}
+
+.input {
+  width: rem(42);
+  height: rem(24);
+  padding: rem(9) rem(13);
+  border: 1px solid $color-grey;
+  border-radius: $border-radius;
+}
+
+.item {
+  background-color: $color-secondary;
+  border-bottom: 1px solid $color-gray-alt7;
+}
+
+.itemLabel {
+  color: $color-black;
+}
+
+.paper {
+  max-height: rem(186);
+}
+
+.list {
+  padding: 0;
+
+  & > li {
+    padding-right: 0;
+  }
+
+  & > li:hover {
+    background-color: rgba(196, 196, 196, 0.4);
+  }
+}
+
+.helperText {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  min-width: rem(350);
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  margin-left: rem(-110);
+  font-size: rem(16);
+  line-height: rem(24);
+  font-weight: 400;
+}
+
+.error:after {
+  color: #583FA6;
+}
+
+.errorIcon {
+  margin-right: rem(4);
+  width: rem(18);
+  height: rem(18);
+  color: $color-alert-alt;
+}

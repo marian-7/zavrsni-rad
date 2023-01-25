@@ -1,0 +1,16 @@
+{
+  "button": {
+    "scanQr": "Scan QR-kode",
+    "signIn": "Log ind",
+    "understand": "Jeg forstår"
+  },
+  "error": {
+    "tableNumber": "Bordnummer er ikke gyldigt. Indtast venligst et korrekt bordnummer eller scan QR-kode."
+  },
+  "info": "Det er nemt at bestille med appen. Du kan enten indsætte bordnummeret, der står på skiltet eller skanne QR-kode. \nHerefter vil menuen vises. ",
+  "or": "eller",
+  "placeholder": {
+    "tableNumber": "Indsæt bord ID"
+  },
+  "title": "Velkommen"
+}

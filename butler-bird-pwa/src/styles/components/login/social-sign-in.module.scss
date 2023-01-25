@@ -1,0 +1,33 @@
+@import "../../abstract/functions";
+@import "../../abstract/colors";
+@import "../../abstract/variables";
+@import "../../abstract/mixin";
+
+.info {
+  line-height: rem(24);
+  margin-bottom: $spacing-3;
+  align-self: flex-start;
+}
+
+.btnFb {
+  margin-bottom: $spacing-3;
+  background: $color-btn-fb;
+  color: $color-white;
+
+  &:hover,
+  &:focus {
+    background: $color-btn-fb;
+    color: $color-white;
+  }
+}
+
+.btnGoogle {
+  background: $color-btn-google;
+  color: $color-white;
+
+  &:hover,
+  &:focus {
+    background: $color-btn-google;
+    color: $color-white;
+  }
+}

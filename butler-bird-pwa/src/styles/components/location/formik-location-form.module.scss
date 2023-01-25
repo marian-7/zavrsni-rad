@@ -1,0 +1,41 @@
+@import "../../abstract/functions";
+@import "../../abstract/variables";
+@import "../../abstract/colors";
+
+.root {
+  background: $color-white;
+  border-radius: rem(20);
+  padding: rem(8) $spacing-2;
+  width: 100%;
+}
+
+.group {
+  > div:not(:last-child) {
+    border-bottom: rem(1) solid $color-border;
+  }
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 0 rem(30);
+  align-items: flex-start;
+}
+
+.label {
+  font-weight: 700;
+  margin-bottom: $spacing-2;
+}
+
+.confirm {
+  align-self: flex-end;
+  width: 100%;
+  position: sticky;
+  bottom: 0;
+
+  padding: rem(16) $spacing-2;
+  box-shadow: 0 rem(10) rem(40) rgba($color-black, 0.2);
+  border-radius: rem(20) rem(20) 0 0;
+  background-color: $color-background;
+}

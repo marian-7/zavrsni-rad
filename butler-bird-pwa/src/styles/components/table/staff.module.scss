@@ -1,0 +1,28 @@
+@import "../../../styles/abstract/functions";
+@import "../../../styles/abstract/colors";
+@import "../../../styles/abstract/variables";
+@import "../../../styles/abstract/mixin";
+
+.root {
+  background: $color-white;
+  border-radius: rem(20);
+
+  padding: rem(20) rem(16);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: $spacing-2;
+
+  @include box-shadow();
+}
+
+.text {
+  font-weight: 700;
+  line-height: rem(20);
+}
+
+.icon {
+  color: $color-icon;
+  width: rem(18);
+  height: rem(17);
+}

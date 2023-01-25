@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_addresses",
+  "info": {
+    "name": "User Address",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "streetAddress": {
+      "type": "string",
+      "required": true
+    },
+    "additionalInfo": {
+      "type": "string"
+    },
+    "hereId": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "position": {
+      "type": "component",
+      "repeatable": false,
+      "component": "location.pins"
+    },
+    "user": {
+      "private": true,
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "addresses"
+    },
+    "deliveryInstructions": {
+      "type": "text"
+    }
+  }
+}

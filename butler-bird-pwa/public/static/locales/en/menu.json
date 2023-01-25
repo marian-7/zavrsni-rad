@@ -1,0 +1,22 @@
+{
+  "tags": "Tags",
+  "placeholder": {
+    "search": "Search"
+  },
+  "button": {
+    "checkout": "Checkout - {{price}}",
+    "add": "Add - {{price}}",
+    "callStaff": "Call staff",
+    "filter": "Filter",
+    "filterProducts": "Filter products"
+  },
+  "nothing": "Nothing to show",
+  "option": {
+    "nothing": "I don't want any option"
+  },
+  "requiredOptions": "Please select required options",
+  "required": "(Required)",
+  "positiveModifier": "+ {{price}}",
+  "negativeModifier": "- {{price}}",
+  "noTags": "No tags defined"
+}

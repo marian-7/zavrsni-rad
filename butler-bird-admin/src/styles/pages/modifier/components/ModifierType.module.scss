@@ -1,0 +1,32 @@
+@import "src/styles/abstracts/colors";
+@import "src/styles/abstracts/variables";
+@import "src/styles/abstracts/functions";
+
+.root {
+  width: calc(100% + #{$spacing-3 * 2});
+  margin-left: -$spacing-3;
+}
+
+.label {
+  font-size: rem(16);
+  line-height: rem(21);
+  font-weight: 700;
+  border-bottom: 1px solid $color-gray-alt5;
+  width: 100%;
+  padding: $spacing-1 $spacing-3 rem(14) $spacing-3;
+
+  &:global(.Mui-focused) {
+    color: $color-primary-alt5;
+  }
+}
+
+.radioRoot {
+  margin-right: 0;
+  padding-left: $spacing-3;
+  border-bottom: 1px solid $color-gray-alt5;
+  min-height: rem(48);
+}
+
+.radioLabel {
+  padding-left: rem(5);
+}

@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payments",
+  "info": {
+    "name": "Payment"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "provider": {
+      "type": "enumeration",
+      "enum": [
+        "netsPay"
+      ]
+    },
+    "uid": {
+      "type": "string",
+      "required": true
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "pending",
+        "success",
+        "fail"
+      ],
+      "required": true,
+      "default": "pending"
+    },
+    "snapshot": {
+      "type": "json"
+    },
+    "order": {
+      "via": "payments",
+      "model": "order"
+    }
+  }
+}

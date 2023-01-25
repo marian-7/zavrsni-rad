@@ -1,0 +1,54 @@
+@import "../../abstract/functions";
+@import "../../abstract/variables";
+@import "../../abstract/colors";
+
+@keyframes swiper-slide {
+  from {
+    max-width: rem(210);
+  }
+  to {
+    max-width: rem(177);
+  }
+}
+
+@keyframes swiper-slide-reverse {
+  to {
+    max-width: rem(210);
+  }
+  from {
+    max-width: rem(177);
+  }
+}
+
+.categoryPicker {
+  width: 100%;
+  margin-right: rem(-24);
+  margin-left: rem(-24);
+  //top: 38 top + 48 from design
+  padding: rem(86) $spacing-2 0;
+  position: fixed;
+  top: auto;
+  background: $color-background;
+
+  :global(.swiper-slide) {
+    max-width: rem(210);
+    display: flex;
+  }
+}
+
+.shrinkCategoryPicker {
+  //top: 38 top + 31 from design
+  padding: rem(69) $spacing-2 0;
+
+  :global(.swiper-slide) {
+    animation: swiper-slide $category-animation-duration;
+    animation-fill-mode: forwards;
+  }
+}
+
+.end {
+  :global(.swiper-slide) {
+    animation: swiper-slide-reverse $category-animation-duration;
+    animation-fill-mode: forwards;
+  }
+}

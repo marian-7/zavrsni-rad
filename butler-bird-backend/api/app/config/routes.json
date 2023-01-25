@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/app/table/:id",
+      "handler": "app.findTable",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/app/categories-by-menu/:menuId",
+      "handler": "app.findCategories",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/app/orders/:installation",
+      "handler": "app.findOrders",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/app/orders/:order/:installation",
+      "handler": "app.findOrder",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/app/debug",
+      "handler": "app.debug",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/app/tags/:organization",
+      "handler": "app.findTags",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/app/user",
+      "handler": "app.deleteProfile",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

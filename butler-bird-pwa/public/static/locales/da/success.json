@@ -1,0 +1,18 @@
+{
+  "button": {
+    "callStaff": "Tilkald personalet",
+    "cancel": "Annuller ordre",
+    "continue": "Fortsæt med ordre",
+    "goToSurvey": "Åbn tilfredshedsundersøgelse",
+    "notYet": "Jeg ønsker ikke at annullere endnu",
+    "skip": "Nej, jeg vil springe undersøgelsen over",
+    "tryAgain": "Prøv igen",
+    "understand": "Jeg forstår"
+  },
+  "cancelOrder": "Hvis du annullerer denne ordre, fjernes alle varer i indkøbskurven. Vil du fortsætte?",
+  "feedbackSuccess": "Tak for din hjælp.",
+  "firstOrderSuccess": "Din bestilling blev sendt til køkkenet. Mens du venter på din service, bedes du venligst give os feedback på appen. ",
+  "message": "Din forespørgsel er sendt til tjeneren. Tjeneren vil svare på din forespørgsel hurtigst muligt.",
+  "orderError": "Ordren mislykkedes. Prøv venligst igen eller kontakt personalet for at få hjælp.",
+  "orderSuccess": "Din bestilling blet sendt. \nNyd venligst resten af dit ophold. "
+}

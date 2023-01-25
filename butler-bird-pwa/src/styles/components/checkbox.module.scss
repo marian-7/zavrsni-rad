@@ -1,0 +1,28 @@
+@import "../../styles/abstract/colors";
+@import "../../styles/abstract/functions";
+
+.root {
+  padding: rem(7) 0;
+  width: 100%;
+  margin: unset;
+}
+
+.checkbox {
+  border-radius: 50%;
+  margin-right: rem(7);
+  margin-left: rem(-9);
+
+  path {
+    width: 100%;
+  }
+}
+
+.icon {
+  :global(.MuiIconButton-label) {
+    width: rem(20);
+  }
+}
+
+.label {
+  width: 100%;
+}

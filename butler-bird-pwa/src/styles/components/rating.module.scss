@@ -1,0 +1,14 @@
+@import "../abstract/functions";
+@import "../abstract/colors";
+
+.icon {
+  width: rem(30);
+  height: rem(26);
+  color: $color-black;
+  margin-right: rem(6);
+
+  svg {
+    width: rem(30);
+    height: rem(26);
+  }
+}

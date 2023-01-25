@@ -1,0 +1,54 @@
+@import "../../abstract/functions";
+@import "../../abstract/variables";
+@import "../../abstract/colors";
+@import "../../abstract/mixin";
+
+.root {
+  padding: rem(16);
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  margin-bottom: $spacing-2;
+
+  background: $color-white;
+  @include box-shadow();
+  border-radius: rem(20);
+}
+
+.image {
+  width: rem(70);
+  height: rem(70);
+  margin-right: rem(16);
+  object-fit: cover;
+  border-radius: rem(10);
+  background: $color-placeholder-bg;
+}
+
+.right {
+  word-break: break-word;
+  flex: 1;
+}
+
+.name {
+  font-weight: 700;
+  line-height: rem(24);
+  margin-bottom: $spacing-1;
+}
+
+.description {
+  font-size: rem(14);
+  font-weight: 400;
+  line-height: rem(18);
+}
+
+.price {
+  font-weight: 700;
+  line-height: rem(24);
+}
+
+.icon {
+  color: $color-icon;
+  width: rem(18);
+  height: rem(17);
+  margin-right: rem(4);
+}

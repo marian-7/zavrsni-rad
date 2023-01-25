@@ -1,0 +1,30 @@
+@import "src/styles/abstracts/colors";
+@import "src/styles/abstracts/functions";
+
+$header-height: rem(48);
+$sidebar-width: rem(220);
+
+$breakpoints: (
+  xs: 0,
+  sm: 600px,
+  md: 960px,
+  xmd: 1024px,
+  lg: 1280px,
+  xl: 1920px,
+);
+
+$spacing-1: rem(12);
+$spacing-2: rem(16);
+$spacing-3: rem(24);
+$spacing-4: rem(36);
+
+$border-radius: rem(5);
+
+$box-shadow: 0 rem(2) rem(6) rgba($color-primary-alt5, 0.21);
+$box-shadow-alt: 0 rem(2) rem(6) rgba($color-gray-alt3, 0.15);
+$box-shadow-alt3: 0 rem(5) rem(15) rem(10) rgba($color-gray-alt7, 0.15);
+$box-shadow-alt4: 0 0 rem(6) rem(4) rgba($color-gray-alt7, 0.1);
+$box-shadow-alt4: 0 0 rem(15) rem(10) rgba($color-gray-alt7, 0.04);
+$box-shadow-alt5: 0 rem(10) rem(40) rgba($color-black, 0.03);
+
+$transition-duration: 250ms;

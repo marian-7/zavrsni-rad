@@ -1,0 +1,9 @@
+{
+  "button": {
+    "facebook": "Log ind med Facebook",
+    "google": "Log ind med Google",
+    "skip": "Brug uden at logge ind"
+  },
+  "info": "Brug denne mulighed og log ind. Ved at logge ind får du  fordelene ved en skræddersyet oplevelse.",
+  "or": "eller"
+}

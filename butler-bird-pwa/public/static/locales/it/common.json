@@ -1,0 +1,71 @@
+{
+  "button": {
+    "back": "Indietro",
+    "backToMyProfile": "Torna al mio profilo",
+    "cancel": "Annulla",
+    "close": "Chiudi",
+    "confirm": "Conferma",
+    "saveChanges": "Salvare le modifiche?",
+    "submitAnswers": "Invia risposte",
+    "understand": "Capisco."
+  },
+  "dateTime": {
+    "orderDate": "{{date}} alle {{time}}"
+  },
+  "loading": "Caricamento in corso...",
+  "navigation": {
+    "button": {
+      "backToOrderHistory": "Torna alla storia dell'ordine"
+    },
+    "cancelDelete": "Non voglio cancellare il profilo",
+    "chooseLanguage": "Scegli la lingua di visualizzazione",
+    "deleteInfo": "Cliccando su Cancella profilo, tutte le informazioni relative al tuo utilizzo e alla cronologia degli ordini saranno cancellate.",
+    "deleteProfile": "Elimina profilo",
+    "feedback": "Lascia un feedback",
+    "feedbackSurvey": "Darci un feedback",
+    "label": {
+      "else": "Aggiungi nota personale",
+      "firstTime": "È la prima volta che usi questa app?",
+      "interaction": "Preferisci questa interazione rispetto a quella di persona?",
+      "satisfaction": "Quanto sei soddisfatto dell'app?"
+    },
+    "myProfile": "Il mio profilo",
+    "notifications": "Notifiche",
+    "option": {
+      "no": "No",
+      "yes": "Sì"
+    },
+    "or": "- oppure -",
+    "orderCanceled": "Ordine annullato",
+    "orderCanceledReason": "<b>Motivo annullato</b> - {{message}} ",
+    "orderHistory": "Cronologia ordine",
+    "orderTotal": "Totale ordine: <b>{{price}}</b>",
+    "otherOptions": "Altre opzioni",
+    "setCurrency": "Imposta valuta preferita",
+    "settings": "Impostazioni",
+    "settingsNote": "*Nota che tutti i prezzi sono pagati in USD e tutti gli altri sono calcolati in base al valore del tasso di cambio odierno",
+    "signOut": "Disconnetti"
+  },
+  "notificationPreferences": {
+    "button": {
+      "email": "Mandami un email.",
+      "notifications": "Inviami una notifica"
+    },
+    "info": "Come vuoi che ti inviamo aggiornamenti per il tuo ordine?",
+    "label": {
+      "ask": "Non chiederlo più"
+    }
+  },
+  "organizationFeedback": {
+    "label": {
+      "else": "Aggiungi nota personale",
+      "food": "Valutazione della qualità del cibo",
+      "satisfaction": "Quanto sei stato soddisfatto di:",
+      "speed": "Valutazione della velocità di consegna e della qualità"
+    },
+    "title": "Feedback sul"
+  },
+  "other": {
+    "unknown": "Sconosciuto"
+  }
+}

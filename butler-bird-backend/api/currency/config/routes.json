@@ -1,0 +1,36 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/currencies",
+      "handler": "currency.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/currencies/count",
+      "handler": "currency.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/currencies/:id",
+      "handler": "currency.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/currencies/exchange/:iso",
+      "handler": "currency.findExchangeRates",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

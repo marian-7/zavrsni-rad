@@ -1,0 +1,15 @@
+@import "src/styles/abstracts/colors";
+@import "src/styles/abstracts/functions";
+
+.root {
+  padding: rem(11);
+
+  :global(.MuiSvgIcon-root) {
+    width: rem(20);
+    height: rem(20);
+  }
+}
+
+.icon {
+  color: $color-primary-alt5;
+}

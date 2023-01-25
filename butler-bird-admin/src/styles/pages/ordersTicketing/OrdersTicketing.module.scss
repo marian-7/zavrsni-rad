@@ -1,0 +1,62 @@
+@import "src/styles/abstracts/colors";
+@import "src/styles/abstracts/variables";
+@import "src/styles/abstracts/mixins";
+
+.page {
+  background-color: $color-tertiary;
+  flex: 1;
+  padding: $header-height 0 $spacing-1 0;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+}
+
+.container {
+  padding: $spacing-3 $spacing-3 0 $spacing-3;
+  flex: 1;
+}
+
+.title {
+  font-size: rem(24);
+  line-height: rem(40);
+  font-weight: 600;
+  margin-bottom: $spacing-3;
+}
+
+.filters {
+  display: flex;
+
+  @include breakpoint(xmd) {
+    display: block;
+    max-width: rem(650);
+  }
+}
+
+.filtersContainer {
+  display: flex;
+  width: 100%;
+  max-width: rem(460);
+
+  @include breakpoint(xmd) {
+    justify-content: space-between;
+    max-width: rem(660);
+  }
+}
+
+.select {
+  width: 100%;
+  max-width: rem(218);
+  margin-right: $spacing-3;
+
+  @include breakpoint(xmd) {
+    max-width: rem(318);
+    margin-bottom: $spacing-1;
+    margin-right: 0;
+  }
+}
+
+.orders {
+  display: flex;
+  flex: 1;
+}

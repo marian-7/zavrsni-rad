@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tables",
+  "info": {
+    "name": "Table",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "createdAt",
+      "updatedAt",
+      "publishedAt"
+    ],
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "venue": {
+      "via": "tables",
+      "model": "venue"
+    },
+    "organization": {
+      "via": "tables",
+      "model": "organization"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "allergens": "Allergener",
+  "button": {
+    "add": "Tilføj - {{price}}",
+    "callStaff": "Tilkald personalet",
+    "checkout": "Betaling - {{price}}",
+    "filter": "Filtrer",
+    "filterProducts": "Filtrer varer"
+  },
+  "negativeModifier": "- {{price}}",
+  "noTags": "Ingen mærker defineret",
+  "nothing": "Intet at vise",
+  "option": {
+    "nothing": "Jeg vil ikke have nogen mulighed"
+  },
+  "placeholder": {
+    "search": "Søg"
+  },
+  "positiveModifier": "+ {{price}}",
+  "required": "(Påkrævet)",
+  "requiredOptions": "Vælg venligst de påkrævet indstillinger",
+  "tags": "Mærkater"
+}

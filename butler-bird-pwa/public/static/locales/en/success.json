@@ -1,0 +1,17 @@
+{
+  "message": "Your request was sent out to the waiter. Waiter will respond to this request as soon as possible.",
+  "firstOrderSuccess": "Your request order was successfully submitted. While waiting for your service, please leave us some feedback about the app.",
+  "cancelOrder": "Cancelling this order will remove all items in the checkout. Do you want to proceed?",
+  "orderSuccess": "Your request order was successfully submitted. Please enjoy rest of your stay!",
+  "feedbackSuccess": "Thank you for the help.",
+  "orderError": "Order failed. Please try again or call staff directly for help.",
+  "button": {
+    "goToSurvey": "Take me to survey",
+    "cancel": "Cancel order",
+    "continue": "Continue with order",
+    "understand": "I understand",
+    "tryAgain": "Try again",
+    "callStaff": "Call staff",
+    "skip": "No, I will skip survey"
+  }
+}

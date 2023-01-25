@@ -1,0 +1,15 @@
+@import "src/styles/abstracts/variables";
+@import "src/styles/abstracts/functions";
+
+.button {
+  color: $color-primary;
+  text-transform: none;
+  font-size: rem(16);
+  line-height: rem(24);
+  font-weight: 400;
+  padding: $spacing-1;
+  margin: $spacing-1 auto auto;
+  display: flex;
+  width: auto;
+  border-radius: rem(24);
+}

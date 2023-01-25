@@ -1,0 +1,42 @@
+@import "../abstract/functions";
+@import "../abstract/variables";
+
+.root {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  max-width: $breakpoint-md;
+}
+
+.settings {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.label {
+  font-weight: 700;
+  line-height: rem(23);
+  margin-bottom: $spacing-1;
+}
+
+.note {
+  font-size: rem(14);
+  line-height: rem(20);
+}
+
+.button {
+  justify-self: flex-end;
+}
+
+.languagePicker {
+  margin-bottom: $spacing-3;
+  width: fit-content;
+}
+
+.currencyPicker {
+  margin-bottom: $spacing-1;
+  width: fit-content;
+}

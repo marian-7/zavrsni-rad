@@ -1,0 +1,25 @@
+@import "../../styles/abstract/functions";
+@import "../../styles/abstract/colors";
+
+.root {
+  height: rem(24);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: rem(23);
+  display: flex;
+  align-items: center;
+}
+
+.select:global(.MuiSelect-select) {
+  padding: 0 rem(34) 0 0;
+}
+
+.icon {
+  margin-left: rem(19);
+  color: inherit;
+}
+
+.item {
+  min-height: rem(24);
+  padding: 0;
+}

@@ -1,0 +1,27 @@
+@import "../../styles/abstract/functions";
+@import "../../styles/abstract/colors";
+@import "../../styles/abstract/variables";
+@import "../../styles/abstract/mixin";
+
+.login {
+  padding: $spacing-4 rem(30);
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: $breakpoint-md;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.text {
+  margin: $spacing-3;
+  text-transform: uppercase;
+  display: flex;
+  width: 100%;
+
+  @include text-decoration($color-border, rem(24));
+}

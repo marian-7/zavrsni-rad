@@ -1,0 +1,7 @@
+{
+  "button": {
+    "callStaff": "Pozovi osoblje"
+  },
+  "info": "Ovo je popis menija koji su trenutno dostupni za stol {{id}}. Naruči izravno iz menija ili nazovi našeg pomoćnika osoblja.",
+  "successInfo": "Molimo da odabereš pomoćnika osoblja kojeg želiš pozvati."
+}

@@ -1,0 +1,42 @@
+@import "../abstract/colors";
+
+.qr {
+  position: relative;
+  flex: 1;
+}
+
+.video {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.overlay {
+  $size: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba($color-black, 0.5);
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    0 100%,
+    0 calc(50% + #{$size}),
+    calc(50% - #{$size}) calc(50% + #{$size}),
+    calc(50% + #{$size}) calc(50% + #{$size}),
+    calc(50% + #{$size}) calc(50% - #{$size}),
+    calc(50% - #{$size}) calc(50% - #{$size}),
+    calc(50% - #{$size}) calc(50% + #{$size}),
+    0 calc(50% + #{$size})
+  );
+}
+
+.canvas {
+  display: none;
+}

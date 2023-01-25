@@ -1,0 +1,6 @@
+[defaults]
+project=butler-bird-admin
+org=zero-molecule
+
+[auth]
+token=ac4a78976bcb481b95b7031fb15cefd24b5bccee0f3c41c086648fd0bbc3d2f3

@@ -1,0 +1,364 @@
+{
+  "translation": {
+    "buttons": {
+      "addNew": "Add new",
+      "login": "Sign in",
+      "loginSubmitting": "Signing you in...",
+      "submit": "Submit",
+      "saveChanges": "Save changes",
+      "save": "Save",
+      "delete": "Delete",
+      "dontDelete": "I dont want to delete",
+      "defineModifierItems": "Define modifier items",
+      "changeLocation": "Change location",
+      "addMoreMenus": "Add more menus",
+      "addTables": "Add tables",
+      "editTables": "Edit tables",
+      "printQRCode": "Print QR code",
+      "saveAsPDF": "Save as PDF",
+      "saveAsJPG": " Save as JPG",
+      "sendInvite": "Send invite",
+      "cancel": "Cancel",
+      "inviteMore": "Invite more",
+      "select": "Select",
+      "selected": "Selected"
+    },
+    "pages": {
+      "login": {
+        "title": "Welcome",
+        "subtitle": "Please sign in using email and password",
+        "forgotPassword": "Forgot password?",
+        "additionalInfo": "If you have any issues while signing in or any additional questions feel free to reach out at <a>{{email}}</a>"
+      },
+      "forgot": {
+        "title": "Reset password",
+        "subtitle": "Type the email address you logged in with to receive password reset link",
+        "success": "Password reset link has been sent to <strong>{{email}}</strong>. Please check your email inbox for further instructions."
+      },
+      "reset": {
+        "title": "New password",
+        "subtitle": "Please type and confirm new password"
+      },
+      "order": {
+        "orderNumber": "Order #{{number}}",
+        "note": "<strong>Note</strong>: {{note}}",
+        "total": "Order total: {{total}}",
+        "notification": "Please respond to the {{type}}. Customer location is <strong>{{venueTable}} at {{location}}<strong>.",
+        "cancelOrder": "Cancel",
+        "canceledAt": "<strong>Canceled at:</strong> {{canceledAt}}",
+        "canceledReason": "<strong>Canceled reason:</strong> {{canceledReason}}",
+        "reasonExplanation": "What is the reason of cancellation?"
+      },
+      "categories": {
+        "title": "Categories",
+        "items": "Category contains {{count}} item",
+        "items_plural": "Category contains {{count}} items"
+      },
+      "menus": {
+        "title": "Menus",
+        "contains": "Menu contains {{count}} item",
+        "contains_plural": "Menu contains {{count}} items"
+      },
+      "itemPicker": {
+        "title": "Items",
+        "added": "Added"
+      },
+      "categoriesPicker": {
+        "title": "Categories",
+        "contains": "Contains {{count}} item",
+        "added": "Added",
+        "contains_plural": "Contains {{count}} items"
+      },
+      "tags": {
+        "title": "Tags",
+        "addNew": "Add new tag",
+        "saveTag": "Save tag",
+        "global": "Use on other items"
+      },
+      "tag": {
+        "title": "Details"
+      },
+      "items": {
+        "title": "Items"
+      },
+      "modifiers": {
+        "title": "Modifiers",
+        "added": "Added",
+        "add": "Add more modifiers"
+      },
+      "modifier": {
+        "title": "Create new modifier",
+        "type": "Modifier group type",
+        "single": "Only single choice is allowed",
+        "multiple": "Multi choice is allowed",
+        "required": "User is required to select at least one of the options from this group?",
+        "reuse": "Make this group available to all items?",
+        "reuseCheckbox": "Save group",
+        "yes": "Yes",
+        "no": "No"
+      },
+      "modifierItems": {
+        "title": "Define modifier items",
+        "price": "Price of this item modifier",
+        "saveModifierItem": "Save modifier item",
+        "addMore": "Add more modifier items",
+        "modifierItemPrice": "Price: {{price}}"
+      },
+      "modifierItem": {
+        "title": "Details"
+      },
+      "venues": {
+        "title": "Venues"
+      },
+      "tables": {
+        "title": "Edit tables",
+        "adding": "Adding...",
+        "id": "ID: {{id}}"
+      },
+      "locationPicker": {
+        "title": "Locations",
+        "selected": "Selected"
+      },
+      "menusPicker": {
+        "title": "Menus",
+        "added": "Added",
+        "contains_plural": "Contains {{count}} items"
+      },
+      "venue": {
+        "venue": "venue",
+        "menuItem": "{{count}} item",
+        "menuItem_plural": "{{count}} items",
+        "table": "{{count}} table",
+        "table_plural": "{{count}} tables"
+      },
+      "tablesAdd": {
+        "title": "Add tables"
+      },
+      "locations": {
+        "title": "Locations"
+      },
+      "orders": {
+        "title": "Orders",
+        "total": "Order has {{count}} item with total of <total>{{total}}</total>",
+        "total_plural": "Order has {{count}} items with total of <total>{{total}}</total>",
+        "orderReceived": "Order received",
+        "orderTickets": "Order tickets",
+        "canceledOrders": "Canceled orders",
+        "activeOrders": "Active orders",
+        "allOrders": "All orders"
+      },
+      "ordersTicketing": {
+        "title": "Orders",
+        "orderList": "Order list",
+        "ticket": {
+          "total": "Total - {{total}}"
+        }
+      },
+      "settings": {
+        "title": "Settings",
+        "list": {
+          "organization": {
+            "title": "Organization info",
+            "label": "Basic organization information"
+          },
+          "themes": {
+            "title": "Themes",
+            "label": "Themeing for admin and mobile experience",
+            "chooseLook": "Choose desired look & feel"
+          },
+          "currency": {
+            "title": "Currency info",
+            "label": "Information about currencies"
+          },
+          "staff": {
+            "title": "Staff credentials",
+            "label": "Staff personel access settings"
+          }
+        }
+      },
+      "settingsCurrency": {
+        "label": "Choose all available currencies",
+        "note": "Note - prices in all other currencies will be calculated automatically, according to current conversion rates. Bellow is the conversion calculator that show how base currency translates to other currencies."
+      },
+      "settingsStaff": {
+        "label": "Define staff personel access",
+        "note": "Add staff or external personel login credentials. Staff personel will be able to login and see limited view of admin dashboard."
+      },
+      "settingsStaffInvite": {
+        "title": "Invite more",
+        "emailSent": "Email invite to <b>{{email}}</b> has been sent"
+      },
+      "registration": {
+        "description": "Please fill in the access details. These information will be used to access control dashboard."
+      },
+      "printers": {
+        "title": "Printers"
+      },
+      "printer": {
+        "printer": "printer"
+      }
+    },
+    "item": {
+      "basePrice": "Base price: {{price}}"
+    },
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "orders": "Orders",
+      "menus": "Menus",
+      "categories": "Categories",
+      "items": "Items",
+      "locations": "Locations",
+      "venues": "Venues",
+      "tables": "Tables",
+      "printers": "Printers",
+      "settings": "Settings"
+    },
+    "form": {
+      "placeholders": {
+        "email": "Email",
+        "password": "Password",
+        "allMenus": "All menus",
+        "allCategories": "All categories",
+        "search": "Search",
+        "categoryName": "Category name",
+        "categoryDescription": "Short category description",
+        "menuName": "Menu name",
+        "menuDescription": "This is a short description of this menu",
+        "modifierGroupName": "Name",
+        "modifierGroupDescription": "Description",
+        "itemName": "Item name",
+        "itemDescription": "Short item description",
+        "itemLongDescription": "Long item description",
+        "modifierItemName": "Modifier item name",
+        "modifierItemDescription": "Modifier item description",
+        "tagName": "Tag name",
+        "typeValue": "Type value",
+        "allVenues": "All venues",
+        "allLocations": "All locations",
+        "allTables": "All tables",
+        "locationName": "Location name",
+        "locationAddress": "Type address",
+        "welcomeMsg": "Type welcome message that will be shown in mobile app intro screen....",
+        "selectLocations": "Select locations",
+        "selectVenues": "Select venues",
+        "selectTables": "Select tables",
+        "bannerMessage": "Banner message"
+      },
+      "validation": {
+        "required": "Required field",
+        "emailFormat": "Email address needs to be in a right format",
+        "languageValues": "Field values for all languages must be entered",
+        "timePicker": "Starting time has to be earlier than ending time",
+        "password": {
+          "different": "Passwords are not matching",
+          "length": "Password should have 6 characters or more"
+        },
+        "unsavedChanges": "You have unsaved changes! Are you sure you want to leave?"
+      },
+      "labels": {
+        "venueName": "Venue name",
+        "locationSelect": "Location of this venue",
+        "menusSelect": "Menus that are served on this venue",
+        "tablesSelect": "Tables on the venue",
+        "addNumberOfTables": "Add number of tables",
+        "tableNameTemplate": "Table name template",
+        "orgName": "Organization name",
+        "orgLogo": "Organization logo",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "email": "Email",
+        "password": "Password",
+        "confirmPassword": "Confirm password",
+        "emailAddress": "Email address",
+        "name": "Name",
+        "deviceSN": "Device SN",
+        "filter": "Filter",
+        "language": "Language"
+      }
+    },
+    "components": {
+      "header": {
+        "menu": {
+          "settings": "Settings",
+          "logout": "Log out"
+        }
+      },
+      "categoryForm": {
+        "item": "{{count}} item",
+        "item_plural": "{{count}} items",
+        "itemsContained": "Items that this category contains",
+        "addItems": "Add more items",
+        "previewPhoto": "Preview photo",
+        "category": "category"
+      },
+      "menuForm": {
+        "activeFrom": "Active from:",
+        "categoriesOfProducts": "Categories of products for this menu",
+        "addCategories": "Add more categories",
+        "description": "Short description of this menu",
+        "menu": "menu"
+      },
+      "itemForm": {
+        "basePrice": "Base price",
+        "optionGroups": "Product modifiers groups",
+        "tags": "Tags",
+        "modifiers": "Manage modifiers",
+        "addTags": "Add more tags",
+        "item": "item"
+      },
+      "locationForm": {
+        "locationName": "Location name",
+        "address": "Address",
+        "location": "location"
+      },
+      "deleteOverlay": {
+        "deleting": "Deleting this {{name}} will permanently remove it.\nAll changes will be lost."
+      },
+      "item": {
+        "basePrice": "Base price: {{price}}",
+        "item": "{{count}} item",
+        "item_plural": "{{count}} items"
+      },
+      "dropzone": {
+        "placeholder": "Click to upload or drag & drop photo"
+      }
+    },
+    "languages": {
+      "en": "English",
+      "de": "German",
+      "hr": "Croatian",
+      "fr": "French",
+      "da": "Danish",
+      "ar": "Arabic",
+      "it": "Italian",
+      "es": "Spanish",
+      "tr": "Turkish"
+    },
+    "themes": {
+      "purple": "Purple theme",
+      "red": "Red theme",
+      "green": "Green theme",
+      "grey": "Grey theme",
+      "blue": "Blue theme",
+      "gold": "Gold theme"
+    },
+    "snackbar": {
+      "venueCreated": "Venue created",
+      "venueUpdated": "Venue updated",
+      "venueDeleted": "Venue deleted",
+      "locationDeleted": "Location deleted",
+      "locationCreated": "Location created",
+      "locationUpdated": "Location updated",
+      "tagCreated": "Tag created",
+      "tagDeleted": "Tag deleted",
+      "tagUpdated": "Tag updated",
+      "orderStatusChanged": "Order status changed",
+      "organizationUpdated": "Organization updated",
+      "orderCanceled": "Order canceled"
+    },
+    "other": {
+      "unknown": "Unknown",
+      "takeout": "Takeout - {{status}}"
+    }
+  }
+}

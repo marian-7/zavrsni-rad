@@ -1,0 +1,16 @@
+{
+  "button": {
+    "scanQr": "QR-Code scannen",
+    "signIn": "Anmelden",
+    "understand": "Ich verstehe."
+  },
+  "error": {
+    "tableNumber": "Die Tischnummer ist nicht gültig. Bitte geben Sie die richtige Nummer ein oder scannen Sie den QR-Code."
+  },
+  "info": "Es ist sehr einfach, die Bestellung zu starten. Geben Sie entweder manuell die Nummer ein, die auf dem Tisch steht, oder scannen Sie den QR-Code. Es werden angepasste Menüs für Ihren Tisch angezeigt.",
+  "or": "Oder",
+  "placeholder": {
+    "tableNumber": "Tisch ID schreiben"
+  },
+  "title": "Willkommen"
+}

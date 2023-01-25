@@ -1,0 +1,51 @@
+@import "src/styles/abstracts/colors";
+@import "src/styles/abstracts/functions";
+
+.container {
+  background: rgba($color-white, 0.94);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.icon {
+  color: $color-primary;
+  height: rem(72);
+  width: rem(72);
+  margin-bottom: rem(48);
+}
+
+.info {
+  margin-bottom: rem(60);
+  text-align: center;
+  line-height: rem(23);
+  white-space: pre-wrap;
+}
+
+.btnDelete {
+  margin-bottom: rem(17);
+  width: 100%;
+  max-width: rem(327);
+  font-weight: 700;
+}
+
+.btnCancel {
+  font-size: rem(16);
+  line-height: rem(16);
+  font-weight: 400;
+  text-transform: unset;
+  padding: rem(7) rem(25);
+  width: 100%;
+  max-width: rem(327);
+
+  :global(.MuiButton-startIcon) {
+    margin-right: 1px;
+  }
+}

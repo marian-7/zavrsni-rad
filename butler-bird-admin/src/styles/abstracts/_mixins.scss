@@ -1,0 +1,24 @@
+@import "src/styles/abstracts/variables";
+
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flexColumn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@mixin breakpoint($bp, $media-feature: "max-width") {
+  @media (#{$media-feature}: map-get($breakpoints, $bp)) {
+    @content;
+  }
+}

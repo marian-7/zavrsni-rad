@@ -1,0 +1,7 @@
+{
+  "button": {
+    "callStaff": "Tilkald personalet"
+  },
+  "info": "Dette er den aktuelle menu for bord {{id}}. Bestil direkte fra den digitale menu eller kald på personalet for hjælp. \n",
+  "successInfo": "Vælg venligst hvilken medarbejder assistance du ønsker hjælp af."
+}

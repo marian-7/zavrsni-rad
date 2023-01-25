@@ -1,0 +1,36 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/analytics/sales-overview",
+      "handler": "analytics.findSalesOverview",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/analytics/sales-breakdown",
+      "handler": "analytics.findSalesBreakdown",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/analytics/orders-overview",
+      "handler": "analytics.findOrdersOverview",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/analytics/orders-breakdown",
+      "handler": "analytics.findOrdersBreakdown",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

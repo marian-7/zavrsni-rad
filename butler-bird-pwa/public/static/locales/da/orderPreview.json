@@ -1,0 +1,25 @@
+{
+  "button": {
+    "addMoreItems": "Tilføj flere varer",
+    "cancel": "Annuller",
+    "order": "Ordre - {{price}}"
+  },
+  "collapse": "Skjul",
+  "dialog": {
+    "button": {
+      "createOrder": "Bestil",
+      "deleteItem": "Slet element?",
+      "deleteOption": "Slet mulighed"
+    },
+    "createOrder": "Denne handling vil sende en ordre til tjeneren. Vil du fortsætte?",
+    "deleteItem": "Denne handling sletter denne vare fra din ordre. Vil du forsætte?",
+    "deleteOption": "Denne handling sletter denne indstilling fra det valgte element. Vil du forsætte?"
+  },
+  "empty": "Din indkøbskurv er tom. Her ser du en liste over de varer, som du har valgt til kassen. ",
+  "expand": "Udvid",
+  "item": "{{quantity}} x {{name}}",
+  "label": {
+    "note": "Kommentar til kokken"
+  },
+  "orderSummary": "Ordreoversigt"
+}

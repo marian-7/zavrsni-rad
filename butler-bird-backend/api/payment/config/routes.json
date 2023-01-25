@@ -1,0 +1,92 @@
+{
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/payments/test-create",
+      "handler": "payment.testCreate",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/payments/netspay/hooks/payment-created",
+      "handler": "payment.hookNetsPayPaymentCreated",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/payments/netspay/hooks/reservation-created",
+      "handler": "payment.hookNetsPayReservationCreated",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/payments/netspay/hooks/checkout-completed",
+      "handler": "payment.hookNetsPayCheckoutCompleted",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/payments/netspay/hooks/charge-created",
+      "handler": "payment.hookNetsPayChargeCreated",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/payments/netspay/hooks/charge-failed",
+      "handler": "payment.hookNetsPayChargeFailed",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/payments/netspay/hooks/refund-initiated",
+      "handler": "payment.hookNetsPayRefundInitiated",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/payments/netspay/hooks/refund-failed",
+      "handler": "payment.hookNetsPayRefundFailed",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/payments/netspay/hooks/refund-completed",
+      "handler": "payment.hookNetsPayRefundCompleted",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/payments/netspay/hooks/reservation-canceled",
+      "handler": "payment.hookNetsPayReservationCanceled",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/payments/netspay/hooks/cancellation-failed",
+      "handler": "payment.hookNetsPayCancellationFailed",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

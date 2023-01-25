@@ -1,0 +1,23 @@
+@import "../../styles/abstract/functions";
+@import "../../styles/abstract/variables";
+
+.success {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 rem(30);
+  flex: 1;
+  flex-direction: column;
+}
+
+.text {
+  margin: $spacing-4 0 $spacing-4;
+  line-height: rem(23);
+  text-align: center;
+  white-space: break-spaces;
+}
+
+.icon {
+  width: rem(72);
+  height: rem(72);
+}

@@ -1,0 +1,70 @@
+@import "../../abstract/functions";
+@import "../../abstract/colors";
+@import "../../abstract/mixin";
+@import "../../abstract/variables";
+
+.root {
+  height: 100%;
+  max-width: $breakpoint-md;
+  width: 100%;
+}
+
+.form {
+  padding: 0 rem(30);
+  flex: 1;
+}
+
+.title {
+  font-size: rem(18);
+  font-weight: 700;
+  line-height: rem(24);
+  margin-bottom: $spacing-2;
+}
+
+.label {
+  margin-bottom: rem(16);
+  font-weight: 700;
+  line-height: rem(30);
+  color: $color-black;
+}
+
+.radioGroup {
+  background: $color-white;
+  padding: rem(8) $spacing-2;
+  @include box-shadow();
+  border-radius: rem(20);
+  margin-bottom: $spacing-2;
+
+  label:not(:last-child) {
+    border-bottom: rem(1) solid $color-border;
+  }
+}
+
+.radio {
+  padding-left: 0;
+  margin-right: rem(7);
+}
+
+.textArea {
+  margin-bottom: $spacing-2;
+}
+
+.rating {
+  padding: $spacing-2;
+  @include box-shadow();
+  border-radius: rem(20);
+  background: $color-white;
+  margin-bottom: $spacing-2;
+}
+
+.submit {
+  background: $color-background;
+  box-shadow: 0 rem(10) rem(40) rgba($color-black, 0.2);
+  border-radius: rem(20) rem(20) 0 0;
+  width: 100%;
+  padding: rem(16) rem(30);
+}
+
+.btn {
+  min-height: rem(38);
+}

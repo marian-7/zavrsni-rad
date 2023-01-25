@@ -1,0 +1,14 @@
+@import "../../abstract/functions";
+@import "../../abstract/variables";
+
+.root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: $spacing-3;
+  padding-top: rem(300);
+}
+
+.btn {
+  margin-right: $spacing-2;
+}

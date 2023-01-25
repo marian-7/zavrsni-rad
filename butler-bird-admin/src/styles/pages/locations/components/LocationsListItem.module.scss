@@ -1,0 +1,14 @@
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/colors";
+
+.link {
+  min-height: rem(68);
+}
+
+.title {
+  margin-bottom: rem(10);
+}
+
+.arrowIcon {
+  color: $color-gray-alt4;
+}

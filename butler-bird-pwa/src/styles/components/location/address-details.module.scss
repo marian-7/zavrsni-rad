@@ -1,0 +1,55 @@
+@import "../../abstract/functions";
+@import "../../abstract/variables";
+@import "../../abstract/colors";
+@import "../../abstract/mixin";
+
+.root {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 100%;
+  max-width: $breakpoint-md;
+}
+
+.top {
+  flex: 1;
+  padding: $spacing-4 rem(30) 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title {
+  margin-top: $spacing-3;
+  font-weight: 700;
+  margin-bottom: $spacing-2;
+}
+
+.instructions {
+  font-weight: 700;
+  margin: $spacing-2 0;
+}
+
+.confirm {
+  width: 100%;
+  padding: rem(16) $spacing-2;
+  border-radius: $border-radius $border-radius 0 0;
+  @include box-shadow-confirm();
+  display: flex;
+}
+
+.btn {
+  flex: 2;
+}
+
+.removeBtn {
+  flex: 1;
+  margin-right: rem(16);
+}

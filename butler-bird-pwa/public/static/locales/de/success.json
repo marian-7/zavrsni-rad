@@ -1,0 +1,18 @@
+{
+  "button": {
+    "callStaff": "Mitarbeiter rufen",
+    "cancel": "Bestellung stornieren",
+    "continue": "Weiter mit Bestellung",
+    "goToSurvey": "Bring mich zur Umfrage",
+    "notYet": "Ich möchte noch nicht stornieren",
+    "skip": "Nein, ich werde die Umfrage überspringen",
+    "tryAgain": "Erneut versuchen",
+    "understand": "Ich verstehe."
+  },
+  "cancelOrder": "Wenn Sie diese Bestellung stornieren, werden alle Artikel in der Kasse entfernt. Möchten Sie fortfahren?",
+  "feedbackSuccess": "Danke für die Hilfe.",
+  "firstOrderSuccess": "Ihr Anfrageauftrag wurde erfolgreich übermittelt. Während Sie auf Ihren Service warten, hinterlassen Sie uns bitte ein Feedback zur App.",
+  "message": "Ihre Anfrage wurde an den Kellner gesendet. Kellner wird diese Anfrage so schnell wie möglich beantworten.",
+  "orderError": "Bestellung fehlgeschlagen. Bitte versuchen Sie es erneut oder rufen Sie die Mitarbeiter direkt an, um Hilfe zu erhalten.",
+  "orderSuccess": "Ihr Anfrageauftrag wurde erfolgreich übermittelt. Bitte genießen Sie Ihren restlichen Aufenthalt!"
+}

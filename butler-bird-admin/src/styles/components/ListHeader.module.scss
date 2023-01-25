@@ -1,0 +1,31 @@
+@import "src/styles/abstracts/mixins";
+
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  @include breakpoint(xmd) {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+.select {
+  width: 100%;
+
+  &:not(:last-child) {
+    margin-right: $spacing-1;
+  }
+
+  @include breakpoint(xmd) {
+    width: 100%;
+
+    &:last-child {
+      margin-bottom: rem(8);
+    }
+
+    &:not(:last-child) {
+      margin-bottom: $spacing-3;
+    }
+  }
+}

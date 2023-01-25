@@ -1,0 +1,94 @@
+@import "src/styles/abstracts/variables";
+@import "src/styles/abstracts/colors";
+
+.item {
+  padding-left: rem(13);
+}
+
+.itemEditing {
+  position: relative;
+}
+
+.label {
+  margin-bottom: 0;
+  flex: 1;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.details {
+  display: block;
+  flex: 1;
+  min-width: 0;
+  &Id {
+    font-size: rem(14);
+  }
+}
+
+.action {
+  min-width: rem(48);
+  min-height: rem(48);
+
+  &:disabled {
+    color: $color-primary;
+  }
+}
+
+.actionAlert {
+  color: $color-alert-alt2;
+
+  &:disabled {
+    color: $color-alert-alt2;
+  }
+}
+
+.form {
+  display: flex;
+  flex: 1;
+  margin-left: $spacing-1;
+}
+
+.input {
+  max-width: rem(150);
+  z-index: 10;
+
+  :global(.MuiInput-input) {
+    background-color: $color-white;
+  }
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  font-size: rem(14);
+  line-height: rem(18);
+  font-weight: 400;
+  text-transform: none;
+  padding: rem(2) rem(4);
+}
+
+.btnCancel {
+  color: $color-primary-alt5;
+}
+
+.btnSave {
+  color: $color-primary;
+  margin-right: rem(4);
+  margin-left: rem(10);
+}
+
+.updating {
+  color: $color-primary;
+  margin-right: rem(28);
+  margin-left: rem(32);
+}
+
+.actionIcon {
+  height: rem(20);
+  width: rem(20);
+  margin-right: rem(-4);
+}

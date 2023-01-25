@@ -1,0 +1,16 @@
+{
+  "button": {
+    "scanQr": "Skeniraj QR kod",
+    "signIn": "Prijavi se",
+    "understand": "Razumijem"
+  },
+  "error": {
+    "tableNumber": "Broj stola nije valjan. Molimo da upišeš točan broj ili skeniraj QR kod."
+  },
+  "info": "Vrlo je lako započeti naručivanje. Ručno upiši broj koji je napisan na stolu ili skeniraj QR kod. Pojavit će se prilagođeni meniji za vaš stol.",
+  "or": "Ili",
+  "placeholder": {
+    "tableNumber": "Upiši ID stola"
+  },
+  "title": "Dobro došao/la"
+}

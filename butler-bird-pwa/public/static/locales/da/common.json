@@ -1,0 +1,71 @@
+{
+  "button": {
+    "back": "Tilbage",
+    "backToMyProfile": "Tilbage til min profil",
+    "cancel": "Annuller",
+    "close": "Luk",
+    "confirm": "Bekræft",
+    "saveChanges": "Gem ændringer",
+    "submitAnswers": "Indsend svar",
+    "understand": "Jeg forstår"
+  },
+  "dateTime": {
+    "orderDate": "{{date}} ​kl {{time}}"
+  },
+  "loading": "indlæser",
+  "navigation": {
+    "button": {
+      "backToOrderHistory": "Tilbage til ordrehistorik"
+    },
+    "cancelDelete": "Jeg ønsker ikke at slette profil",
+    "chooseLanguage": "Vælg visningssprog",
+    "deleteInfo": "Ved at klikke på Slet profil, vil alle oplysninger om dit forbrug og din ordrehistorik blive slettet.",
+    "deleteProfile": "Slet profil",
+    "feedback": "Giv feedback",
+    "feedbackSurvey": "Giv os feedback",
+    "label": {
+      "else": "Tilføj en personlig bemærkning",
+      "firstTime": "Er det første gang du bruger denne app?",
+      "interaction": "Foretrækker du denne interaktion frem for personlig betjening?",
+      "satisfaction": "Hvor tilfreds var du med appen?"
+    },
+    "myProfile": "Min profil",
+    "notifications": "Notifikationer",
+    "option": {
+      "no": "Nej",
+      "yes": "Ja"
+    },
+    "or": "Eller",
+    "orderCanceled": "Ordre annulleret",
+    "orderCanceledReason": "<b>Annulleret årsag</b> - {{message}} ",
+    "orderHistory": "Ordrehistorik",
+    "orderTotal": "Order i alt: <b>{{price}}</b>",
+    "otherOptions": "Andre valgmuligheder",
+    "setCurrency": "Vælg foretrukken valuta",
+    "settings": "Indstillinger",
+    "settingsNote": "*Bemærk, at alle priser betales i USD og alle andre beregnes ud fra den aktuelle valutakurs",
+    "signOut": "Log ud"
+  },
+  "notificationPreferences": {
+    "button": {
+      "email": "Send mig en e-mail.",
+      "notifications": "Send mig en meddelelse"
+    },
+    "info": "Hvordan vil du have os til at sende dig opdateringer til din ordre?",
+    "label": {
+      "ask": "Spørg mig ikke igen"
+    }
+  },
+  "organizationFeedback": {
+    "label": {
+      "else": "Tilføj en personlig bemærkning",
+      "food": "Vurdering af fødevarekvalitet",
+      "satisfaction": "Hvor tilfreds var du med:",
+      "speed": "Vurdering af leveringshastighed og kvalitet"
+    },
+    "title": "Tilbagemelding"
+  },
+  "other": {
+    "unknown": "Ukendt"
+  }
+}

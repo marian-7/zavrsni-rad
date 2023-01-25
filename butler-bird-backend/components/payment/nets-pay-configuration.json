@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_payment_nets_pay_configurations",
+  "info": {
+    "name": "NetsPay Configuration",
+    "icon": "money-bill"
+  },
+  "options": {},
+  "attributes": {
+    "secretKey": {
+      "type": "text",
+      "required": true
+    },
+    "checkoutKey": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

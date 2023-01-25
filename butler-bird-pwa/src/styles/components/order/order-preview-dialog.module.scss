@@ -1,0 +1,22 @@
+@import "../../abstract/functions";
+@import "../../abstract/variables";
+
+.root {
+  max-width: $breakpoint-md;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.surveyBtn {
+  margin-top: $spacing-2;
+}
+
+.successText {
+  margin-bottom: rem(36);
+}
+
+.text {
+  margin: $spacing-4 0;
+}

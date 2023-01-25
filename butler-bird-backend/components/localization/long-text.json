@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_localization_long_texts",
+  "info": {
+    "name": "Long Text",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "language": {
+      "model": "language"
+    },
+    "value": {
+      "type": "text"
+    }
+  }
+}

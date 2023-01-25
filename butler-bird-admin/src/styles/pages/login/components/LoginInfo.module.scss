@@ -1,0 +1,24 @@
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/colors";
+
+.swiper {
+  width: rem(462);
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.bullet {
+  display: inline-block;
+  width: rem(12);
+  height: rem(12);
+  background: $color-white;
+  border-radius: 50%;
+  margin: rem(32) rem(4);
+  opacity: 0.2;
+}
+
+.bulletActive {
+  @extend .bullet;
+  opacity: unset;
+}

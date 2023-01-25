@@ -1,0 +1,88 @@
+@import "src/styles/abstracts/colors";
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/variables";
+
+.form {
+}
+
+.inputContainer {
+  display: block;
+  padding: rem(18) $spacing-3 rem(26) $spacing-3;
+  border-bottom: 1px solid $color-gray-alt5;
+}
+
+.picker {
+  margin-bottom: rem(6);
+}
+
+.subtitle {
+  font-size: rem(16);
+  line-height: rem(23);
+  font-weight: 700;
+}
+
+.basePrice {
+  display: flex;
+  align-items: center;
+  background: $color-tertiary;
+  border-radius: $border-radius;
+  padding: rem(6) rem(12);
+  width: rem(220);
+}
+
+.priceInput {
+  text-align: right;
+}
+
+.currency {
+  font-weight: 700;
+  margin-left: rem(12);
+}
+
+.btn {
+  font-size: rem(16);
+  line-height: rem(24);
+  font-weight: 400;
+  text-transform: none;
+  padding: rem(11) rem(8);
+}
+
+.btnSaveItem {
+  @extend .btn;
+  color: $color-primary;
+  padding: $spacing-1;
+  margin: rem(14) auto auto;
+  display: flex;
+  border-radius: rem(24);
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: $spacing-1;
+}
+
+.btnSave {
+  @extend .btn;
+  color: $color-primary;
+  margin-right: rem(22);
+  border-radius: rem(23);
+}
+
+.saveIcon {
+  margin-right: rem(-4);
+}
+
+.btnDelete {
+  @extend .btn;
+  color: $color-primary-alt5;
+  border-radius: rem(23);
+}
+
+.dndContainer {
+  > div {
+    width: 100%;
+    margin: 0;
+    background: $color-white;
+  }
+}

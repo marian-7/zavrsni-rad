@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_variation_options",
+  "info": {
+    "name": "option",
+    "icon": "dice-d20"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "component",
+      "repeatable": true,
+      "component": "localization.label",
+      "required": true
+    },
+    "price": {
+      "type": "decimal"
+    }
+  }
+}

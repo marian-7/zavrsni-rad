@@ -1,0 +1,54 @@
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/mixins";
+@import "src/styles/abstracts/variables";
+@import "src/styles/abstracts/colors";
+
+.container {
+  display: flex;
+  width: 100%;
+  flex: 1;
+
+  @include breakpoint(md) {
+    flex-direction: column;
+  };
+}
+
+.form {
+  padding: rem(48);
+  width: 42.5%;
+  flex-direction: column;
+
+  :global(.MuiTypography-body1) {
+    max-width: rem(335);
+  }
+
+  @include breakpoint(md) {
+    width: 100%;
+  };
+}
+
+.info {
+  padding: rem(48);
+  width: 57.5%;
+  background: linear-gradient(180deg, $color-primary-alt2 0%, $color-primary-alt3 49.48%, $color-primary-alt4 100%);
+
+  @include breakpoint(md) {
+    width: 100%;
+  };
+}
+
+.additionalInfo {
+  max-width: rem(335);
+
+  @include breakpoint(md) {
+    margin-top: rem(42);
+  }
+}
+
+.anchor {
+  font-weight: 600;
+
+  &:link {
+    color: $color-primary-alt5
+  }
+}

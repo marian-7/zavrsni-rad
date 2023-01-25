@@ -1,0 +1,154 @@
+@import "src/styles/abstracts/colors";
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/mixins";
+@import "src/styles/abstracts/variables";
+
+.container {
+  display: flex;
+  flex: 1;
+  background-color: $color-white;
+  box-shadow: $box-shadow-alt3;
+  z-index: 100;
+}
+
+.name {
+  font-size: rem(18);
+  line-height: rem(28);
+  font-weight: 700;
+  margin-bottom: $spacing-1;
+}
+
+.body {
+  padding: rem(27) rem(26);
+}
+
+.row {
+  margin-bottom: $spacing-4;
+}
+
+.inputsContainer {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: rem(708);
+}
+
+.input {
+  flex: 1;
+  padding: 0;
+  margin-top: $spacing-3;
+
+  &:first-child {
+    margin-right: $spacing-3;
+  }
+
+  @include breakpoint(md) {
+    flex: unset;
+    width: 100%;
+    &:first-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.inputMultiline {
+  width: 100%;
+  padding: 0;
+  margin-top: $spacing-3;
+}
+
+.subtitle {
+  font-size: rem(16);
+  line-height: rem(23);
+  font-weight: 700;
+}
+
+.helpIcon {
+  padding: rem(6);
+}
+
+.basePrice {
+  display: flex;
+  align-items: center;
+  background: $color-tertiary;
+  border-radius: $border-radius;
+  padding: rem(6) rem(12);
+  width: rem(220);
+}
+
+.priceInput {
+  text-align: right;
+
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  &::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  -moz-appearance: textfield;
+}
+
+.currency {
+  font-weight: 700;
+  margin-left: rem(12);
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+
+  > * {
+    margin: $spacing-1 $spacing-1 0 0;
+  }
+}
+
+.chipsDraggable {
+  > * {
+    margin-right: 0;
+  }
+}
+
+.btnSave {
+  font-size: rem(14);
+  line-height: rem(16);
+  font-weight: 500;
+}
+
+.btnAdd {
+  font-weight: 400;
+  font-size: rem(16);
+  text-transform: none;
+  margin: 0 0 rem(-7) rem(-10);
+  padding: rem(6) rem(10);
+  border-radius: rem(16);
+  align-self: flex-end;
+
+  &:hover {
+    background-color: transparent;
+  }
+
+  :global(.MuiButton-startIcon) {
+    margin-right: rem(3);
+  }
+}
+
+.btnAddDraggable {
+  padding: rem(6) rem(10);
+  margin: 0 0 rem(2) rem(-10);
+  line-height: rem(24);
+  border-radius: rem(18);
+}
+
+.btnDelete {
+  font-size: rem(16);
+  line-height: rem(24);
+  font-weight: normal;
+  text-transform: none;
+  margin-right: rem(-1);
+  padding: rem(8) rem(25);
+}

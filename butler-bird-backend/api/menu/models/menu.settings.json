@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menus",
+  "info": {
+    "name": "Menu",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "createdAt",
+      "updatedAt",
+      "publishedAt"
+    ],
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "name": {
+      "type": "component",
+      "repeatable": true,
+      "component": "localization.label",
+      "required": true
+    },
+    "description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "localization.label"
+    },
+    "activeTimeStart": {
+      "type": "time"
+    },
+    "activeTimeEnd": {
+      "type": "time"
+    },
+    "organization": {
+      "private": true,
+      "model": "organization"
+    },
+    "categories": {
+      "collection": "category",
+      "via": "menus"
+    },
+    "venues": {
+      "via": "menus",
+      "collection": "venue"
+    },
+    "categoriesOrder": {
+      "type": "json",
+      "private": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

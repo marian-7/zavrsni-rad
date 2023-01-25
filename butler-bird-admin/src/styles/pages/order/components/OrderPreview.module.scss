@@ -1,0 +1,128 @@
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/colors";
+@import "src/styles/abstracts/variables";
+@import "src/styles/abstracts/mixins";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: $color-white;
+  box-shadow: $box-shadow-alt3;
+  z-index: 100;
+  position: relative;
+
+  :global(.side-page) {
+    top: 0;
+  }
+}
+
+.header {
+  padding: $spacing-3 $spacing-3 rem(26) $spacing-3;
+  display: flex;
+  flex-direction: row;
+  min-height: rem(107);
+  border-bottom: 1px solid $color-gray-alt5;
+
+  @include breakpoint(xmd) {
+    padding-bottom: 0
+  }
+
+  &TextGroup {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+  }
+
+  &Details {
+    display: flex;
+
+    @include breakpoint(xmd) {
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+  }
+
+  &Detail {
+    display: flex;
+    align-items: center;
+
+    &Separator {
+      @include breakpoint(xmd) {
+        margin-left: rem(-8);
+      }
+    }
+
+    @include breakpoint(xmd) {
+      margin-bottom: rem(10);
+    }
+  }
+
+  &Title {
+    font-size: rem(18);
+    line-height: rem(24);
+    font-weight: 700;
+    margin-bottom: rem(10);
+  }
+
+  &Label {
+    font-size: rem(16);
+    line-height: rem(24);
+
+    @include breakpoint(xmd) {
+      margin-bottom: rem(10);
+    }
+  }
+
+  &Total {
+    font-weight: 700;
+  }
+}
+
+.notification {
+  margin-top: rem(84);
+}
+
+.item {
+  background-color: $color-tertiary;
+  min-height: rem(45);
+  padding: $spacing-1 $spacing-3;
+  border-bottom: 1px solid $color-gray-alt5;
+
+  &:nth-child(odd){
+    background-color: $color-white;
+  }
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: $spacing-3;
+
+  &Note {
+    margin-bottom: rem(10);
+  }
+
+  &Total {
+    align-self: flex-end;
+    font-weight: 700;
+  }
+
+  &Canceled {
+    color: $color-alert-alt2;
+  }
+}
+
+.separator {
+  margin: 0 rem(10);
+}
+
+.cancel {
+  height: rem(38);
+  font-size: rem(16);
+  line-height: rem(24);
+  font-weight: normal;
+  text-transform: none;
+  margin-right: rem(-1);
+  padding: rem(8) rem(25);
+}

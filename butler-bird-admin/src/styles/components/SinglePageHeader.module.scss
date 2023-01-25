@@ -1,0 +1,39 @@
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/colors";
+@import "src/styles/abstracts/variables";
+@import "src/styles/abstracts/mixins";
+
+.header {
+  min-height: rem(97);
+  border-bottom: 1px solid $color-gray-alt5;
+  padding: rem(24) rem(34) rem(12) rem(26);
+  display: flex;
+  align-items: center;
+
+  @include breakpoint(md) {
+    padding: rem(24) rem(26) rem(12);
+  }
+}
+
+.label {
+  font-size: rem(18);
+  line-height: rem(24);
+  font-weight: 700;
+  margin-bottom: $spacing-1;
+}
+
+.save {
+  margin-top: rem(-6);
+}
+
+.delete {
+  font-weight: 400;
+  font-size: rem(16);
+  padding: rem(7) rem(25);
+  text-transform: none;
+  margin-top: rem(-6);
+
+  :global(.MuiButton-startIcon) {
+    margin-right: rem(3);
+  }
+}

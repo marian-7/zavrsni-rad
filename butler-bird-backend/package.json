@@ -1,0 +1,57 @@
+{
+  "name": "butler-bird-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi develop",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dayjs": "^1.10.5",
+    "get-pixels": "^3.3.3",
+    "iconv-lite": "^0.6.3",
+    "knex": "0.21.18",
+    "lodash": "4.17.20",
+    "md5": "^2.3.0",
+    "mutable-buffer": "^3.0.0",
+    "pg": "^8.5.1",
+    "puppeteer": "^10.0.0",
+    "qr-image": "^3.2.0",
+    "qrcode": "^1.4.4",
+    "qs": "^6.10.1",
+    "sharp": "^0.28.3",
+    "socket.io": "^4.1.2",
+    "strapi": "3.5.4",
+    "strapi-admin": "3.5.4",
+    "strapi-connector-bookshelf": "3.5.4",
+    "strapi-plugin-content-manager": "3.5.4",
+    "strapi-plugin-content-type-builder": "3.5.4",
+    "strapi-plugin-email": "3.5.4",
+    "strapi-plugin-sentry": "^3.6.5",
+    "strapi-plugin-upload": "3.5.4",
+    "strapi-plugin-users-permissions": "3.5.4",
+    "strapi-provider-email-mailjet": "^3.5.0",
+    "strapi-provider-upload-aws-s3": "^3.5.4",
+    "strapi-utils": "3.5.4",
+    "uuid": "^8.3.2",
+    "yup": "0.27.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "3f894601-047b-44c7-94a3-8e601c38c372"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
+  },
+  "license": "MIT"
+}

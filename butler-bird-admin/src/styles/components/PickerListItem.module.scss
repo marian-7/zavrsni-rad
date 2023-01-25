@@ -1,0 +1,60 @@
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/variables";
+@import "src/styles/abstracts/colors";
+
+.item {
+  display: flex;
+  width: 100%;
+  border-radius: 0;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  padding: rem(8) $spacing-3;
+  border-bottom: 1px solid $color-gray-alt5;
+  text-transform: none;
+  min-height: rem(71);
+
+  :global(button.MuiButtonBase-root:last-child) {
+    margin-right: -$spacing-1;
+  }
+}
+
+.text {
+  font-weight: 400;
+  font-size: rem(14);
+  line-height: rem(19);
+}
+
+.label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: rem(8);
+  font-size: rem(16);
+  line-height: rem(19);
+}
+
+.spacing {
+  margin-bottom: 0;
+}
+
+.primary {
+  color: $color-primary;
+}
+
+.alert {
+  color: $color-alert-alt2;
+  width: rem(24);
+}
+
+.arrow {
+  color: $color-gray-alt4;
+}
+
+.separator {
+  margin: 0 rem(6);
+}
+
+.iconButton {
+  padding: $spacing-1;
+  border-radius: 50%;
+}

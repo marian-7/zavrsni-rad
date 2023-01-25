@@ -1,0 +1,53 @@
+@import "../../abstract/functions";
+@import "../../abstract/colors";
+@import "../../abstract/variables";
+@import "../../abstract/mixin";
+
+.title {
+  font-size: rem(18);
+  font-weight: 700;
+  line-height: rem(24);
+  margin-bottom: $spacing-2;
+}
+
+.label {
+  margin-bottom: rem(12);
+  font-weight: 700;
+  line-height: rem(30);
+  margin-top: rem(24);
+}
+
+.text {
+  line-height: rem(24);
+  margin-bottom: rem(16);
+  font-weight: 700;
+}
+
+.textArea {
+  margin-top: rem(22);
+}
+
+.rating {
+  padding: $spacing-2;
+  @include box-shadow();
+  border-radius: rem(20);
+  background: $color-white;
+  margin-bottom: $spacing-2;
+}
+
+.submit {
+  background: $color-background;
+  box-shadow: 0 rem(10) rem(40) rgba($color-black, 0.2);
+  border-radius: rem(20) rem(20) 0 0;
+  width: 100%;
+  padding: rem(16) rem(30);
+}
+
+.form {
+  flex: 1;
+  padding: 0 rem(30);
+}
+
+.btn {
+  min-height: rem(38);
+}

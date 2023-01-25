@@ -1,0 +1,11 @@
+@import "../abstract/functions";
+@import "../abstract/variables";
+
+.dialog {
+  padding: $spacing-3 rem(30);
+}
+
+.root {
+  max-width: $breakpoint-md;
+  width: 100%;
+}

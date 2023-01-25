@@ -1,0 +1,74 @@
+{
+  "button": {
+    "confirm": "Confirm",
+    "saveChanges": "Save changes",
+    "close": "Close",
+    "understand": "I understand",
+    "cancel": "Cancel",
+    "back": "Back",
+    "backToMyProfile": "Back to my profile",
+    "submitAnswers": "Submit answers",
+    "remove": "Remove",
+    "done": "Done"
+  },
+  "navigation": {
+    "myProfile": "My profile",
+    "settings": "Settings",
+    "chooseLanguage": "Choose display language",
+    "setCurrency": "Set preferred currency",
+    "settingsNote": "*Note that all the prices are paid in USD and all other are calculated based on the today's exchange rate value",
+    "orderHistory": "Order history",
+    "feedback": "Leave feedback",
+    "signOut": "Sign out",
+    "otherOptions": "Other options",
+    "orderTotal": "Order total: <b>{{price}}</b>",
+    "orderCanceled": "Order canceled",
+    "orderCanceledReason": "<b>Canceled reason</b> - {{message}} ",
+    "deleteInfo": "By clicking on Delete profile, all information to your usage and order history will be deleted.",
+    "cancelDelete": "I don't want to delete profile",
+    "deleteProfile": "Delete profile",
+    "feedbackSurvey": "Give us feedback",
+    "or": "Or",
+    "notifications": "Notifications",
+    "address": "Address",
+    "label": {
+      "firstTime": "Is this your first time using this app?",
+      "satisfaction": "How satisfied are you with the app?",
+      "interaction": "Do you prefer this interaction over in-person one?",
+      "else": "Add personal note"
+    },
+    "button": {
+      "backToOrderHistory": "Back to order history"
+    },
+    "option": {
+      "yes": "Yes",
+      "no": "No"
+    }
+  },
+  "organizationFeedback": {
+    "title": "Service feedback",
+    "label": {
+      "satisfaction": "How satisfied were you with:",
+      "food": "Food quality rating",
+      "speed": "Delivery speed & quality rating",
+      "else": "Add personal note"
+    }
+  },
+  "other": {
+    "unknown": "Unknown"
+  },
+  "loading": "loading",
+  "dateTime": {
+    "orderDate": "{{date}} at {{time}}"
+  },
+  "notificationPreferences": {
+    "info": "How do you want us to send you updates for your order?",
+    "button": {
+      "notifications": "Send me a notification",
+      "email": "Send me an email"
+    },
+    "label": {
+      "ask": "Don’t ask me again"
+    }
+  }
+}

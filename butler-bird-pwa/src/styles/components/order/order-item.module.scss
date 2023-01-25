@@ -1,0 +1,92 @@
+@import "../../abstract/colors";
+@import "../../abstract/functions";
+@import "../../abstract/mixin";
+@import "../../abstract/variables";
+
+.root {
+  display: flex;
+  flex-direction: column;
+  padding: $spacing-2;
+  background: $color-white;
+  border-radius: rem(20);
+  @include box-shadow();
+  margin-bottom: $spacing-2;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: rem(16);
+  border-bottom: rem(1) solid $color-border;
+}
+
+.text {
+  font-weight: 700;
+  line-height: rem(24);
+}
+
+.sign {
+  display: flex;
+  align-items: center;
+}
+
+.signText {
+  font-size: rem(12);
+}
+
+.icon {
+  color: $color-icon;
+  height: rem(16);
+  width: rem(16);
+  transition: transform 0.2s;
+  transform: rotate(90deg);
+  margin-right: rem(6);
+}
+
+.decoration {
+  margin-right: rem(6);
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  margin-top: rem(11);
+  font-weight: 700;
+  margin-bottom: rem(6);
+  margin-left: rem(6);
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  margin-left: rem(12);
+  margin-bottom: rem(9);
+}
+
+.rotation {
+  transform: rotate(-90deg);
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: rem(16);
+}
+
+.showOptions {
+  margin-top: rem(15);
+}
+
+.hiddenOptions {
+  margin-top: rem(16);
+}
+
+.currency {
+  font-weight: 700;
+  line-height: rem(24);
+}
+
+.optionQuantity {
+  margin-left: $spacing-2;
+  margin-bottom: $spacing-2;
+}

@@ -1,0 +1,18 @@
+{
+  "button": {
+    "callStaff": "Llamar al personal",
+    "cancel": "Cancelar pedido",
+    "continue": "Continuar con el pedido",
+    "goToSurvey": "Llévame a la encuesta",
+    "notYet": "No quiero cancelar todavía",
+    "skip": "No, me saltaré la encuesta",
+    "tryAgain": "Reintentar",
+    "understand": "Entiendo"
+  },
+  "cancelOrder": "Al cancelar este pedido se eliminarán todos los artículos de la caja. ¿Desea continuar?",
+  "feedbackSuccess": "Gracias por la ayuda.",
+  "firstOrderSuccess": "Su solicitud ha sido enviada con éxito. Mientras espera su servicio, por favor déjenos algún comentario sobre la aplicación.",
+  "message": "Su solicitud fue enviada al camarero. El camarero responderá a esta solicitud lo antes posible.",
+  "orderError": "El pedido ha fallado. Por favor, inténtelo de nuevo o llame al personal directamente para obtener ayuda.",
+  "orderSuccess": "Su pedido ha sido enviado con éxito. Disfrute del resto de su estancia."
+}

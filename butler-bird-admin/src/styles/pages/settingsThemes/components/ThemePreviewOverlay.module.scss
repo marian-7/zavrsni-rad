@@ -1,0 +1,44 @@
+@import "src/styles/abstracts/colors";
+@import "src/styles/abstracts/mixins";
+
+.container {
+  background: rgba($color-white, 0.94);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.arrowIcon {
+  color: $color-primary-alt5;
+}
+
+.arrowBtn {
+  margin: 0 $spacing-1;
+}
+
+.arrowIcon {
+  color: $color-primary-alt5;
+  width: rem(48);
+  height: rem(48);
+}
+
+.closeBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: rem(24);
+  margin-right: rem(24);
+  color: $color-primary-alt5;
+}
+
+.closeIcon {
+  width: rem(36);
+  height: rem(36);
+}

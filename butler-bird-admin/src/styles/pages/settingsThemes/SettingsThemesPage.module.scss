@@ -1,0 +1,137 @@
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/mixins";
+
+.themes {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(auto, rem(341)));
+  grid-gap: rem(24);
+
+  @include breakpoint(md) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.theme {
+  width: 100%;
+  height: auto;
+}
+
+.purple {
+  :global(.primary) {
+    fill: #42399D;
+  }
+
+  :global(.secondary) {
+    fill: #F7F8FD;
+  }
+
+  :global(.tertiary) {
+    fill: #EAEDFA;
+  }
+}
+
+.red {
+  :global(.primary) {
+    fill: #AF0404;
+  }
+
+  :global(.secondary) {
+    fill: #FFF7F7;
+  }
+
+  :global(.tertiary) {
+    fill:  #FAECEC;
+  }
+}
+
+.blue {
+  :global(.primary) {
+    fill: #014EA8;
+  }
+
+  :global(.secondary) {
+    fill: #F4F9FF;
+  }
+
+  :global(.tertiary) {
+    fill: #E4F1FF;
+  }
+}
+
+.grey {
+  :global(.primary) {
+    fill: #263448;;
+  }
+
+  :global(.secondary) {
+    fill: #F2F2F2;
+  }
+
+  :global(.tertiary) {
+    fill: #E2E2E2;
+  }
+}
+
+.green {
+  :global(.primary) {
+    fill: #004F29;
+  }
+
+  :global(.secondary) {
+    fill:  #F2F9F6;
+  }
+
+  :global(.tertiary) {
+    fill: #D0E9DD;
+  }
+}
+
+.gold {
+  :global(.primary) {
+    fill: #B19B27;
+  }
+
+  :global(.secondary) {
+    fill: #FBF9F1;
+  }
+
+  :global(.tertiary) {
+    fill: #F4F0D8;
+  }
+}
+
+.preview {
+  height: rem(591);
+  width: rem(272);
+}
+
+.previewPurple {
+  :global(.primary) {
+  }
+}
+
+.previewRed {
+  :global(.primary) {
+  }
+}
+
+.previewBlue {
+  :global(.primary) {
+  }
+}
+
+.previewGrey {
+  :global(.primary) {
+  }
+}
+
+.previewGreen {
+  :global(.primary) {
+  }
+}
+
+.previewGold {
+  :global(.primary) {
+  }
+}

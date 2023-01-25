@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "order_statuses",
+  "info": {
+    "name": "Order status",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "component",
+      "repeatable": true,
+      "component": "localization.label"
+    },
+    "notifySender": {
+      "type": "boolean",
+      "required": true
+    },
+    "notifyRecipient": {
+      "type": "boolean",
+      "required": true
+    },
+    "marksOrderComplete": {
+      "type": "boolean",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "standard",
+        "takeout"
+      ],
+      "required": true
+    }
+  }
+}

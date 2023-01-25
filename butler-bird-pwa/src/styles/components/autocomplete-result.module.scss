@@ -1,0 +1,30 @@
+@import "../abstract/functions";
+
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: rem(12) rem(16);
+}
+
+.noAddress {
+  background: var(--secondary-color);
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.label {
+  width: 100%;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: rem(6);
+}
+
+.icon {
+  width: rem(19);
+  height: rem(17);
+}

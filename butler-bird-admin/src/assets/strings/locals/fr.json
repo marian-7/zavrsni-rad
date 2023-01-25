@@ -1,0 +1,324 @@
+{
+  "translation": {
+    "buttons": {
+      "addMoreMenus": "Ajouter d'autres menus",
+      "addNew": "Ajouter nouveau",
+      "addTables": "Ajouter des tableaux",
+      "cancel": "Annuler",
+      "changeLocation": "Modifier la localisation",
+      "defineModifierItems": "Définir les éléments modificateurs",
+      "delete": "Supprimer",
+      "dontDelete": "Je ne veux pas supprimer",
+      "editTables": "Modifier les tables",
+      "inviteMore": "Inviter davantage",
+      "login": "Se connecter",
+      "loginSubmitting": "Vous connecter",
+      "printQRCode": "Imprimer le code QR",
+      "save": "Enregistrer",
+      "saveAsJPG": " Enregistrer en JPG",
+      "saveAsPDF": "Enregistrer en PDF",
+      "saveChanges": "Enregistrer les modifications",
+      "select": "Sélectionner",
+      "selected": "Sélectionné",
+      "sendInvite": "Envoyer l'invitation",
+      "submit": "Soumettre"
+    },
+    "components": {
+      "categoryForm": {
+        "addItems": "Ajouter plus d'articles",
+        "category": "Catégorie",
+        "item": "{{count}} élément",
+        "item_plural": "{{count}} articles",
+        "itemsContained": "Articles inclus dans la catégorie",
+        "previewPhoto": "Aperçu de la photo"
+      },
+      "deleteOverlay": {
+        "deleting": "La suppression de ce {{name}} le supprimera définitivement.\nTous les changements seront perdus."
+      },
+      "dropzone": {
+        "placeholder": "Cliquez pour télécharger ou glisser-déposer la photo"
+      },
+      "header": {
+        "menu": {
+          "logout": "Déconnexion",
+          "settings": "Paramètres"
+        }
+      },
+      "item": {
+        "basePrice": "Prix de base : {{price}}",
+        "item": "{{count}} article",
+        "item_plural": "{{count}} articles"
+      },
+      "itemForm": {
+        "addAllergens": "Ajouter des allergènes",
+        "allergens": "Allergènes",
+        "basePrice": "Prix de base",
+        "item": "article",
+        "modifiers": "Gérer les modificateurs",
+        "optionGroups": "Groupes de modificateurs"
+      },
+      "locationForm": {
+        "address": "Adresse",
+        "location": "Localisation",
+        "locationName": "Nom de la localisation"
+      },
+      "menuForm": {
+        "activeFrom": "Actif à partir de :",
+        "addCategories": "Ajouter d'autres catégories",
+        "categoriesOfProducts": "Catégories incluses dans le menu",
+        "description": "Brève description de ce menu",
+        "menu": "Le menu"
+      }
+    },
+    "form": {
+      "labels": {
+        "addNumberOfTables": "Ajouter le nombre de tables",
+        "confirmPassword": "Confirmer le mot de passe",
+        "email": "E-mail",
+        "emailAddress": "Adresse e-mail",
+        "firstName": "Prénom",
+        "lastName": "Nom",
+        "locationSelect": "Localisation de ce lieu",
+        "menusSelect": "Menus disponibles sur ce lieu",
+        "orgLogo": "Logo de l'organisation",
+        "orgName": "nom de l'organisation :",
+        "password": "Mot de passe",
+        "tableNameTemplate": "Modèle de nom de table",
+        "tablesSelect": "Tables sur le site",
+        "venueName": "Nom du lieu"
+      },
+      "placeholders": {
+        "allCategories": "Toutes les catégories",
+        "allLocations": "Toutes les localisations",
+        "allMenus": "Tous les menus",
+        "allTables": "Toutes les tables",
+        "allVenues": "Tous les lieux",
+        "categoryDescription": "Brève description de la catégorie",
+        "categoryName": "Nom de la catégorie",
+        "email": "E-mail",
+        "itemDescription": "Brève description de l'article",
+        "itemName": "Nom de l'article",
+        "locationAddress": "Type d'adresse",
+        "locationName": "Nom de la localisation",
+        "menuDescription": "Voici une brève description de ce menu",
+        "menuName": "Nom du menu",
+        "modifierGroupName": "Ajouter un nom de groupe de modificateurs",
+        "modifierItemName": "Ajouter un nom d'élément modificateur",
+        "password": "Mot de passe",
+        "search": "Rechercher",
+        "typeValue": "Valeur de type",
+        "welcomeMsg": "Tapez le message de bienvenue qui sera affiché dans l'écran d'introduction de l'application mobile....."
+      },
+      "validation": {
+        "emailFormat": "L'adresse électronique doit être dans un format correct",
+        "languageValues": "Les valeurs des champs pour toutes les langues doivent être saisies",
+        "password": {
+          "different": "Les mots de passe ne correspondent pas",
+          "length": "Le mot de passe doit comporter 6 caractères ou plus"
+        },
+        "required": "Champ obligatoire",
+        "timePicker": "L'heure de début doit être antérieure à l'heure de fin"
+      }
+    },
+    "item": {
+      "basePrice": "Prix de base : {{price}}"
+    },
+    "languages": {
+      "ar": "Arabe",
+      "da": "Danois",
+      "de": "Allemand",
+      "en": "Anglais",
+      "es": "Espagnol",
+      "fr": "Français",
+      "hr": "Croate",
+      "it": "Italien",
+      "tr": "Turc"
+    },
+    "other": {
+      "unknown": "Inconnu"
+    },
+    "pages": {
+      "allergens": {
+        "title": "Allergènes"
+      },
+      "categories": {
+        "items": "La catégorie contient {{count}} article",
+        "items_plural": "La catégorie contient {{count}} articles",
+        "title": "Catégories"
+      },
+      "categoriesPicker": {
+        "added": "Ajouté",
+        "contains": "Contient {{count}} article",
+        "contains_plural": "Contient {{count}} articles",
+        "title": "Catégories"
+      },
+      "forgot": {
+        "subtitle": "Saisissez l'adresse électronique avec laquelle vous vous êtes connecté pour recevoir le lien de réinitialisation du mot de passe.",
+        "success": "Le lien de réinitialisation du mot de passe a été envoyé à <strong>{{email}}</strong>. Veuillez vérifier votre boîte aux lettres électronique pour obtenir des instructions supplémentaires.",
+        "title": "Réinitialiser le mot de passe"
+      },
+      "itemPicker": {
+        "added": "Ajouté",
+        "title": "Articles"
+      },
+      "items": {
+        "title": "Articles"
+      },
+      "locationPicker": {
+        "selected": "Sélectionné",
+        "title": "Localisations"
+      },
+      "locations": {
+        "title": "Localisations"
+      },
+      "login": {
+        "additionalInfo": "Si vous rencontrez des problèmes lors de la connexion ou si vous avez d'autres questions, n'hésitez pas à nous contacter à l'adresse suivante <a>{{email}}</a>",
+        "forgotPassword": "Mot de passe oublié ?",
+        "subtitle": "Veuillez vous connecter en utilisant votre e-mail et votre mot de passe",
+        "title": "Bienvenue"
+      },
+      "menus": {
+        "contains": "Le menu contient {{count}} élément",
+        "contains_plural": "Le menu contient {{count}} éléments",
+        "title": "Menus"
+      },
+      "menusPicker": {
+        "added": "Ajouté",
+        "contains_plural": "Contient {{count}} articles",
+        "title": "Menus"
+      },
+      "modifier": {
+        "multiple": "Choix multiples autorisés",
+        "no": "Non",
+        "required": "L'utilisateur doit sélectionner au moins une des options de ce groupe ?",
+        "single": "Un seul choix est autorisé",
+        "title": "Créer un nouveau modificateur",
+        "type": "Modify group type",
+        "yes": "Oui"
+      },
+      "modifierItem": {
+        "title": "Détails"
+      },
+      "modifierItems": {
+        "addMore": "Ajouter d'autres articles modificateurs",
+        "modifierItemPrice": "Prix: {{price}}",
+        "price": "Prix",
+        "saveModifierItem": "Sauvegarder l'élément modificateur",
+        "title": "Définir les éléments modificateurs"
+      },
+      "modifiers": {
+        "add": "Ajouter d'autres modificateurs",
+        "added": "Ajouté",
+        "title": "Modificateurs"
+      },
+      "order": {
+        "note": "<strong>Note</strong>: {{note}}",
+        "notification": "Veuillez répondre au {{type}}. L'emplacement du client est <strong>{{venueTable}} à {{location}}<strong>.",
+        "orderNumber": "Ordre #{{number}}",
+        "total": "Total de la commande : {{total}}"
+      },
+      "orders": {
+        "orderReceived": "Commande reçue",
+        "orderTickets": "Aperçu de la commande",
+        "title": "Commandes",
+        "total": "La commande contient {{count}} article avec un total de <total>{{total}}</total>",
+        "total_plural": "La commande contient {{count}} articles avec un total de <total>{{total}}</total>"
+      },
+      "ordersTicketing": {
+        "orderList": "Liste des commandes",
+        "ticket": {
+          "total": "Total - {{total}}"
+        },
+        "title": "Commandes"
+      },
+      "registration": {
+        "description": "Veuillez remplir les détails d'accès. Ces informations seront utilisées pour accéder au tableau de bord de contrôle."
+      },
+      "reset": {
+        "subtitle": "Veuillez saisir et confirmer le nouveau mot de passe",
+        "title": "Nouveau mot de passe"
+      },
+      "settings": {
+        "list": {
+          "currency": {
+            "label": "Informations sur les devises",
+            "title": "Informations sur la monnaie"
+          },
+          "organization": {
+            "label": "Informations de base sur l'organisation",
+            "title": "Organisation Infos"
+          },
+          "staff": {
+            "label": "Paramètres d'accès du personnel",
+            "title": "Certifications du personnel"
+          },
+          "themes": {
+            "chooseLook": "Choisissez l'aspect et la convivialité souhaités",
+            "label": "Thème pour l'expérience administrateur et mobile",
+            "title": "Thèmes"
+          }
+        },
+        "title": "Paramètres"
+      },
+      "settingsCurrency": {
+        "label": "Choisissez toutes les devises disponibles",
+        "note": "Remarque - les prix dans toutes les autres devises seront calculés automatiquement, en fonction des taux de conversion actuels. Le calculateur de conversion ci-dessous montre comment la devise de base est convertie en d'autres devises."
+      },
+      "settingsStaff": {
+        "label": "Définir l'accès du personnel",
+        "note": "Ajoutez les informations d'identification du personnel. Le personnel pourra se connecter et avoir un accès limité au tableau de bord d'administration."
+      },
+      "settingsStaffInvite": {
+        "emailSent": "L'invitation par e-mail à <b>{{email}}</b> a été envoyée",
+        "title": "Inviter davantage"
+      },
+      "tables": {
+        "adding": "Ajout…",
+        "id": "ID : {{id}}",
+        "title": "Modifier les tables"
+      },
+      "tablesAdd": {
+        "title": "Ajouter des tableaux"
+      },
+      "venue": {
+        "menuItem": "{{count}} élément",
+        "menuItem_plural": "{{count}} articles",
+        "table": "{{count}} Tableau",
+        "table_plural": "{{count}} Tableaux",
+        "venue": "des endroits"
+      },
+      "venues": {
+        "title": "Des endroits"
+      }
+    },
+    "sidebar": {
+      "categories": "Catégories",
+      "dashboard": "Tableau de bord",
+      "items": "Articles",
+      "locations": "Localisations",
+      "menus": "Menus",
+      "orders": "Commandes",
+      "settings": "Paramètres",
+      "tables": "Tableaux",
+      "venues": "Des endroits"
+    },
+    "snackbar": {
+      "locationCreated": "Localisation créée",
+      "locationDeleted": "Lieu supprimé",
+      "locationUpdated": "Localisation mise à jour",
+      "orderStatusChanged": "Statut de la commande modifié",
+      "organizationUpdated": "Organisation mise à jour",
+      "venueCreated": "Lieu créé",
+      "venueDeleted": "Lieu supprimé",
+      "venueUpdated": "Lieu mis à jour"
+    },
+    "themes": {
+      "blue": "Thème bleu",
+      "gold": "Thème Gold",
+      "green": "Thème vert",
+      "grey": "Thème gris",
+      "purple": "Thème Violet",
+      "red": "Thème rouge"
+    }
+  }
+}

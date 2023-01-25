@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "feedback_organizations",
+  "info": {
+    "name": "Feedback organization",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "foodRating": {
+      "type": "integer",
+      "required": false,
+      "min": 1,
+      "max": 5
+    },
+    "speedRating": {
+      "type": "integer",
+      "required": false,
+      "min": 1,
+      "max": 5
+    },
+    "note": {
+      "type": "richtext"
+    },
+    "installation": {
+      "private": true,
+      "model": "installation"
+    },
+    "user": {
+      "private": true,
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "organization": {
+      "model": "organization",
+      "private": true
+    }
+  }
+}

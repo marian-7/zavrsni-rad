@@ -1,0 +1,91 @@
+@import "src/styles/abstracts/colors";
+@import "src/styles/abstracts/variables";
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/mixins";
+
+.container {
+  width: 100%;
+}
+
+.root {
+  background-color: $color-secondary;
+  border: 1px solid $color-secondary;
+  transition: border-color $transition-duration;
+  text-align: center;
+  line-height: rem(22);
+
+  @include breakpoint(xmd) {
+    text-align: left;
+    line-height: rem(32);
+  }
+
+  @include breakpoint(xmd) {
+    text-align: left;
+    line-height: rem(32);
+  }
+
+  &:global(.MuiSelect-select) {
+    border-radius: rem(12);
+    padding: 0 rem(30) 0 rem(10);
+
+    @include breakpoint(xmd) {
+      border-radius: rem(22);
+    }
+  }
+
+  &:global(:not(.Mui-disabled)):focus {
+    background-color: $color-secondary;
+    border-color: $color-primary;
+  }
+
+  &:global(:not(.Mui-disabled)):hover {
+    border-color: $color-primary;
+  }
+
+  &[aria-expanded="true"] {
+    border-color: $color-primary;
+  }
+}
+
+.icon {
+  margin-right: rem(6);
+  color: $color-primary-alt5;
+}
+
+.menu {
+  :global(.MuiPaper-root) {
+    background-color: $color-tertiary;
+    box-shadow: $box-shadow-alt;
+    max-height: rem(300);
+  }
+
+  :global(.MuiList-root) {
+    padding: rem(8) 0;
+  }
+}
+
+.menuItem {
+  padding: 0 $spacing-2 0 0;
+
+  :global(.MuiCheckbox-root),
+  :global(.MuiRadio-root) {
+    padding: rem(8);
+  }
+
+  :global(.MuiListItemText-root) {
+    margin: 0 0 0 rem(4);
+  }
+}
+
+.menuItemTextOnly {
+  padding: rem(6) rem(24);
+  text-align: center;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid $color-gray-alt5;
+  }
+}
+
+.withHelperText{
+  padding-bottom: rem(24);
+}

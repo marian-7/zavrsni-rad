@@ -1,0 +1,16 @@
+{
+  "button": {
+    "scanQr": "Escanear código QR",
+    "signIn": "Iniciar sesión",
+    "understand": "Entiendo"
+  },
+  "error": {
+    "tableNumber": "El número de tabla no es válido. Por favor, escriba el número correcto o escanee el código QR."
+  },
+  "info": "Es muy fácil empezar a pedir. Puedes teclear manualmente el número que está escrito en la mesa o escanear el código QR. Aparecerán menús personalizados para su mesa.",
+  "or": "o",
+  "placeholder": {
+    "tableNumber": "Introduzca el ID de la tabla"
+  },
+  "title": "Bienvenido"
+}

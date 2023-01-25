@@ -1,0 +1,24 @@
+{
+  "button": {
+    "order": "Order - {{price}}",
+    "cancel": "Cancel"
+  },
+  "orderSummary": "Order summary",
+  "item": "{{quantity}}x {{name}}",
+  "label": {
+    "note": "Add note to the chef"
+  },
+  "expand": "Expand",
+  "collapse": "Collapse",
+  "empty": "Your shopping cart is empty. Here you will see a list of items that you have selected for checkout. ",
+  "dialog": {
+    "createOrder": "This action will send an order to the waiter. Are you sure you want to continue?",
+    "deleteItem": "This action will delete this item from your order. Are you sure you want to continue?",
+    "deleteOption": "This action will delete this option from the selected item. Are you sure you want to continue?",
+    "button": {
+      "deleteItem": "Delete item",
+      "deleteOption": "Delete option",
+      "createOrder": "Make an order"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "venues",
+  "info": {
+    "name": "Venue",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "createdAt",
+      "updatedAt",
+      "publishedAt"
+    ],
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "component",
+      "repeatable": true,
+      "component": "localization.label",
+      "required": true
+    },
+    "location": {
+      "model": "location",
+      "via": "venues"
+    },
+    "menus": {
+      "collection": "menu",
+      "via": "venues",
+      "dominant": true
+    },
+    "organization": {
+      "via": "venues",
+      "model": "organization"
+    },
+    "tables": {
+      "collection": "table",
+      "via": "venue"
+    },
+    "menusOrder": {
+      "type": "json",
+      "private": true
+    },
+    "bannerMessage": {
+      "type": "json"
+    },
+    "takeout": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

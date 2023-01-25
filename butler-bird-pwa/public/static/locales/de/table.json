@@ -1,0 +1,7 @@
+{
+  "button": {
+    "callStaff": "Mitarbeiter rufen"
+  },
+  "info": "Dies ist die Liste der aktuell verfügbaren Menüs für Tisch {{id}}. Bestellen Sie direkt von der Speisekarte oder rufen Sie für unseren Kellner an.",
+  "successInfo": "Bitte wählen Sie aus, für welchen Mitarbeiter Sie anrufen möchten."
+}

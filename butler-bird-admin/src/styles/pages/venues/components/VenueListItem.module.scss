@@ -1,0 +1,14 @@
+@import "src/styles/abstracts/functions";
+
+.link {
+  min-height: rem(73);
+  align-items: stretch;
+
+  :global(.MuiButton-label) {
+    justify-content: space-between;
+  }
+}
+
+.title {
+  margin-bottom: rem(10);
+}

@@ -1,0 +1,101 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "Order",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "type": {
+      "model": "order-type"
+    },
+    "table": {
+      "model": "table"
+    },
+    "user": {
+      "private": true,
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "organization": {
+      "model": "organization"
+    },
+    "items": {
+      "collection": "item"
+    },
+    "location": {
+      "model": "location"
+    },
+    "venue": {
+      "model": "venue"
+    },
+    "amount": {
+      "type": "decimal"
+    },
+    "currency": {
+      "model": "currency"
+    },
+    "itemsSnapshot": {
+      "type": "json",
+      "required": false
+    },
+    "locationSnapshot": {
+      "type": "json",
+      "required": false
+    },
+    "tableSnapshot": {
+      "type": "json",
+      "required": false
+    },
+    "venueSnapshot": {
+      "type": "json",
+      "required": false
+    },
+    "status": {
+      "model": "order-status"
+    },
+    "installation": {
+      "model": "installation"
+    },
+    "installationSnapshot": {
+      "type": "json"
+    },
+    "categories": {
+      "collection": "category"
+    },
+    "categoriesSnapshot": {
+      "type": "json"
+    },
+    "currencySnapshot": {
+      "type": "string",
+      "required": false
+    },
+    "note": {
+      "type": "text"
+    },
+    "canceledAt": {
+      "type": "datetime",
+      "required": false,
+      "private": false
+    },
+    "canceledReason": {
+      "type": "text"
+    },
+    "payments": {
+      "private": true,
+      "collection": "payment",
+      "via": "order"
+    },
+    "userAddress": {
+      "model": "user-address"
+    },
+    "userAddressSnapshot": {
+      "type": "json"
+    }
+  }
+}

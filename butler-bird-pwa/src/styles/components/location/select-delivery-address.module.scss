@@ -1,0 +1,81 @@
+@import "../../abstract/functions";
+@import "../../abstract/variables";
+@import "../../abstract/colors";
+@import "../../abstract/mixin";
+
+.root {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 100%;
+  max-width: $breakpoint-md;
+}
+
+.top {
+  flex: 1;
+  padding: $spacing-4 rem(30) 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title {
+  margin-top: $spacing-3;
+  font-weight: 700;
+}
+
+.map {
+  width: 100%;
+  flex: 1;
+  margin: $spacing-2 0;
+  position: relative;
+}
+
+.confirm {
+  width: 100%;
+  padding: rem(16) $spacing-2;
+  border-radius: $border-radius $border-radius 0 0;
+  @include box-shadow-confirm();
+}
+
+.pin {
+  position: absolute;
+  z-index: 100;
+  top: calc(50% - 60px);
+  left: 50%;
+}
+
+.pinUp {
+  animation: translate-pin-up $category-animation-duration;
+  animation-fill-mode: forwards;
+}
+
+.pinDown {
+  animation: translate-pin-down $category-animation-duration;
+  animation-fill-mode: forwards;
+}
+
+@keyframes translate-pin-up {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(0, 10px);
+  }
+}
+
+@keyframes translate-pin-down {
+  from {
+    transform: translate(0, 10px);
+  }
+  to {
+    transform: translate(0, 0);
+  }
+}

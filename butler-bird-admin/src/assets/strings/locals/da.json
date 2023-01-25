@@ -1,0 +1,324 @@
+{
+  "translation": {
+    "buttons": {
+      "addMoreMenus": "Tilføj flere menuer",
+      "addNew": "Tilføj ny",
+      "addTables": "Tilføj borde",
+      "cancel": "Annullér",
+      "changeLocation": "Skift lokation",
+      "defineModifierItems": "Definer tilvalg",
+      "delete": "Slet",
+      "dontDelete": "Jeg ønsker ikke at slette",
+      "editTables": "Redigér borde",
+      "inviteMore": "Inviter flere",
+      "login": "Log ind",
+      "loginSubmitting": "Logger dig ind…",
+      "printQRCode": "Udskriv QR-kode",
+      "save": "Gem",
+      "saveAsJPG": " Gem som JPG",
+      "saveAsPDF": "Gem som PDF",
+      "saveChanges": "Gem ændringer",
+      "select": "Vælg",
+      "selected": "Valgt",
+      "sendInvite": "Send invitation",
+      "submit": "Indsend"
+    },
+    "components": {
+      "categoryForm": {
+        "addItems": "Tilføj flere varer",
+        "category": "Kategori",
+        "item": "{{count}} vare",
+        "item_plural": "{{count}} varer",
+        "itemsContained": "Varer inkluderet i kategorien",
+        "previewPhoto": "Vis billede-eksempel"
+      },
+      "deleteOverlay": {
+        "deleting": "Hvis {{name}} slettes, vil det blive fjernet permanent. \nAlle ændringer vil gå tabt."
+      },
+      "dropzone": {
+        "placeholder": "Tryk for at uploade eller træk og slip billede"
+      },
+      "header": {
+        "menu": {
+          "logout": "Log af",
+          "settings": "Indstillinger"
+        }
+      },
+      "item": {
+        "basePrice": "Grundpris: {{price}}",
+        "item": "{{count}} vare",
+        "item_plural": "{{count}} varer"
+      },
+      "itemForm": {
+        "addAllergens": "Tilføj allergener",
+        "allergens": "Allergener",
+        "basePrice": "Grundpris",
+        "item": "vare",
+        "modifiers": "Rediger tilvalg",
+        "optionGroups": "Tilvalgs-grupper"
+      },
+      "locationForm": {
+        "address": "Adresse",
+        "location": "Lokation",
+        "locationName": "Navn på lokation"
+      },
+      "menuForm": {
+        "activeFrom": "Aktiv fra:",
+        "addCategories": "Tilføj flere kategorier",
+        "categoriesOfProducts": "Kategorier inkluderet i menuen",
+        "description": "Kort beskrivelse af denne menu",
+        "menu": "menu"
+      }
+    },
+    "form": {
+      "labels": {
+        "addNumberOfTables": "Tilføj antal borde",
+        "confirmPassword": "Bekræft adgangskode",
+        "email": "E-mail",
+        "emailAddress": "E-mail adresse",
+        "firstName": "Fornavn",
+        "lastName": "Efternavn",
+        "locationSelect": "Lokation på dette sted",
+        "menusSelect": "Aktive menuer på dette sted",
+        "orgLogo": "Organisationens logo",
+        "orgName": "Navn på organisation",
+        "password": "Adgangskode",
+        "tableNameTemplate": "Skabelon til bordnavn",
+        "tablesSelect": "Valgte borde på stedet",
+        "venueName": "Navn på sted"
+      },
+      "placeholders": {
+        "allCategories": "Alle kategorier",
+        "allLocations": "Alle lokationer",
+        "allMenus": "Alle menuer",
+        "allTables": "Alle borde",
+        "allVenues": "Alle steder",
+        "categoryDescription": "Kort beskrivelse af kategori",
+        "categoryName": "Navn på kategori",
+        "email": "E-mail",
+        "itemDescription": "Kort varebeskrivelse",
+        "itemName": "Navn på vare",
+        "locationAddress": "Tilføj adresse",
+        "locationName": "Navn på lokation",
+        "menuDescription": "Dette er en kort beskrivelse af menuen",
+        "menuName": "Navn på menu",
+        "modifierGroupName": "Navn på tilvalgsgruppe",
+        "modifierItemName": "Navn på tilvalgsvare",
+        "password": "Adgangskode",
+        "search": "Søg",
+        "typeValue": "Tilføj værdi",
+        "welcomeMsg": "Tilføj velkomstbesked der vises i appens introside...."
+      },
+      "validation": {
+        "emailFormat": "E-mail-adresse skal være i et rigtigt format",
+        "languageValues": "Værdier for alle sprog skal indtastes",
+        "password": {
+          "different": "Adgangskoder matcher ikke",
+          "length": "Adgangskoden skal have 6 tegn eller mere"
+        },
+        "required": "Obligatorisk felt",
+        "timePicker": "Starttidspunktet skal være tidligere end sluttidspunktet"
+      }
+    },
+    "item": {
+      "basePrice": "Grundpris: {{price}}"
+    },
+    "languages": {
+      "ar": "Arabisk",
+      "da": "Dansk",
+      "de": "Tysk",
+      "en": "Engelsk",
+      "es": "Spansk",
+      "fr": "Fransk",
+      "hr": "Kroatisk",
+      "it": "Italiensk",
+      "tr": "Tyrkisk"
+    },
+    "other": {
+      "unknown": "Ukendt"
+    },
+    "pages": {
+      "allergens": {
+        "title": "Allergener"
+      },
+      "categories": {
+        "items": "Kategori indeholder {{count}} vare",
+        "items_plural": "Kategori indeholder {{count}} varer",
+        "title": "Kategorier"
+      },
+      "categoriesPicker": {
+        "added": "Tilføjet",
+        "contains": "Indeholder {{count}} vare",
+        "contains_plural": "Indeholder {{count}} varer",
+        "title": "Kategorier"
+      },
+      "forgot": {
+        "subtitle": "Indtast den e-mailadresse, du loggede på med, for at modtage linket til nulstilling af adgangskode",
+        "success": "Linket til nulstilling af adgangskode er blevet sendt til <strong>{{email}}</strong>. Tjek venligst din e-mail indbakke for yderligere instruktioner.",
+        "title": "Nulstil adgangskode"
+      },
+      "itemPicker": {
+        "added": "Tilføjet",
+        "title": "Varer"
+      },
+      "items": {
+        "title": "Varer"
+      },
+      "locationPicker": {
+        "selected": "Valgt",
+        "title": "Lokationer"
+      },
+      "locations": {
+        "title": "Lokationer"
+      },
+      "login": {
+        "additionalInfo": "Hvis du har problemer med at logge på eller har yderligere spørgsmål, er du velkommen til at kontakte os på <a>{{email}}</a>",
+        "forgotPassword": "Glemt adgangskode?",
+        "subtitle": "Log ind med e-mail og adgangskode",
+        "title": "Velkommen"
+      },
+      "menus": {
+        "contains": "Menuen indeholder {{count}} vare",
+        "contains_plural": "Menuen indeholder {{count}} varer",
+        "title": "Menuer"
+      },
+      "menusPicker": {
+        "added": "Tilføjet",
+        "contains_plural": "Indeholder {{count}} varer",
+        "title": "Menuer"
+      },
+      "modifier": {
+        "multiple": "Flere valgmuligheder tilladt",
+        "no": "Nej",
+        "required": "Brugeren skal vælge mindst en af valgmulighederne fra denne gruppe?",
+        "single": "Kun ét valg er tilladt",
+        "title": "Opret nyt tilvalg",
+        "type": "Type af tilvalgs-gruppe",
+        "yes": "Ja"
+      },
+      "modifierItem": {
+        "title": "Detaljer"
+      },
+      "modifierItems": {
+        "addMore": "Tilføj flere tilvalgs-varer",
+        "modifierItemPrice": "Pris: {{price}}",
+        "price": "Pris",
+        "saveModifierItem": "Gem tilvalg",
+        "title": "Definer tilvalg"
+      },
+      "modifiers": {
+        "add": "Tilføj flere tilvalg",
+        "added": "Tilføjet",
+        "title": "Tilvalg"
+      },
+      "order": {
+        "note": "<strong>Note</strong>: {{note}}",
+        "notification": "Svar venligst på {{type}}. Kundens placering er <strong>{{venueTable}} på {{location}}<strong>.",
+        "orderNumber": "Ordre #{{number}}",
+        "total": "Ordre i alt: {{total}}"
+      },
+      "orders": {
+        "orderReceived": "Ordre modtaget",
+        "orderTickets": "Bestillings oversigt",
+        "title": "Ordrer",
+        "total": "Ordre har {{count}} vare med en pris på <total>{{total}}</total>",
+        "total_plural": "{{count}} varer inkulderet i ordren. Prisen er <total>{{total}}</total>"
+      },
+      "ordersTicketing": {
+        "orderList": "Ordre liste",
+        "ticket": {
+          "total": "Total - {{total}}"
+        },
+        "title": "Ordrer"
+      },
+      "registration": {
+        "description": "Udfyld venligst adgangsoplysningerne. Disse oplysninger vil blive brugt til at få adgang til dashboardet."
+      },
+      "reset": {
+        "subtitle": "Indtast og bekræft ny adgangskode",
+        "title": "Ny adgangskode"
+      },
+      "settings": {
+        "list": {
+          "currency": {
+            "label": "Oplysninger om valutaer",
+            "title": "Valuta info"
+          },
+          "organization": {
+            "label": "Generelle oplysninger om organisationen",
+            "title": "Organisationsoplysninger"
+          },
+          "staff": {
+            "label": "Adgangsindstillinger for personale",
+            "title": "Personaleoplysninger"
+          },
+          "themes": {
+            "chooseLook": "Vælg ønsket design og udseende",
+            "label": "Tema for administrator- og mobiloplevelse",
+            "title": "Temaer"
+          }
+        },
+        "title": "Indstillinger"
+      },
+      "settingsCurrency": {
+        "label": "Vælg alle tilgængelige valutaer",
+        "note": "Bemærk - priserne i alle andre valutaer beregnes automatisk i henhold til de aktuelle kurser. Herunder er valutaberegneren, der viser, hvordan basisvalutaen omregnes til andre valutaer."
+      },
+      "settingsStaff": {
+        "label": "Definer personaleadgang",
+        "note": "Tilføj personale loginoplysninger. Personalet vil være i stand til at logge ind med begrænset visning af admin dashboardet."
+      },
+      "settingsStaffInvite": {
+        "emailSent": "Invitation til <b>{{email}}</b> er blevet sendt",
+        "title": "Inviter flere"
+      },
+      "tables": {
+        "adding": "Tilføjer...",
+        "id": "ID: {{id}}",
+        "title": "Redigér borde"
+      },
+      "tablesAdd": {
+        "title": "Tilføj borde"
+      },
+      "venue": {
+        "menuItem": "{{count}} vare",
+        "menuItem_plural": "{{count}} ​varer",
+        "table": "{{count}} ​bord",
+        "table_plural": "{{count}} ​borde",
+        "venue": "sted"
+      },
+      "venues": {
+        "title": "Steder"
+      }
+    },
+    "sidebar": {
+      "categories": "Kategorier",
+      "dashboard": "Dashboard",
+      "items": "Varer",
+      "locations": "Lokationer",
+      "menus": "Menuer",
+      "orders": "Ordrer",
+      "settings": "Indstillinger",
+      "tables": "Borde",
+      "venues": "Steder"
+    },
+    "snackbar": {
+      "locationCreated": "Lokation oprettet",
+      "locationDeleted": "Lokation slettet",
+      "locationUpdated": "Lokation opdateret",
+      "orderStatusChanged": "Ordrestatus ændret",
+      "organizationUpdated": "Organisation opdateret",
+      "venueCreated": "Sted oprettet",
+      "venueDeleted": "Sted slettet",
+      "venueUpdated": "Sted opdateret"
+    },
+    "themes": {
+      "blue": "Blå tema",
+      "gold": "Guld tema",
+      "green": "Grøn tema",
+      "grey": "Grå tema",
+      "purple": "Lilla tema",
+      "red": "Rød tema"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+@mixin text-decoration($bg, $spacing) {
+  &:before,
+  &:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid $bg;
+    margin: auto;
+  }
+
+  &:after {
+    margin-left: $spacing;
+  }
+
+  &:before {
+    margin-right: $spacing;
+  }
+}
+
+@mixin last-element {
+  position: relative;
+  &:after {
+    content: "";
+    position: absolute;
+    height: rem(1);
+    width: 100%;
+    background: $color-border;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@mixin box-shadow {
+  box-shadow: 0 rem(10) rem(40) rgba($color-black, 0.03);
+}
+
+@mixin box-shadow-confirm {
+  box-shadow: 0 rem(10) rem(40) rgba($color-black, 0.2);
+}
+
+@mixin breakpoint($mq01: 0, $mq2: null, $maxmin: max-width, $orientation: null) {
+  @if $mq2 == null {
+    @if $orientation != null {
+      @media ($maxmin: $mq01) and (orientation: $orientation) {
+        @content;
+      }
+    } @else {
+      @media ($maxmin: $mq01) {
+        @content;
+      }
+    }
+  } @else {
+    @if $orientation != null {
+      @media (min-width: $mq01) and (max-width: $mq2) and (orientation: $orientation) {
+        @content;
+      }
+    } @else {
+      @media (min-width: $mq01) and (max-width: $mq2) {
+        @content;
+      }
+    }
+  }
+}

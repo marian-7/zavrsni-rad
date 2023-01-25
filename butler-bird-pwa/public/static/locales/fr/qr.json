@@ -1,0 +1,6 @@
+{
+  "button": {
+    "openQr": "Scanner QR ouvert"
+  },
+  "instructions": "Veuillez autoriser l'accès à la caméra de votre appareil à l'étape suivante. Dirigez le scanner QR qui s'ouvrira à l'étape suivante vers le code QR sur votre table."
+}

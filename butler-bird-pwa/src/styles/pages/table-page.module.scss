@@ -1,0 +1,67 @@
+@import "../abstract/functions";
+@import "../abstract/variables";
+@import "../abstract/colors";
+@import "../abstract/mixin";
+
+.tablePage {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 rem(30) 0;
+  max-width: $breakpoint-md;
+  justify-self: center;
+  align-self: center;
+  width: 100%;
+
+  @include breakpoint($breakpoint-md, null, min-width) {
+    padding: 0;
+  }
+}
+
+.header {
+  composes: container from "../components/header.module.scss";
+  position: unset;
+}
+
+.btn {
+  background: $color-background;
+  box-shadow: 0 rem(10) rem(40) rgba($color-black, 0.2);
+  border-radius: rem(20) rem(20) 0 0;
+  padding: rem(16) rem(30);
+
+  position: sticky;
+  bottom: 0;
+  min-height: rem(17);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: $breakpoint-md;
+  align-self: center;
+}
+
+.callStaff {
+  min-height: rem(38);
+}
+
+.menuOptions {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  flex: 1;
+  width: 100%;
+}
+
+.logo {
+  max-height: rem(46);
+  margin-top: rem(45);
+  margin-bottom: $spacing-2;
+}

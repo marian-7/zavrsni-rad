@@ -1,0 +1,16 @@
+{
+  "button": {
+    "scanQr": "Scansione codice QR",
+    "signIn": "Accedi",
+    "understand": "Capisco."
+  },
+  "error": {
+    "tableNumber": "Il numero del tavolo non è valido. Si prega di digitare il numero corretto o di scansionare il codice QR."
+  },
+  "info": "È molto facile iniziare a ordinare. O si digita manualmente il numero che è scritto sul tavolo o si scansiona il codice QR. Appariranno i menu personalizzati per il tuo tavolo.",
+  "or": "- oppure -",
+  "placeholder": {
+    "tableNumber": "ID tabella tipo"
+  },
+  "title": "Benvenuto"
+}

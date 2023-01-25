@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "item_groups",
+  "info": {
+    "name": "item group",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "component",
+      "repeatable": true,
+      "component": "localization.label",
+      "required": false
+    },
+    "required": {
+      "type": "boolean",
+      "required": true
+    },
+    "description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "localization.long-text"
+    },
+    "selectionMode": {
+      "type": "enumeration",
+      "enum": [
+        "multiple",
+        "single"
+      ],
+      "default": "multiple",
+      "required": true
+    },
+    "accessLevel": {
+      "type": "enumeration",
+      "enum": [
+        "organization",
+        "item"
+      ],
+      "default": "item",
+      "required": true
+    },
+    "options": {
+      "collection": "item-option"
+    },
+    "organization": {
+      "private": true,
+      "model": "organization"
+    },
+    "nameLocalized": {
+      "type": "json"
+    },
+    "descriptionLocalized": {
+      "type": "json"
+    },
+    "optionsOrder": {
+      "type": "json",
+      "private": true
+    }
+  }
+}

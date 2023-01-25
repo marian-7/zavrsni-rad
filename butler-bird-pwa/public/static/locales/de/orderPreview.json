@@ -1,0 +1,25 @@
+{
+  "button": {
+    "addMoreItems": "Weitere Artikel hinzufügen",
+    "cancel": "Abbrechen",
+    "order": "Bestellung - {{price}}"
+  },
+  "collapse": "Minimieren",
+  "dialog": {
+    "button": {
+      "createOrder": "Eine Bestellung aufgeben",
+      "deleteItem": "Element löschen",
+      "deleteOption": "Option löschen"
+    },
+    "createOrder": "Mit dieser Aktion wird eine Bestellung an den Kellner gesendet. Sind Sie sicher, dass Sie fortfahren möchten?",
+    "deleteItem": "Mit dieser Aktion wird dieser Artikel aus Ihrer Bestellung gelöscht. Sind Sie sicher, dass Sie fortfahren möchten?",
+    "deleteOption": "Diese Aktion löscht diese Option aus dem ausgewählten Element. Sind Sie sicher, dass Sie fortfahren möchten?"
+  },
+  "empty": "Ihr Warenkorb ist leer. Hier sehen Sie eine Liste der Artikel, die Sie für den Checkout ausgewählt haben. ",
+  "expand": "Erweitern",
+  "item": "{{quantity}} x {{name}}",
+  "label": {
+    "note": "Hinweis für den Chefkoch"
+  },
+  "orderSummary": "Zusammenfassung der Bestellung"
+}

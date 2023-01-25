@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_content_title_subtitles",
+  "info": {
+    "name": "Title Subtitle",
+    "icon": "audio-description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": true,
+      "component": "localization.label"
+    },
+    "subtitle": {
+      "type": "component",
+      "repeatable": true,
+      "component": "localization.label"
+    }
+  }
+}

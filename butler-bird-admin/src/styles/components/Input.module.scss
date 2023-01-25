@@ -1,0 +1,125 @@
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/colors";
+@import "src/styles/abstracts/variables";
+
+.formControl {
+  width: 100%;
+
+  :global(.MuiInput-multiline) {
+    padding: 0;
+  }
+}
+
+.formControlWithHelperText {
+  padding-bottom: rem(24);
+}
+
+.root {
+  border-radius: 0 0 $border-radius $border-radius;
+  overflow: hidden;
+  position: relative;
+
+  &:after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: rem(2);
+    background-color: $color-primary;
+    opacity: 0;
+    transition: all 250ms;
+  }
+
+  &:hover:after {
+    opacity: 1;
+  }
+
+  &:global(.MuiInputBase-adornedEnd) {
+    .input {
+      padding-right: rem(30);
+    }
+  }
+
+  :global(.MuiInputAdornment-positionEnd) {
+    margin: 0;
+    position: absolute;
+    right: rem(3);
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.input {
+  color: $color-primary-alt5;
+  line-height: rem(18);
+  padding: rem(8) $spacing-1;
+  border: 1px solid $color-grey;
+  border-radius: $border-radius;
+
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  &[type="number"] {
+    -moz-appearance: textfield;
+  }
+
+  &::placeholder {
+    color: $color-grey;
+    opacity: 1;
+  }
+
+  &:read-only {
+    background-color: $color-gray-alt10;
+    color: $color-gray-alt11;
+  }
+}
+
+.focus:after {
+  opacity: 1;
+}
+
+.error:after {
+  opacity: 1;
+  background-color: $color-alert;
+}
+
+.helperText {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0;
+  font-size: rem(12);
+  line-height: rem(12);
+  font-weight: 400;
+}
+
+.errorIcon {
+  width: rem(18);
+  height: rem(18);
+  color: $color-alert-alt;
+}
+
+.label {
+  font-size: rem(16);
+  line-height: rem(21);
+  position: unset;
+  transform: unset;
+  font-weight: 700;
+
+  &:global(.Mui-focused),
+  &:global(.Mui-error) {
+    color: $color-primary-alt5;
+  }
+
+  & + :global(.MuiInput-formControl) {
+    margin-top: $spacing-3;
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "info": "This is the list of menus currently available for table {{id}}. Order directly from the menu or call for our staff assistant.",
+  "button": {
+    "callStaff": "Call staff"
+  },
+  "successInfo": "Please select which staff assistant you want to call out for."
+}

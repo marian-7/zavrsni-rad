@@ -1,0 +1,17 @@
+.flexDirection {
+  &Column {
+    flex-direction: column;
+  }
+}
+
+.alignItems {
+  &Start {
+    align-items: flex-start;
+  }
+}
+
+.justifyContent {
+  &Center {
+    justify-content: center;
+  }
+}

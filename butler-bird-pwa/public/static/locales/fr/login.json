@@ -1,0 +1,9 @@
+{
+  "button": {
+    "facebook": "Se connecter avec Facebook",
+    "google": "Se connecter avec Google",
+    "skip": "Ignorer la connexion pour l'instant"
+  },
+  "info": "Utilisez cette opportunité et connectez-vous. En vous connectant, vous pouvez profiter des avantages d'une expérience personnalisée.",
+  "or": "Ou"
+}

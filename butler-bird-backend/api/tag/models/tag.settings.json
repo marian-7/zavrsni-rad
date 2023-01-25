@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tags",
+  "info": {
+    "name": "Tag",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "organization": {
+      "private": true,
+      "model": "organization"
+    },
+    "name": {
+      "type": "component",
+      "repeatable": true,
+      "component": "localization.label",
+      "required": true
+    },
+    "accessLevel": {
+      "type": "enumeration",
+      "enum": [
+        "global",
+        "organization",
+        "item"
+      ],
+      "default": "item",
+      "required": true
+    }
+  }
+}

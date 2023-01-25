@@ -1,0 +1,35 @@
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/variables";
+
+.item {
+  min-height: rem(71);
+  width: 100%;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: none;
+  padding: rem(8) $spacing-3;
+  text-align: left;
+  border-bottom: 1px solid $color-gray-alt5;
+}
+
+.label {
+  font-size: rem(16);
+  line-height: rem(24);
+  font-weight: 700;
+  display: block;
+  margin-bottom: rem(8);
+}
+
+.price {
+  font-size: rem(14);
+  line-height: rem(19);
+  font-weight: 400;
+}
+
+.arrow {
+  color: $color-gray-alt4;
+  align-self: flex-end;
+  margin-bottom: rem(4);
+}

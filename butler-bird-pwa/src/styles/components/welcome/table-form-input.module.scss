@@ -1,0 +1,39 @@
+@import "../../../styles/abstract/functions";
+@import "../../../styles/abstract/colors";
+@import "../../../styles/abstract/variables";
+@import "../../../styles/abstract/mixin";
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 $spacing-2;
+}
+
+.input {
+  width: 100%;
+  margin-bottom: $spacing-3;
+}
+
+.text {
+  margin: $spacing-4 0;
+  text-transform: uppercase;
+  display: flex;
+  width: 100%;
+
+  font-weight: 700;
+  line-height: rem(24);
+
+  @include text-decoration($color-black, rem(21));
+}
+
+@media only screen and (max-height: rem(667)) {
+  .text {
+    margin: $spacing-2 0;
+  }
+
+  .input {
+    margin-bottom: $spacing-2;
+  }
+}

@@ -1,0 +1,9 @@
+@import "../../abstract/functions";
+@import "../../abstract/variables";
+
+.root {
+  flex: 1;
+  width: 100%;
+  max-width: $breakpoint-md;
+  display: flex;
+}

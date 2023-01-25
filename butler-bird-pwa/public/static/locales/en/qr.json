@@ -1,0 +1,6 @@
+{
+  "instructions": "Please, allow access to the camera of your device in next step. Aim QR scanner that will open in next step towards QR code on your table.",
+  "button": {
+    "openQr": "Open qr scanner"
+  }
+}

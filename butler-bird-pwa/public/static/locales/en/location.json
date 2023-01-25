@@ -1,0 +1,35 @@
+{
+  "button": {
+    "confirmAddress": "Confirm address",
+    "addNewAddress": "Add new address",
+    "chooseOrAdd": "Choose / add another address",
+    "selectAddress": "Select this address",
+    "removeAddress": "Remove address"
+  },
+  "label": {
+    "locations": "Locations",
+    "myAddresses": "My addresses",
+    "deliveryInstructions": "Delivery instructions",
+    "courierInstructions": "Instructions for the courier",
+    "streetAddressAndBuildingNumber": "Street address and building number",
+    "staircaseApartmentFloor": "Staircase / apartment / floor"
+  },
+  "address": "Address",
+  "addNewAddress": "Add new address",
+  "startBySearch": "Start by writing your street address",
+  "selectDeliveryAddress": "Select delivery address",
+  "addressInstructions": "Orders are delivered on the address you have selected on the map. We will still need more details for delivery instructions.",
+  "processingAddress": "Processing address...",
+  "searchResult": {
+    "userLocation": "We think you are around here",
+    "missingAddress": "Can’t find your address?",
+    "showMap": "Click here to see the map"
+  },
+  "deleteAddressInfo": "When you remove this address, you wont be able to use it anymore as delivery location",
+  "noAddress": "You currently have no addresses on your list. To continue, please add an address.",
+  "form": {
+    "error": {
+      "suggestions": "Failed to load suggestions."
+    }
+  }
+}

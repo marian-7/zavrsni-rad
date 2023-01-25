@@ -1,0 +1,145 @@
+@import "../../abstract/functions";
+@import "../../abstract/variables";
+@import "../../abstract/colors";
+@import "../../abstract/mixin";
+
+@keyframes scale-down-category-item {
+  from {
+    height: rem(164);
+    border-radius: rem(30);
+  }
+  to {
+    height: rem(84);
+    border-radius: rem(15);
+  }
+}
+
+@keyframes scale-up-category-item {
+  from {
+    height: rem(84);
+    border-radius: rem(15);
+  }
+  to {
+    height: rem(164);
+    border-radius: rem(30);
+  }
+}
+
+.categoryItem {
+  width: 100%;
+  height: rem(164);
+  border-radius: rem(30);
+  position: relative;
+  display: flex;
+  background: $color-white;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  @include box-shadow();
+}
+
+.scrolledCategoryItemStart {
+  animation: scale-down-category-item $category-animation-duration;
+  animation-fill-mode: forwards;
+}
+
+.scrolledCategoryItemEnd {
+  animation: scale-up-category-item $category-animation-duration;
+  animation-fill-mode: forwards;
+}
+
+@keyframes scale-up-image {
+  from {
+    height: rem(69);
+    width: rem(103);
+    border-radius: rem(10);
+  }
+  to {
+    width: rem(162);
+    height: rem(129);
+    border-radius: rem(20);
+  }
+}
+
+@keyframes scale-down-image {
+  from {
+    width: rem(162);
+    height: rem(129);
+    border-radius: rem(20);
+  }
+  to {
+    height: rem(69);
+    width: rem(103);
+    border-radius: rem(10);
+  }
+}
+
+.image {
+  position: absolute;
+  top: rem(-38);
+  object-fit: cover;
+  width: rem(162);
+  height: rem(129);
+  border-radius: rem(20);
+}
+
+.scrolledImage {
+  animation: scale-down-image $category-animation-duration;
+  animation-fill-mode: forwards;
+}
+
+.scrolledImageEnd {
+  animation: scale-up-image $category-animation-duration;
+  animation-fill-mode: forwards;
+}
+
+@keyframes scale-up-text {
+  from {
+    line-height: rem(18);
+    font-size: rem(14);
+    min-height: rem(33);
+  }
+  to {
+    line-height: rem(24);
+    font-size: initial;
+    min-height: rem(45);
+  }
+}
+
+@keyframes scale-down-text {
+  from {
+    line-height: rem(24);
+    font-size: initial;
+    min-height: rem(45);
+  }
+  to {
+    line-height: rem(18);
+    font-size: rem(14);
+    min-height: rem(33);
+  }
+}
+
+.text {
+  margin: rem(14) $spacing-2;
+  line-height: rem(24);
+  min-height: rem(45);
+  display: flex;
+  align-items: center;
+  text-overflow: ellipsis;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.scrolledText {
+  animation: scale-down-text $category-animation-duration;
+  animation-fill-mode: forwards;
+}
+
+.scrolledTextEnd {
+  animation: scale-up-text $category-animation-duration;
+  animation-fill-mode: forwards;
+}

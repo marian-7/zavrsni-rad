@@ -1,0 +1,20 @@
+@import "../abstract/functions";
+@import "../abstract/colors";
+@import "../abstract/variables";
+@import "../abstract/mixin";
+
+.text {
+  font-size: rem(18);
+  font-weight: 700;
+  line-height: $spacing-2;
+  margin-bottom: $spacing-2;
+}
+
+.container {
+  width: 100%;
+  max-width: $breakpoint-md;
+}
+
+.canceled {
+  font-weight: 700;
+}

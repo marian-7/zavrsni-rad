@@ -1,0 +1,13 @@
+@import "src/styles/abstracts/colors";
+
+.root {
+  background-color: $color-primary;
+}
+
+.message {
+  color: $color-white;
+}
+
+.close {
+  color: $color-white;
+}

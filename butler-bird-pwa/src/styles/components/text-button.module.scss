@@ -1,0 +1,27 @@
+@import "../../styles/abstract/functions";
+@import "../../styles/abstract/colors";
+@import "../../styles/abstract/variables";
+
+.root {
+  padding: rem(16);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: $color-white;
+  margin-bottom: $spacing-2;
+
+  box-shadow: 0 rem(20) rem(40) rgba($color-black, 0.03);
+  border-radius: rem(20);
+}
+
+.text {
+  font-weight: 700;
+  line-height: rem(20);
+}
+
+.icon {
+  color: $color-icon;
+  width: rem(18);
+  height: rem(17);
+}

@@ -1,0 +1,324 @@
+{
+  "translation": {
+    "buttons": {
+      "addMoreMenus": "Dodaj još menija",
+      "addNew": "Dodaj novi",
+      "addTables": "Dodaj još stolova",
+      "cancel": "Otkaži",
+      "changeLocation": "Promijeni lokaciju",
+      "defineModifierItems": "Definiraj varijacije proizvoda",
+      "delete": "Izbriši",
+      "dontDelete": "Ne želim izbrisati",
+      "editTables": "Uredi stolove",
+      "inviteMore": "Pozovi više",
+      "login": "Prijavi se",
+      "loginSubmitting": "Prijavljivanje",
+      "printQRCode": "Isprintaj QR kod",
+      "save": "Spremi",
+      "saveAsJPG": " Spremi kao JPG",
+      "saveAsPDF": "Spremi kao PDF",
+      "saveChanges": "Spremi promjene",
+      "select": "Odaberi",
+      "selected": "Odabrano",
+      "sendInvite": "Pošalji pozivnicu",
+      "submit": "Podnesi"
+    },
+    "components": {
+      "categoryForm": {
+        "addItems": "Dodaj još proizvoda",
+        "category": "kategorija",
+        "item": "{{count}} proizvod",
+        "item_plural": "{{count}} ​proizvoda",
+        "itemsContained": "Proizvodi uključeni u kategoriju",
+        "previewPhoto": "Pregled fotografije"
+      },
+      "deleteOverlay": {
+        "deleting": "Brisanjem ovog {{name}} trajno će ga ukloniti.\nSve promjene će biti izgubljene."
+      },
+      "dropzone": {
+        "placeholder": "Klikni za prijenos ili povuci i ispusti fotografiju"
+      },
+      "header": {
+        "menu": {
+          "logout": "Odjavi se",
+          "settings": "Postavke"
+        }
+      },
+      "item": {
+        "basePrice": "Osnovna cijena: {{price}}",
+        "item": "{{count}} ​proizvod",
+        "item_plural": "{{count}} proizvoda"
+      },
+      "itemForm": {
+        "addAllergens": "Dodaj alergene",
+        "allergens": "Alergeni",
+        "basePrice": "Osnovna cijena",
+        "item": "proizvod",
+        "modifiers": "Upravljanje opcijama",
+        "optionGroups": "Grupe opcija"
+      },
+      "locationForm": {
+        "address": "Adresa",
+        "location": "lokacija",
+        "locationName": "Naziv lokacije"
+      },
+      "menuForm": {
+        "activeFrom": "Aktivno od:",
+        "addCategories": "Dodaj još kategorija",
+        "categoriesOfProducts": "Kategorije uključene u meni",
+        "description": "Kratak opis ovog menija",
+        "menu": "meni"
+      }
+    },
+    "form": {
+      "labels": {
+        "addNumberOfTables": "Dodaj broj stolova",
+        "confirmPassword": "Potvrdi lozinku",
+        "email": "E-mail",
+        "emailAddress": "E-mail adresa",
+        "firstName": "Ime",
+        "lastName": "Prezime",
+        "locationSelect": "Lokacija ovog mjesta",
+        "menusSelect": "Meniji koji su dostupni na ovom mjestu",
+        "orgLogo": "Logotip organizacije",
+        "orgName": "Naziv organizacije",
+        "password": "Lozinka",
+        "tableNameTemplate": "Predložak naziva stola",
+        "tablesSelect": "Stolovi na zadanom mjestu",
+        "venueName": "Ime mjesta"
+      },
+      "placeholders": {
+        "allCategories": "Sve kategorije",
+        "allLocations": "Sve lokacije",
+        "allMenus": "Svi meniji",
+        "allTables": "Svi stolovi",
+        "allVenues": "Sva mjesta",
+        "categoryDescription": "Kratak opis kategorije",
+        "categoryName": "Naziv kategorije",
+        "email": "E-mail",
+        "itemDescription": "Kratak opis proizvoda",
+        "itemName": "Naziv proizvoda",
+        "locationAddress": "Upiši adresu",
+        "locationName": "Naziv lokacije",
+        "menuDescription": "Ovo je kratak opis ovog menija",
+        "menuName": "Naziv menija",
+        "modifierGroupName": "Dodaj naziv grupe opcija",
+        "modifierItemName": "Dodaj naziv opcije proizvoda",
+        "password": "Lozinka",
+        "search": "Pretraži",
+        "typeValue": "Upiši vrijednost",
+        "welcomeMsg": "Upiši poruku dobrodošlice koja će se prikazati na uvodnom zaslonu mobilne aplikacije..."
+      },
+      "validation": {
+        "emailFormat": "E-mail adresa mora biti u ispravnom formatu",
+        "languageValues": "Vrijednosti polja za sve jezike moraju biti unesene",
+        "password": {
+          "different": "Lozinke se ne podudaraju",
+          "length": "Lozinka bi trebala imati 6 znakova ili više"
+        },
+        "required": "Obvezno polje",
+        "timePicker": "Vrijeme početka mora biti ranije od vremena završetka"
+      }
+    },
+    "item": {
+      "basePrice": "Osnovna cijena: {{price}}"
+    },
+    "languages": {
+      "ar": "Arapski",
+      "da": "Danski",
+      "de": "Njemački",
+      "en": "Engleski",
+      "es": "Španjolski",
+      "fr": "Francuski",
+      "hr": "Hrvatski",
+      "it": "Talijanski",
+      "tr": "Turski"
+    },
+    "other": {
+      "unknown": "Nepoznato"
+    },
+    "pages": {
+      "allergens": {
+        "title": "Alergeni"
+      },
+      "categories": {
+        "items": "Kategorija sadrži {{count}} proizvod",
+        "items_plural": "Kategorija sadrži {{count}} proizvoda",
+        "title": "Kategorije"
+      },
+      "categoriesPicker": {
+        "added": "Dodano",
+        "contains": "Sadrži {{count}} proizvod",
+        "contains_plural": "Sadrži {{count}} proizvoda",
+        "title": "Kategorije"
+      },
+      "forgot": {
+        "subtitle": "Upiši adresu e-pošte s kojom si se prijavio/la da bi primio/la poveznicu za poništavanje lozinke",
+        "success": "Poveznica za poništavanje lozinke poslana je na <strong>{{email}}</strong>. Molimo da provjeriš svoj e-mail inbox za daljnje upute.",
+        "title": "Resetiraj lozinku"
+      },
+      "itemPicker": {
+        "added": "Dodano",
+        "title": "Proizvodi"
+      },
+      "items": {
+        "title": "Proizvodi"
+      },
+      "locationPicker": {
+        "selected": "Odabrano",
+        "title": "Lokacije"
+      },
+      "locations": {
+        "title": "Lokacije"
+      },
+      "login": {
+        "additionalInfo": "Ako imaš bilo kakvih problema prilikom prijave ili bilo kakvih dodatnih pitanja slobodno se obrati na adresu <a>{{email}}</a>",
+        "forgotPassword": "Zaboravili ste lozinku?",
+        "subtitle": "Prijavi se putem e-maila i lozinke",
+        "title": "Dobro došao/la"
+      },
+      "menus": {
+        "contains": "Meni sadrži {{count}} proizvod",
+        "contains_plural": "Meni sadrži {{count}} proizvoda",
+        "title": "Meniji"
+      },
+      "menusPicker": {
+        "added": "Dodano",
+        "contains_plural": "Sadrži {{count}} proizvoda",
+        "title": "Meniji"
+      },
+      "modifier": {
+        "multiple": "Dopušteno je više izbora",
+        "no": "Ne",
+        "required": "Korisnik je dužan odabrati barem jednu od opcija iz ove grupe?",
+        "single": "Dopušten je samo jedan izbor",
+        "title": "Kreiraj novu opciju",
+        "type": "Vrsta grupe opcija",
+        "yes": "Da"
+      },
+      "modifierItem": {
+        "title": "Detalji"
+      },
+      "modifierItems": {
+        "addMore": "Dodaj još opcija proizvoda",
+        "modifierItemPrice": "Cijena: {{price}}",
+        "price": "Cijena",
+        "saveModifierItem": "Spremi opciju proizvoda",
+        "title": "Definiraj varijacije proizvoda"
+      },
+      "modifiers": {
+        "add": "Dodaj više opcija",
+        "added": "Dodano",
+        "title": "Opcije"
+      },
+      "order": {
+        "note": "<strong>Napomena</strong>: {{note}}",
+        "notification": "Molimo da odgovoriš na {{type}}. Lokacija korisnika je <strong>{{venueTable}} na {{location}}</strong>.",
+        "orderNumber": "Narudžba broj #{{number}}",
+        "total": "Ukupni iznos narudžbe: {{total}}"
+      },
+      "orders": {
+        "orderReceived": "Narudžba je zaprimljena",
+        "orderTickets": "Narudžbe",
+        "title": "Narudžbe",
+        "total": "Narudžba ima {{count}} proizvod čiji je ukupan iznos <total>{{total}}</total>",
+        "total_plural": "Narudžba sadrži {{count}} proizvoda čiji je ukupni iznos <total>{{total}}</total>"
+      },
+      "ordersTicketing": {
+        "orderList": "Popis narudžbi",
+        "ticket": {
+          "total": "Ukupno - {{total}}"
+        },
+        "title": "Narudžbe"
+      },
+      "registration": {
+        "description": "Molimo da popuniš podatke o pristupu. Te informacije koristit će se za pristup kontrolnoj nadzornoj ploči."
+      },
+      "reset": {
+        "subtitle": "Unesi i potvrdi novu lozinku",
+        "title": "Nova lozinka"
+      },
+      "settings": {
+        "list": {
+          "currency": {
+            "label": "Informacije o valutama",
+            "title": "Podaci o valuti"
+          },
+          "organization": {
+            "label": "Osnovne informacije o organizaciji",
+            "title": "Informacije o organizaciji"
+          },
+          "staff": {
+            "label": "Postavke pristupa osoblju",
+            "title": "Podaci o osoblju"
+          },
+          "themes": {
+            "chooseLook": "Odaberi željeni izgled i dojam",
+            "label": "Odabir tema za administratore i mobilno iskustvo",
+            "title": "Teme"
+          }
+        },
+        "title": "Postavke"
+      },
+      "settingsCurrency": {
+        "label": "Odaberi sve dostupne valute",
+        "note": "Napomena - cijene u svim ostalim valutama bit će izračunate automatski, prema trenutnim tečajevima konverzije. U nastavku je kalkulator konverzije koji pokazuje kako se osnovna valuta prevodi u druge valute."
+      },
+      "settingsStaff": {
+        "label": "Definiranje pristupa osoblju",
+        "note": "Dodaj korisničke podatke za prijavu osoblja. Osoblje će se moći prijaviti i imati ograničen pristup administratorskoj nadzornoj ploči."
+      },
+      "settingsStaffInvite": {
+        "emailSent": "E-mail pozivnica na <b>{{email}}</b> je poslana",
+        "title": "Pozovi više"
+      },
+      "tables": {
+        "adding": "Dodavanje…",
+        "id": "ID: {{id}}",
+        "title": "Uredi stolove"
+      },
+      "tablesAdd": {
+        "title": "Dodaj još stolova"
+      },
+      "venue": {
+        "menuItem": "{{count}} proizvod",
+        "menuItem_plural": "{{count}} proizvoda",
+        "table": "{{count}} stol",
+        "table_plural": "{{count}} stolova",
+        "venue": "mjesto"
+      },
+      "venues": {
+        "title": "Mjesta"
+      }
+    },
+    "sidebar": {
+      "categories": "Kategorije",
+      "dashboard": "Nadzorna ploča",
+      "items": "Proizvodi",
+      "locations": "Lokacije",
+      "menus": "Meniji",
+      "orders": "Narudžbe",
+      "settings": "Postavke",
+      "tables": "Stolovi",
+      "venues": "Mjesta"
+    },
+    "snackbar": {
+      "locationCreated": "Lokacija je kreirana",
+      "locationDeleted": "Lokacija izbrisana",
+      "locationUpdated": "Lokacija je ažurirana",
+      "orderStatusChanged": "Status narudžbe promijenjen",
+      "organizationUpdated": "Organizacija je ažurirana",
+      "venueCreated": "Mjesto je kreirano",
+      "venueDeleted": "Mjesto je izbrisano",
+      "venueUpdated": "Mjesto je ažurirano"
+    },
+    "themes": {
+      "blue": "Plava tema",
+      "gold": "Zlatna tema",
+      "green": "Zelena tema",
+      "grey": "Siva tema",
+      "purple": "Ljubičasta tema",
+      "red": "Crvena tema"
+    }
+  }
+}

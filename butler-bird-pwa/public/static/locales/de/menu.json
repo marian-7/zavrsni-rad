@@ -1,0 +1,23 @@
+{
+  "allergens": "Allergene",
+  "button": {
+    "add": "Hinzufügen - {{price}}",
+    "callStaff": "Mitarbeiter rufen",
+    "checkout": "Checkout - {{price}}",
+    "filter": "Filtern",
+    "filterProducts": "Produkte filtern"
+  },
+  "negativeModifier": "- {{price}}",
+  "noTags": "Keine Tags definiert",
+  "nothing": "Nichts zu zeigen",
+  "option": {
+    "nothing": "Ich möchte keine Option"
+  },
+  "placeholder": {
+    "search": "Suchen…"
+  },
+  "positiveModifier": "+ {{price}}",
+  "required": "Erforderlich",
+  "requiredOptions": "Bitte wählen Sie die gewünschten Optionen",
+  "tags": "Tags"
+}

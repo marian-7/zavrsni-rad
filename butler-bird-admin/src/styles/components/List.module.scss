@@ -1,0 +1,122 @@
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/variables";
+@import "src/styles/abstracts/colors";
+@import "src/styles/abstracts/mixins";
+
+.container {
+  width: 100%;
+  max-width: rem(342);
+  display: flex;
+  flex-direction: column;
+  margin: $spacing-3;
+
+  @include breakpoint(xmd) {
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+}
+
+.header {
+  padding-left: $spacing-2;
+  margin-bottom: $spacing-1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &Content {
+    display: flex;
+    align-items: center;
+    min-width: 0;
+  }
+}
+
+.title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.help {
+  padding: rem(4);
+  align-self: flex-start;
+  margin-top: rem(7);
+  margin-left: rem(-4);
+}
+
+.body {
+  background-color: $color-white;
+  flex: 1;
+  border-radius: $border-radius;
+
+  :global(.os-viewport) {
+    margin-bottom: -1px;
+  }
+}
+
+.listActions + .body {
+  border-radius: 0 0 $border-radius $border-radius;
+}
+
+.list {
+  list-style: none;
+  border-radius: 0 0 $border-radius $border-radius;
+}
+
+.listActions {
+  border-bottom: 1px solid $color-gray-alt5;
+  border-radius: $border-radius $border-radius 0 0;
+  background-color: $color-white;
+  z-index: 10;
+}
+
+.add {
+  font-weight: 500;
+  margin-left: $spacing-2;
+  white-space: nowrap;
+}
+
+.orderTickets {
+  text-decoration: none;
+  margin-left: $spacing-3;
+  display: flex;
+  align-items: center;
+  margin-top: $spacing-1;
+}
+
+.ticket {
+  color: $color-primary-alt5;
+}
+
+.label {
+  margin-left: rem(6);
+}
+
+.filtersContainer {
+  display: flex;
+  justify-content: space-between;
+
+  @include breakpoint(xmd) {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+.select {
+  width: 100%;
+
+  &:not(:last-child) {
+    margin-right: $spacing-1;
+  }
+
+  @include breakpoint(xmd) {
+    width: 100%;
+
+    &:last-child {
+      margin-bottom: rem(8);
+    }
+
+    &:not(:last-child) {
+      margin-bottom: $spacing-3;
+    }
+  }
+}

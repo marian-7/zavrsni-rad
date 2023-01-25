@@ -1,0 +1,14 @@
+@import "../../styles/abstract/colors";
+@import "../../styles/abstract/functions";
+
+.root {
+  padding: rem(7) 0;
+  width: 100%;
+  margin: unset;
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  width: 100%;
+}

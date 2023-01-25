@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "installations",
+  "info": {
+    "name": "Installation",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "userAgent": {
+      "type": "text",
+      "required": true
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "installations"
+    },
+    "pushToken": {
+      "type": "string",
+      "required": false,
+      "unique": false
+    },
+    "email": {
+      "type": "email"
+    },
+    "uid": {
+      "type": "uid"
+    }
+  }
+}

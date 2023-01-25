@@ -1,0 +1,51 @@
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/colors";
+@import "src/styles/abstracts/variables";
+
+.container {
+  width: $sidebar-width;
+  position: fixed;
+  left: 0;
+  top: $header-height;
+  bottom: 0;
+  background-color: $color-white;
+  display: flex;
+  flex-direction: column;
+  padding: $spacing-4 $spacing-3 rem(84) $spacing-3;
+  overflow-y: auto;
+  z-index: 100;
+}
+
+.toolbar {
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+  padding: 0;
+}
+
+.paper {
+  width: $sidebar-width;
+  padding: rem(88) $spacing-3;
+  display: flex;
+  align-items: center;
+}
+
+.menuIcon {
+  width: rem(36);
+  height: rem(26);
+  margin-left: $spacing-1;
+  padding: rem(12);
+  color: $color-primary-alt5;
+}
+
+.close {
+  color: $color-primary-alt5;
+  position: absolute;
+  top: rem(4);
+  left: rem(4);
+}
+
+.icon{
+  width: rem(20);
+  height: rem(20);
+}

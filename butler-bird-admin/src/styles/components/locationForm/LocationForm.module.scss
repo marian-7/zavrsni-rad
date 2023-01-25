@@ -1,0 +1,62 @@
+@import "src/styles/abstracts/colors";
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/variables";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: $color-white;
+  box-shadow: $box-shadow-alt3;
+  z-index: 100;
+}
+
+.label {
+  font-size: rem(18);
+  line-height: rem(24);
+  font-weight: 700;
+  margin-bottom: $spacing-1;
+}
+
+.save {
+  font-weight: 500;
+  margin-top: rem(-6);
+}
+
+.delete {
+  font-size: rem(16);
+  line-height: rem(24);
+  font-weight: 400;
+  padding: rem(7) rem(25);
+  text-transform: none;
+  margin-top: rem(-6);
+}
+
+.body {
+  padding: rem(24) rem(26);
+}
+
+.row {
+  margin-bottom: $spacing-4;
+}
+
+.subtitle {
+  font-size: rem(16);
+  line-height: rem(21);
+  font-weight: 700;
+}
+
+.subtitleWithHelper {
+  display: flex;
+  align-items: center;
+  margin-bottom: $spacing-2;
+  margin-top: rem(-3);
+}
+
+.input {
+  max-width: rem(585);
+}
+
+.helpIcon {
+  padding: rem(6);
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_time_hour_minutes",
+  "info": {
+    "name": "hourMinute",
+    "icon": "clock"
+  },
+  "options": {},
+  "attributes": {
+    "time": {
+      "type": "time",
+      "required": true
+    }
+  }
+}

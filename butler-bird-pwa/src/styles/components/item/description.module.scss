@@ -1,0 +1,21 @@
+@import "../../abstract/functions";
+@import "../../abstract/colors";
+
+.root {
+  margin-left: rem(19);
+  padding-bottom: rem(16);
+  display: flex;
+  align-items: baseline;
+  word-wrap: break-word;
+  border: unset;
+}
+
+.icon {
+  margin-right: rem(10);
+  height: rem(8);
+  width: rem(8);
+}
+
+.text {
+  max-width: rem(205);
+}

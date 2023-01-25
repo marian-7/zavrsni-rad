@@ -1,0 +1,27 @@
+@import "src/styles/abstracts/functions";
+@import "src/styles/abstracts/variables";
+
+.root {
+  display: flex;
+  align-items: center;
+  padding: $spacing-1 rem(30) $spacing-1 $spacing-2;
+  width: rem(110);
+}
+
+.flag {
+  height: rem(20);
+  width: rem(20);
+  margin-right: rem(4);
+}
+
+.list {
+  padding: 0;
+}
+
+.item {
+  padding: $spacing-1 $spacing-2;
+}
+
+.icon {
+  margin-right: rem(30);
+}

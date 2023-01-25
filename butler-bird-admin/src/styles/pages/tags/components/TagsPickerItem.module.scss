@@ -1,0 +1,13 @@
+@import "src/styles/abstracts/colors";
+@import "src/styles/abstracts/functions";
+
+.label {
+  margin-bottom: 0;
+  flex: 1;
+}
+
+.link {
+  margin-right: rem(-12);
+  padding: rem(12);
+  color: $color-gray-alt4;
+}

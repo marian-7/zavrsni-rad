@@ -1,0 +1,28 @@
+@import "../../abstract/functions";
+@import "../../abstract/variables";
+@import "../../abstract/colors";
+
+.location {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: rem(16);
+}
+
+.text {
+  font-weight: 700;
+  width: 100%;
+  margin-bottom: rem(16);
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: rem(16);
+}
+
+.icon {
+  width: rem(18);
+  height: rem(18);
+}

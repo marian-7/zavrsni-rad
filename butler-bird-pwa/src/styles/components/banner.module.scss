@@ -1,0 +1,28 @@
+@import "../../styles/abstract/functions";
+@import "../../styles/abstract/variables";
+@import "../../styles/abstract/colors";
+
+.root {
+  position: fixed;
+  max-width: rem(738);
+  display: flex;
+  width: calc(100% - 60px);
+  top: rem(80);
+  z-index: 100;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: rem(3) $spacing-1;
+  border-radius: rem(5);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.text {
+  max-width: rem(312);
+}
+
+.button {
+  background: transparent;
+  color: black;
+  margin: rem(-12);
+}

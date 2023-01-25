@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_invitations",
+  "info": {
+    "name": "User invitation"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "organization": {
+      "model": "organization"
+    },
+    "invitation": {
+      "type": "uid"
+    }
+  }
+}

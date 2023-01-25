@@ -1,0 +1,14 @@
+@import "src/styles/abstracts/functions";
+
+.link {
+  :global(.MuiButton-label) {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: left;
+  }
+}
+
+.title {
+  margin-bottom: rem(6);
+}

@@ -1,0 +1,25 @@
+{
+  "button": {
+    "addMoreItems": "Ajouter plus d'articles",
+    "cancel": "Annuler",
+    "order": "Commande - {{price}}"
+  },
+  "collapse": "Réduire",
+  "dialog": {
+    "button": {
+      "createOrder": "Passer une commande",
+      "deleteItem": "Supprimer un élément",
+      "deleteOption": "Supprimer l'option"
+    },
+    "createOrder": "Cette action va envoyer une commande au serveur. Êtes-vous sûr de vouloir continuer ?",
+    "deleteItem": "Cette action supprimera cet article de votre commande. Êtes-vous sûr de vouloir continuer ?",
+    "deleteOption": "Cette action supprimera cette option de l'élément sélectionné. Êtes-vous sûr de vouloir continuer ?"
+  },
+  "empty": "Votre panier est vide. Vous trouverez ici une liste des articles que vous avez sélectionnés pour passer à la caisse. ",
+  "expand": "Développer",
+  "item": "{{quantity}}x {{name}}",
+  "label": {
+    "note": "Ajouter une note au chef"
+  },
+  "orderSummary": "Résumé de la commande"
+}

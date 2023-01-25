@@ -1,0 +1,11 @@
+@import "../../styles/abstract/functions";
+@import "../../styles/abstract/colors";
+@import "../../styles/abstract/variables";
+
+.root {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  max-width: $breakpoint-md;
+}

@@ -1,0 +1,16 @@
+{
+  "button": {
+    "scanQr": "Scanner le code QR",
+    "signIn": "Se connecter",
+    "understand": "Je comprends"
+  },
+  "error": {
+    "tableNumber": "Le numéro de la table n'est pas valide. Veuillez saisir le bon numéro ou scanner le code QR."
+  },
+  "info": "Il est très facile de commencer à commander. Tapez manuellement le numéro écrit sur la table ou scannez le code QR. Des menus personnalisés pour votre table s'affichent.",
+  "or": "Ou",
+  "placeholder": {
+    "tableNumber": "Entrez l'ID de la table"
+  },
+  "title": "Bienvenue"
+}

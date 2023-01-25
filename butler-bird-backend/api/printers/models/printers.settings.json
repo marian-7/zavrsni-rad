@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "printers",
+  "info": {
+    "name": "Printers",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "serialNumber": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "triggerLocations": {
+      "collection": "location"
+    },
+    "triggerVenues": {
+      "collection": "venue"
+    },
+    "triggerTables": {
+      "collection": "table"
+    },
+    "triggerOrderStatuses": {
+      "collection": "order-status"
+    },
+    "triggerIncludeCanceledOrders": {
+      "type": "boolean"
+    },
+    "organization": {
+      "private": true,
+      "model": "organization"
+    },
+    "language": {
+      "model": "language"
+    }
+  }
+}

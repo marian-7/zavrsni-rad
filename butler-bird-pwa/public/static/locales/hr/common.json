@@ -1,0 +1,71 @@
+{
+  "button": {
+    "back": "Natrag",
+    "backToMyProfile": "Povratak na moj profil",
+    "cancel": "Otkaži",
+    "close": "Zatvori",
+    "confirm": "Potvrdi",
+    "saveChanges": "Spremi promjene",
+    "submitAnswers": "Podnesi odgovore",
+    "understand": "Razumijem"
+  },
+  "dateTime": {
+    "orderDate": "{{date}} ​u {{time}}"
+  },
+  "loading": "učitavanje",
+  "navigation": {
+    "button": {
+      "backToOrderHistory": "Povratak na povijest narudžbi"
+    },
+    "cancelDelete": "I don't want to delete profile",
+    "chooseLanguage": "Odaberi jezik prikaza",
+    "deleteInfo": "By clicking on Delete profile, all information to your usage and order history will be deleted.",
+    "deleteProfile": "Brisanje profila",
+    "feedback": "Ostavi povratne informacije",
+    "feedbackSurvey": "Pošalji nam povratne informacije",
+    "label": {
+      "else": "Dodaj osobnu bilješku",
+      "firstTime": "Je li ovo prvi put da koristiš ovu aplikaciju?",
+      "interaction": "Preferiraš li ovakvu vrstu interakcije ili onu licem u lice?",
+      "satisfaction": "Koliko si zadovoljan/na aplikacijom?"
+    },
+    "myProfile": "Moj profil",
+    "notifications": "Obavijesti",
+    "option": {
+      "no": "Ne",
+      "yes": "Da"
+    },
+    "or": "Ili",
+    "orderCanceled": "Order canceled",
+    "orderCanceledReason": "<b>Canceled reason</b> - {{message}} ",
+    "orderHistory": "Povijest narudžbi",
+    "orderTotal": "Ukupni iznos narudžbe: {{price}}",
+    "otherOptions": "Druge opcije",
+    "setCurrency": "Postavi željenu valutu",
+    "settings": "Postavke",
+    "settingsNote": "*Imaj na umu da su sve cijene plaćene u USD, a sve ostale izračunate su na temelju današnje vrijednosti tečaja",
+    "signOut": "Odjavi se"
+  },
+  "notificationPreferences": {
+    "button": {
+      "email": "Pošalji mi e-mail",
+      "notifications": "Send me a notification"
+    },
+    "info": "How do you want us to send you updates for your order?",
+    "label": {
+      "ask": "Ne pitaj me ponovo"
+    }
+  },
+  "organizationFeedback": {
+    "label": {
+      "else": "Dodaj osobnu bilješku",
+      "food": "Ocjena kvalitete hrane",
+      "satisfaction": "Koliko si bio zadovoljan/na s:",
+      "speed": "Brzina isporuke i ocjena kvalitete"
+    },
+    "title": "Povratne informacije o uslugama"
+  },
+  "other": {
+    "unknown": "Nepoznato"
+  }
+}
